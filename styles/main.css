@@ -55,14 +55,31 @@ h2 {
        column-gap: 10px;
 }
 .hdr .nav-items a {
-  color: white;
   text-decoration: none;
 }
-.hdr .nav-items li:hover {
+
+.hdr-index a {
+  color: white;
+}
+.hdr-index li:hover {
   border-bottom: 3px white solid;
 }
-.hdr .icon {
+
+.icon {
   filter: invert(1);
+}
+
+.hdr-main {
+  background-color: white;
+}
+.hdr-main a {
+  color: #F8951D;
+}
+.hdr-main li:hover {
+  border-bottom: 3px #F8951D solid;
+}
+.hdr-main .icon {
+  filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
 }
 
 .card {
@@ -111,6 +128,10 @@ h2 {
 }
 .card img {
   width: 100%;
+}
+
+.pill {
+  border-radius: 20px;
 }
 
 .btn {
@@ -179,6 +200,7 @@ h2 {
 .intro .shapes svg:nth-child(1) {
   position: absolute;
   transform: translate(1750px, 700px);
+  opacity: 0.25;
 }
 .intro .shapes svg:nth-child(2) {
   position: absolute;
@@ -193,7 +215,7 @@ h2 {
 .intro .shapes svg:nth-child(4) {
   position: absolute;
   transform: translate(-50px, 150px);
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .intro .shapes svg:nth-child(5) {
   position: absolute;
@@ -212,6 +234,7 @@ h2 {
 }
 .featured-works .feature {
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 75px 1fr;
   border-radius: 10px;
   grid-column: 2/12;
   padding: 50px;
@@ -224,10 +247,19 @@ h2 {
   grid-area: 1/1/2/13;
 }
 .featured-works .cards {
-  display: flex;
-  grid-area: 2/1/13/13;
   -moz-column-gap: 10px;
        column-gap: 10px;
+  grid-area: 2/1/13/13;
+  grid-template-columns: repeat(12, 1fr);
+}
+.featured-works .cards :nth-child(1) {
+  grid-column: 1/5;
+}
+.featured-works .cards :nth-child(2) {
+  grid-column: 5/9;
+}
+.featured-works .cards :nth-child(3) {
+  grid-column: 9/13;
 }
 
 .ftr {
@@ -270,4 +302,51 @@ h2 {
   color: white;
   font-weight: 700;
   text-decoration: underline;
+}
+
+.works {
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: #F8951D;
+}
+.works .intro {
+  text-align: center;
+  color: white;
+  background-color: #F8951D;
+  padding: 3em 0;
+  width: 100%;
+}
+.works .filter-btns {
+  margin: 3em 0;
+}
+.works .filter-btns ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.works .filter-btns li {
+  background-color: #c9c9c9;
+  color: black;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.works .filter-btns li.active {
+  background-color: #F8951D;
+  color: white;
+}
+.works .filter-btns li:hover {
+  background-color: #F8951D;
+  color: white;
+  transition: 0.2s ease;
+  transform: scale(103%);
+}
+.works .project-collection {
+  width: 100vw;
+}
+.works .cards {
+  margin: 3em 0px;
+  padding: 0px 50px;
+  flex-flow: wrap;
 }/*# sourceMappingURL=main.css.map */

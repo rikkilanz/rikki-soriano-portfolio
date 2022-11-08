@@ -12,30 +12,73 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <div class="hdr flex">
-            <div class="logo flex">
-                <img src="images/rikki-soriano-logo-horizontal-orange.svg" alt="Rikki Soriano Logo">
-            </div>
-            <div class="menu flex">
-                <nav>
-                    <ul class="flex nav-items">
-                        <li><a href="#" class="link-active">Work</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Resume</a></li>
-                    </ul>
-                    <div class="hamburger">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <?php 
+        $header_class = 'hdr-main';
+        include('partials/header.php');
+    ?>
     <main>
-        <section class="works">
-            
+        <section class="works flex">
+            <div class="intro">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-collection">
+                <div class="filter-btns">
+                    <ul>
+                        <li class="pill active">ALL</li>
+                        <li class="pill">DESIGN</li>
+                        <li class="pill">DEVELOPMENT</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <ul class="cards-list flex">
+                        <li>
+                            <a href="">
+                            <div class="card">
+                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                <div class="card-info">
+                                    <ul class="type">
+                                        <li>{PROJECT_TYPE}</li>
+                                        <li>{PROJECT_TYPE}</li>
+                                    </ul>
+                                    <h2>{PROJECT_NAME}</h2>
+                                    <p>{PROJECT_DESCRIPTION}</p>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <div class="card">
+                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                <div class="card-info">
+                                    <ul class="type">
+                                        <li>{PROJECT_TYPE}</li>
+                                        <li>{PROJECT_TYPE}</li>
+                                    </ul>
+                                    <h2>{PROJECT_NAME}</h2>
+                                    <p>{PROJECT_DESCRIPTION}</p>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <div class="card">
+                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                <div class="card-info">
+                                    <ul class="type">
+                                        <li>{PROJECT_TYPE}</li>
+                                        <li>{PROJECT_TYPE}</li>
+                                    </ul>
+                                    <h2>{PROJECT_NAME}</h2>
+                                    <p>{PROJECT_DESCRIPTION}</p>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <?php include('partials/footer.php') ?>

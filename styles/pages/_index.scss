@@ -1,13 +1,5 @@
-// Variables
-$rikki-color-1: #F8951D;
-$rikki-color-2: #FFEBC6;
-$body-font: 'Montserrat', sans-serif;
-$h1: 72px;
-$h2: 60px;
-$h3: 48px;
-$h4: 36px;
-$h5: 24px;
-$p: 18px;
+
+@use "../config" as *;
 
 //Utility Classes
 .flex {
@@ -66,9 +58,16 @@ h2 {
     .nav-items {
         align-items: center;
         column-gap: 10px;
+        a {
+            text-decoration: none;
+        }
+    }
+    
+}
+
+.hdr-index {
         a{
             color: white;
-            text-decoration: none;
         }
         li:hover {
             border-bottom: 3px white solid;
@@ -77,7 +76,19 @@ h2 {
     .icon {
         filter: invert(1);
     }
-}
+
+.hdr-main {
+    background-color: white;
+        a{
+            color: $rikki-color-1;
+        }
+        li:hover {
+            border-bottom: 3px $rikki-color-1 solid;
+        }
+        .icon {
+            filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
+        }
+    }
 
 // Components
 
@@ -126,6 +137,10 @@ h2 {
     img{
         width: 100%;
     }
+}
+
+.pill {
+    border-radius: 20px;
 }
 
 .btn {
@@ -237,6 +252,7 @@ h2 {
     }
     .feature {
         grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 75px 1fr;
         border-radius: 10px;
         grid-column: 2 / 12;
         padding: 50px;
@@ -249,9 +265,18 @@ h2 {
         grid-area: 1 / 1 / 2 / 13;
     }
     .cards {
-        display: flex;
-        grid-area: 2 / 1 / 13 / 13;
         column-gap: 10px;
+        grid-area: 2 / 1 / 13 / 13;
+        grid-template-columns: repeat(12, 1fr);
+        :nth-child(1){
+            grid-column: 1 / 5;
+        }
+        :nth-child(2){
+            grid-column: 5 / 9;
+        }
+        :nth-child(3){
+            grid-column: 9 / 13;
+        }
     }
 }
 

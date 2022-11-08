@@ -53,7 +53,7 @@
             <div class="container grid">
                 <div class="grid feature">
                     <h2 class="section-header">Featured Work</h2>
-                    <div class="cards">
+                    <div class="cards grid">
                         <a href="">
                             <div class="card">
                                 <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
