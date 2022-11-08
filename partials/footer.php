@@ -8,14 +8,14 @@
                 </div>
                 <div class="ftr-socials">
                     <ul class="social-icons">
-                        <li><a href="#"><img src="images/linkedin-icon.svg" alt="linkedin logo"></a></li>
-                        <li><a href="#"><img src="images/instagram-icon.svg" alt="instagram logo"></a></li>
-                        <li><a href="#"><img src="images/github-icon.svg" alt="github logo"></a></li>
+                        <li><a href="https://www.linkedin.com/in/rikkisoriano/" title="Visit Rikki Soriano LinkedIn page" target="_blank"><img src="images/linkedin-icon.svg" alt="linkedin logo"></a></li>
+                        <li><a href="https://www.instagram.com/rikkilanz/" title="Visit Rikki Soriano Instagram page" target="_blank"><img src="images/instagram-icon.svg" alt="instagram logo"></a></li>
+                        <li><a href="https://github.com/rikkilanz" title="Visit Rikki Soriano GitHub page" target="_blank"><img src="images/github-icon.svg" alt="github logo"></a></li>
                     </ul>
                 </div>
             </div>
             <div class="logo flex">
-                <img src="images/rikki-soriano-logo-horizontal-white.svg" alt="Rikki Soriano Logo">
+                <a class="flex" href="index.php" title="Go to Rikki Soriano homepage"><img src="images/rikki-soriano-logo-horizontal-white.svg" alt="Rikki Soriano Logo" ></a>
             </div>
         </div>
     </footer>

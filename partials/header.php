@@ -7,7 +7,7 @@
 <header>
         <div class="hdr hdr-index flex <?php echo $header_class; ?>">
             <div class="logo flex">
-                <a class="flex" href="index.php">
+                <a class="flex" href="index.php" title="Go to Rikki Soriano homepage">
                     <img 
                         <?php 
                         // Check if variable $header_class contains a string, if not, display the orange variation of the logo (used in most pages)
@@ -27,7 +27,7 @@
                         <li><a href="work.php" title="Go to Rikki Soriano projects page">Work</a></li>
                         <li><a href="about.php" title="Learn more about Rikki Soriano">About</a></li>
                         <!-- <li><a href="resume.html" title="View Rikki Soriano resume page">Resume</a></li> -->
-                        <li><a href="https://www.linkedin.com/in/rikkisoriano/" target="_blank"><img class="icon" src="images/linkedin-icon.svg" alt="linkedin logo" title="Visit Rikki Soriano LinkedIn page"></a></li>
+                        <li><a href="https://www.linkedin.com/in/rikkisoriano/" title="Visit Rikki Soriano LinkedIn page" target="_blank"><img class="icon" src="images/linkedin-icon.svg" alt="linkedin logo"></a></li>
                     </ul>
                     
                     <!-- Add hamburger for responsive
