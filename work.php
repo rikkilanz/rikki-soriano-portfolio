@@ -17,66 +17,68 @@
         include('partials/header.php');
     ?>
     <main>
-        <section class="works flex">
-            <div class="intro">
-                <h1>Projects</h1>
-            </div>
-            <div class="project-collection">
-                <div class="filter-btns">
-                    <ul>
-                        <li class="pill active">ALL</li>
-                        <li class="pill">DESIGN</li>
-                        <li class="pill">DEVELOPMENT</li>
-                    </ul>
+        <section class="works">
+            <div class="flex container">
+                <div class="intro">
+                    <h1>Projects</h1>
                 </div>
-                <div class="cards">
-                    <ul class="cards-list flex">
-                        <li>
-                            <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
+                <div class="project-collection">
+                    <div class="filter-btns">
+                        <ul>
+                            <li class="pill active">ALL</li>
+                            <li class="pill">DESIGN</li>
+                            <li class="pill">DEVELOPMENT</li>
+                        </ul>
+                    </div>
+                    <div class="cards">
+                        <ul class="cards-list flex">
+                            <li class="card-list-item">
+                                <a href="">
+                                <div class="card">
+                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                    <div class="card-info">
+                                        <ul class="type">
+                                            <li>{PROJECT_TYPE}</li>
+                                            <li>{PROJECT_TYPE}</li>
+                                        </ul>
+                                        <h2>{PROJECT_NAME}</h2>
+                                        <p>{PROJECT_DESCRIPTION}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
+                                </a>
+                            </li>
+                            <li class="card-list-item">
+                                <a href="">
+                                <div class="card">
+                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                    <div class="card-info">
+                                        <ul class="type">
+                                            <li>{PROJECT_TYPE}</li>
+                                            <li>{PROJECT_TYPE}</li>
+                                        </ul>
+                                        <h2>{PROJECT_NAME}</h2>
+                                        <p>{PROJECT_DESCRIPTION}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
+                                </a>
+                            </li>
+                            <li class="card-list-item">
+                                <a href="">
+                                <div class="card">
+                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
+                                    <div class="card-info">
+                                        <ul class="type">
+                                            <li>{PROJECT_TYPE}</li>
+                                            <li>{PROJECT_TYPE}</li>
+                                        </ul>
+                                        <h2>{PROJECT_NAME}</h2>
+                                        <p>{PROJECT_DESCRIPTION}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            </a>
-                        </li>
-                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

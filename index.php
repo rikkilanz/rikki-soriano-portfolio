@@ -23,7 +23,7 @@
                         <h1>Hey, I'm Rikki!</h1>
                     </div>
                     <div class="description">
-                        <h2>I am a <b>UI/UX Designer/Front-End Developer</b> who has a passion for creating and bringing visions to life!</h2>
+                        <h2>I am an aspiring <b>UI/UX Designer/Front-End Developer</b> in pursuit for creative growth by learning and experience!</h2>
                     </div>
                 </div>
                     <div class="right-col">
