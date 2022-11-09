@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rikki Soriano | Front-End Developer | Designer</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+<?php include('partials/head.php') ?>
 <body>
     <?php include('partials/header.php') ?>
     <main>
@@ -26,10 +15,12 @@
                         <h2>I am an aspiring <b>UI/UX Designer/Front-End Developer</b> in pursuit for creative growth by learning and experience!</h2>
                     </div>
                 </div>
-                    <div class="right-col">
-                        <button class="btn circle-btn"></button>
-                        <a href="work.html">Check out all my projects!</a>
-                    </div>
+                <div class="right-col flex">
+                    <a href="work.php">
+                        <div class="btn btn__circle"></div>
+                    </a>
+                    <a href="work.php">Check out all my projects here!</a>
+                </div>
             </div>
             <div class="shapes">
                 <svg width="119" height="111" viewBox="0 0 119 111" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,46 +45,11 @@
                 <div class="grid feature">
                     <h2 class="section-header">Featured Work</h2>
                     <div class="cards grid">
-                        <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="card">
-                                <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                <div class="card-info">
-                                    <ul class="type">
-                                        <li>{PROJECT_TYPE}</li>
-                                        <li>{PROJECT_TYPE}</li>
-                                    </ul>
-                                    <h2>{PROJECT_NAME}</h2>
-                                    <p>{PROJECT_DESCRIPTION}</p>
-                                </div>
-                            </div>
-                        </a>
+                        <?php 
+                            for($i=0; $i<3; $i++){
+                                include('global/card.php');
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

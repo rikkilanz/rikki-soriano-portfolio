@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rikki Soriano | Front-End Developer | Designer</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+<?php include('partials/head.php') ?>
 <body>
     <?php 
         $header_class = 'hdr-main';
         include('partials/header.php') 
     ?>
     <main>
-        
+        <section class="about">
+            <div class="about__header">
+                <h1>About</h1>
+            </div>
+            <div class="container flex">
+                <div class="about__section grid">
+                    <div class="about__intro flex">
+                        <h2>Hi, I'm Rikki!</h2>
+                        <ul class="about__pills flex">
+                            <li class="pill pill--orange">Designer</li>
+                            <li class="pill pill--orange">Developer</li>
+                            <li class="pill pill--almond">Music Nerd</li>
+                            <li class="pill pill--almond">Gamer</li>
+                            <li class="pill pill--almond">Loves color orange</li>
+                        </ul>
+                    </div>
+                    <div class="about__profile-picture">
+                        <img src="images/rikki-soriano-profile-picture.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about__info">
+                    <p>I'm an upcoming UIUX Designer/Web Developer! I've always had passion for media and design ever since highschool.</p>   
+                    <p>📮 I was a Graphic Design graduate of 2020 from BCIT. Afterwards, it was a struggle to land a job so I created my own freelancing work. I then decided to take on the UIUX/Web Developer path after realizing that Graphic Design wasn't sufficient enough for me to grow.</p>
+                    <p>I want to deliver my work for people to use whether as a usability purpose or even just for inspirations.</p>
+                    <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
+                    <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <?php include('partials/footer.php') ?>
     <script src="scripts/main.js">

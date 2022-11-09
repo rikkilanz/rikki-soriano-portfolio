@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rikki Soriano | Front-End Developer | Designer</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
+<?php include('partials/head.php') ?>
 <body>
     <?php 
         $header_class = 'hdr-main';
@@ -32,51 +22,13 @@
                     </div>
                     <div class="cards">
                         <ul class="cards-list flex">
-                            <li class="card-list-item">
-                                <a href="">
-                                <div class="card">
-                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                    <div class="card-info">
-                                        <ul class="type">
-                                            <li>{PROJECT_TYPE}</li>
-                                            <li>{PROJECT_TYPE}</li>
-                                        </ul>
-                                        <h2>{PROJECT_NAME}</h2>
-                                        <p>{PROJECT_DESCRIPTION}</p>
-                                    </div>
-                                </div>
-                                </a>
-                            </li>
-                            <li class="card-list-item">
-                                <a href="">
-                                <div class="card">
-                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                    <div class="card-info">
-                                        <ul class="type">
-                                            <li>{PROJECT_TYPE}</li>
-                                            <li>{PROJECT_TYPE}</li>
-                                        </ul>
-                                        <h2>{PROJECT_NAME}</h2>
-                                        <p>{PROJECT_DESCRIPTION}</p>
-                                    </div>
-                                </div>
-                                </a>
-                            </li>
-                            <li class="card-list-item">
-                                <a href="">
-                                <div class="card">
-                                    <img class="card-image" src="images/placeholder-thumb.jpg" alt="">
-                                    <div class="card-info">
-                                        <ul class="type">
-                                            <li>{PROJECT_TYPE}</li>
-                                            <li>{PROJECT_TYPE}</li>
-                                        </ul>
-                                        <h2>{PROJECT_NAME}</h2>
-                                        <p>{PROJECT_DESCRIPTION}</p>
-                                    </div>
-                                </div>
-                                </a>
-                            </li>
+                            <?php 
+                                for($i=0; $i<6; $i++){
+                                    echo '<li class="card-list-item">';
+                                    include('global/card.php');
+                                    echo '</li>';
+                                }
+                            ?>
                         </ul>
                     </div>
                 </div>
