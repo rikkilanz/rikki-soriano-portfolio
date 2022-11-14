@@ -50,12 +50,12 @@ img {
 }
 
 .hdr {
-  height: 100px;
-  padding: 0px 2em;
+  height: 120px;
+  padding: 0px 3.8em;
   align-items: center;
 }
 .hdr .logo {
-  height: 60px;
+  height: 3em;
   width: auto;
   flex-basis: 30%;
 }
@@ -67,6 +67,9 @@ img {
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
+}
+.hdr .nav-items .icon {
+  height: 2.7em;
 }
 .hdr .nav-items a {
   text-decoration: none;
@@ -144,6 +147,7 @@ img {
 }
 .pill--orange {
   background-color: #F8951D;
+  color: white;
 }
 .pill--almond {
   background-color: #FFEBC6;
@@ -180,6 +184,11 @@ img {
   border-radius: 5px;
   transform: rotate(45deg);
 }
+.btn--top {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
 
 .project {
   background-color: white;
@@ -187,6 +196,8 @@ img {
 }
 .project .grid {
   grid-template-columns: repeat(12, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .project__image {
   grid-column: 3/11;
@@ -298,13 +309,14 @@ img {
 
 .featured-works .container {
   grid-template-columns: repeat(12, 1fr);
+  padding: 0px 4.2em;
 }
 .featured-works .feature {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 75px 1fr;
   border-radius: 10px;
-  grid-column: 2/12;
-  padding: 50px;
+  grid-column: 1/13;
+  padding: 4em;
   background-color: white;
   gap: 20px;
 }
@@ -314,8 +326,8 @@ img {
   grid-area: 1/1/2/13;
 }
 .featured-works .cards {
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  -moz-column-gap: 1.3em;
+       column-gap: 1.3em;
   grid-area: 2/1/13/13;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -413,6 +425,7 @@ img {
 }
 .works .container .cards {
   margin: 3em 0px;
+  max-width: 1200px;
 }
 .works .container .cards .cards-list {
   flex-flow: wrap;
@@ -444,7 +457,6 @@ img {
 }
 .about__section {
   grid-template-columns: repeat(12, 1fr);
-  height: 30vh;
   margin: 3em 0px;
 }
 .about__section h2 {
@@ -463,8 +475,11 @@ img {
   justify-content: center;
 }
 .about__section .about__profile-picture {
-  overflow: hidden;
   grid-column: 7/13;
+}
+.about__section .about__profile-picture img {
+  height: 320px;
+  margin: 0 auto;
   border-radius: 50%;
 }
 .about__info {

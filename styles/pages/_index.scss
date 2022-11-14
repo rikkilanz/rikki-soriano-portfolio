@@ -55,11 +55,11 @@ img {
 
 //Header
 .hdr {
-    height: 100px;
-    padding: 0px 2em;
+    height: 120px;
+    padding: 0px 3.8em;
     align-items: center;
     .logo {
-        height: 60px;
+        height: 3em;
         width: auto;
         flex-basis: 30%;
     }
@@ -70,6 +70,9 @@ img {
     .nav-items {
         align-items: center;
         column-gap: 10px;
+        .icon {
+            height: 2.7em;
+        }
         a {
             text-decoration: none;
         }
@@ -150,6 +153,7 @@ img {
     padding: 8px 16px;
     &--orange{
         background-color: $rikki-color-1;
+        color: white;
     }
     &--almond {
         background-color: $rikki-color-2;
@@ -188,6 +192,11 @@ img {
             transform: rotate(45deg);
         }
     }
+    &--top {
+        position: fixed;
+        bottom: 100px;
+        right: 100px;
+    }
 }
 
 .project {
@@ -195,6 +204,8 @@ img {
     color: black;
     .grid {
         grid-template-columns: repeat(12, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
     }
     &__image {
         grid-column: 3 / 11;
@@ -313,13 +324,14 @@ img {
 .featured-works{
     .container {
         grid-template-columns: repeat(12, 1fr);
+        padding: 0px 4.2em;
     }
     .feature {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: 75px 1fr;
         border-radius: 10px;
-        grid-column: 2 / 12;
-        padding: 50px;
+        grid-column: 1 / 13;
+        padding: 4em;
         background-color: white;
         gap: 20px;
     }
@@ -329,7 +341,7 @@ img {
         grid-area: 1 / 1 / 2 / 13;
     }
     .cards {
-        column-gap: 10px;
+        column-gap: 1.3em;
         grid-area: 2 / 1 / 13 / 13;
         grid-template-columns: repeat(12, 1fr);
         :nth-child(1){

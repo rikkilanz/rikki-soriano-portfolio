@@ -19,7 +19,6 @@
     }
     &__section{
         grid-template-columns: repeat(12, 1fr);
-        height: 30vh;
         margin: 3em 0px;
         h2 {
             font-size: $h1;
@@ -37,9 +36,13 @@
             justify-content: center;
         }
         .about__profile-picture {
-            overflow: hidden;
+            // overflow: hidden;
             grid-column: 7 / 13;
-            border-radius: 50%;
+            img {
+                height: 320px;
+                margin: 0 auto;
+                border-radius: 50%;
+            }
         }   
     }
     &__info {
