@@ -181,6 +181,52 @@ img {
   transform: rotate(45deg);
 }
 
+.project {
+  background-color: white;
+  color: black;
+}
+.project .grid {
+  grid-template-columns: repeat(12, 1fr);
+}
+.project__image {
+  grid-column: 3/11;
+  margin-bottom: 1em;
+}
+.project__image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.project__type {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.project__intro {
+  grid-column: 3/11;
+  margin: 2em 0;
+}
+.project__intro h1 {
+  margin-bottom: 15px;
+}
+.project__info {
+  display: flex;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+  grid-column: 3/11;
+}
+.project__process {
+  grid-column: 3/11;
+}
+.project__process .box {
+  margin: 2em 0;
+}
+.project__process .box h3 {
+  margin: 16px 0;
+}
+.project__process .box p {
+  margin: 1em 0;
+}
+
 .intro .container {
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;

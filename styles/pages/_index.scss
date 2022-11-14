@@ -190,6 +190,50 @@ img {
     }
 }
 
+.project {
+    background-color: white;
+    color: black;
+    .grid {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    &__image {
+        grid-column: 3 / 11;
+        margin-bottom: 1em;
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+    &__type{
+        display: flex;
+        column-gap: 5px;
+    }
+    &__intro{
+        grid-column: 3 / 11;
+        margin: 2em 0;
+        h1 {
+            margin-bottom: 15px;
+        }
+    }
+    &__info{
+        display: flex;
+        column-gap: 2em;
+        grid-column: 3 / 11;
+    }
+    &__process{
+        grid-column: 3 / 11;
+        .box {
+            margin: 2em 0;
+            h3 {
+                margin: 16px 0;
+            }
+            p {
+                margin: 1em 0;
+            }
+        }
+    }
+}
+
 
 
 // Intro Section
