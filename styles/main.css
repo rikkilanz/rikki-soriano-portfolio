@@ -188,6 +188,14 @@ img {
   position: fixed;
   bottom: 100px;
   right: 100px;
+  transform: rotate(-90deg);
+}
+.btn--orange {
+  background-color: #F8951D;
+}
+.btn--orange::after {
+  border-top: 0.5em solid white;
+  border-right: 0.5em solid white;
 }
 
 .project {
@@ -241,7 +249,7 @@ img {
 .intro .container {
   grid-template-columns: repeat(12, 1fr);
   gap: 20px;
-  height: 70vh;
+  height: 50vh;
 }
 .intro .left-col {
   grid-column: 2/7;

@@ -4,7 +4,7 @@
 <body>
     <?php include('partials/header.php') ?>
     <main>
-        <div class="btn btn__circle btn--top"></div>
+        <div class="btn btn__circle btn--top btn--orange"></div>
         <section class="intro">
             <div class="container grid">
                 <div class="left-col flex">

@@ -196,6 +196,15 @@ img {
         position: fixed;
         bottom: 100px;
         right: 100px;
+        transform: rotate(-90deg);
+    }
+    &--orange{
+        background-color: $rikki-color-1;
+        &::after {
+            border-top: 0.5em solid white;
+            border-right: 0.5em solid white;
+        }
+        // color: white;
     }
 }
 
@@ -252,7 +261,7 @@ img {
     .container {
         grid-template-columns: repeat(12, 1fr);
         gap: 20px;
-        height: 70vh;
+        height: 50vh;
     }
     .left-col {
         grid-column: 2 / 7;
