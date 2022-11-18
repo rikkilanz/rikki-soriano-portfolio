@@ -90,7 +90,7 @@ img {
   background-color: white;
 }
 .hdr-main a {
-  color: #F8951D;
+  color: black;
 }
 .hdr-main li:hover {
   border-bottom: 3px #F8951D solid;
@@ -315,6 +315,10 @@ img {
   text-decoration: underline;
 }
 
+.featured-works {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .featured-works .container {
   grid-template-columns: repeat(12, 1fr);
   padding: 0px 4.2em;

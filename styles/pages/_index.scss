@@ -95,7 +95,7 @@ img {
 .hdr-main {
     background-color: white;
         a{
-            color: $rikki-color-1;
+            color: black;
         }
         li:hover {
             border-bottom: 3px $rikki-color-1 solid;
@@ -331,6 +331,8 @@ img {
 
 // Featured Section
 .featured-works{
+    max-width: 1440px;
+    margin: 0 auto;
     .container {
         grid-template-columns: repeat(12, 1fr);
         padding: 0px 4.2em;
