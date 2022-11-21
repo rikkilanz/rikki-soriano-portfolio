@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<?php include('partials/head.php') ?>
+<?php include('partials/head.php') ;
+?>
 <body>
     <?php include('partials/header.php') ?>
     <main>
@@ -48,7 +49,10 @@
                     <div class="cards grid">
                         <?php 
                             for($i=0; $i<3; $i++){
-                                include('global/card.php');
+                                // include('global/card.php');
+                                    echo '<li class="card-list-item">';
+                                    include('global/card.php');
+                                    echo '</li>';
                             }
                         ?>
                     </div>

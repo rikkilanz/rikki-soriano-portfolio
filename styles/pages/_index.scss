@@ -139,7 +139,7 @@ img {
             display: flex;
             flex-flow: wrap;
             margin-bottom: 5px;
-            column-gap: 5px;
+            gap: 7px;
         }
     }
     &__image{
@@ -211,6 +211,10 @@ img {
 .project {
     background-color: white;
     color: black;
+    img {
+        border-radius: 8px;
+
+    }
     .grid {
         grid-template-columns: repeat(12, 1fr);
         max-width: 1200px;
@@ -221,7 +225,6 @@ img {
         margin-bottom: 1em;
         img {
             width: 100%;
-            border-radius: 8px;
         }
     }
     &__type{

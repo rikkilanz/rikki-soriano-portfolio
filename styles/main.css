@@ -133,8 +133,7 @@ img {
   display: flex;
   flex-flow: wrap;
   margin-bottom: 5px;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
+  gap: 7px;
 }
 .card__image {
   width: 100%;
@@ -202,6 +201,9 @@ img {
   background-color: white;
   color: black;
 }
+.project img {
+  border-radius: 8px;
+}
 .project .grid {
   grid-template-columns: repeat(12, 1fr);
   max-width: 1200px;
@@ -213,7 +215,6 @@ img {
 }
 .project__image img {
   width: 100%;
-  border-radius: 8px;
 }
 .project__type {
   display: flex;

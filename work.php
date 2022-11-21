@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<?php include('partials/head.php') ?>
+<?php include('partials/head.php');?>
 <body>
     <?php 
         $header_class = 'hdr-main';
@@ -23,7 +23,18 @@
                     <div class="cards">
                         <ul class="cards-list flex">
                             <?php 
-                                for($i=0; $i<6; $i++){
+                                // for($i=0; $i<6; $i++){
+                                //     echo '<li class="card-list-item">';
+                                //     include('global/card.php');
+                                //     echo '</li>';
+                                // }
+                                // foreach($projects as $project) {
+                                //     echo '<li class="card-list-item">';
+                                //     include('global/card.php');
+                                //     echo '</li>';
+                                // }
+
+                                for($i=0;$i<count($projects);$i++){
                                     echo '<li class="card-list-item">';
                                     include('global/card.php');
                                     echo '</li>';
