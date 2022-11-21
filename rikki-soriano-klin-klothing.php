@@ -10,7 +10,7 @@
         <section class="project">
             <div class="container grid">
                 <div class="project__image">
-                    <img src="images/rikki-soriano-klin-klothing.jpg" alt="">
+                    <img src="images/rikki-soriano-klin-klothing-thumb.jpg" alt="">
                 </div>
                 <div class="project__intro">
                     <h1>Terra Fortuna Mobile Responsive Landing Page</h1>
