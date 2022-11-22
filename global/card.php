@@ -11,8 +11,8 @@
         <div class="card__info">
             <ul class="card__info__type">
                 <?php 
-                for($c=0; $c < count($projects[$c]->type); $c++){
-                    print_r("<li class=\"pill pill--almond\">" . $projects[$c]->type[$c] . "</li>");
+                for($c=0; $c < count($projects[$i]->type); $c++){
+                    print_r("<li class=\"pill pill--almond\">" . $projects[$i]->type[$c] . "</li>");
                 };
                 ?>
             </ul>

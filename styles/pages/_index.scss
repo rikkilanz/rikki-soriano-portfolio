@@ -133,7 +133,7 @@ img {
         flex-flow: wrap;
         &__header {
             font-size: $h4;
-            margin-bottom: 5px;
+            margin: 10px 0;
         }
         &__type {
             display: flex;
@@ -174,14 +174,14 @@ img {
     }
     &__circle {
         display: inline-block;
-        width: 4em;
-        height: 4em;
+        width: 6em;
+        height: 6em;
         border-radius: 50%;
         &::after{
             content: '';
             display: inline-block;
-            margin-top: 1.25em;
-            margin-left: 1.1em;
+            margin-top: 2.4em;
+            margin-left: 2.1em;
             width: 1.4em;
             height: 1.4em;
             border-top: 0.5em solid $rikki-color-1;
@@ -213,7 +213,6 @@ img {
     color: black;
     img {
         border-radius: 8px;
-
     }
     .grid {
         grid-template-columns: repeat(12, 1fr);
@@ -236,6 +235,7 @@ img {
         margin: 2em 0;
         h1 {
             margin-bottom: 15px;
+            font-size: 56px;
         }
     }
     &__info{
@@ -272,7 +272,7 @@ img {
         justify-content: center;
     }
     .right-col {
-        grid-column: 8 / 12;
+        grid-column: 9 / 12;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -355,6 +355,9 @@ img {
         grid-area: 1 / 1 / 2 / 13;
     }
     .cards {
+        h2 {
+            font-size: 24px;
+        }
         column-gap: 1.3em;
         grid-area: 2 / 1 / 13 / 13;
         grid-template-columns: repeat(12, 1fr);

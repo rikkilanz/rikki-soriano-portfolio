@@ -18,9 +18,7 @@
                     </div>
                 </div>
                 <div class="right-col flex">
-                    <a href="work.php">
-                        <div class="btn btn__circle"></div>
-                    </a>
+                    <a class="btn btn__circle" href="work.php"></a>
                     <a href="work.php">Check out all my projects here!</a>
                 </div>
             </div>

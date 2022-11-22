@@ -10,10 +10,10 @@
         <section class="project">
             <div class="container grid">
                 <div class="project__image">
-                    <img src="images/placeholder-thumb.jpg" alt="">
+                    <img src="images/rikki-soriano-terra-fortuna-thumb.jpg" alt="">
                 </div>
                 <div class="project__intro">
-                    <h1>Terra Fortuna Mobile Responsive Landing Page</h1>
+                    <h1>Terra Fortuna | Mobile Responsive Landing Page</h1>
                     <p>A mobile first responsive website coded with HTML, CSS and JS.</p>
                     <ul class="project__type">
                         <li class="pill pill--almond">CODING</li>

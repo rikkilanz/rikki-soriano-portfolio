@@ -13,7 +13,7 @@
                     <img src="images/rikki-soriano-klin-klothing-thumb.jpg" alt="">
                 </div>
                 <div class="project__intro">
-                    <h1>Terra Fortuna Mobile Responsive Landing Page</h1>
+                    <h1>klin klothing | Mobile App Prototype</h1>
                     <p>A mobile first responsive website coded with HTML, CSS and JS.</p>
                     <ul class="project__type">
                         <li class="pill pill--almond">CODING</li>
