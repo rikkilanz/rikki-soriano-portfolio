@@ -99,11 +99,25 @@ img {
   filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
 }
 
+.caption {
+  font-style: italic;
+  color: #c9c9c9;
+  text-align: center;
+  font-size: 14px;
+}
+.caption::before {
+  content: "(";
+}
+.caption::after {
+  content: ")";
+}
+
 .card {
   border-radius: 8px;
   overflow: hidden;
   color: black;
   border: 1px solid rgb(223, 223, 223);
+  height: 100%;
 }
 .card:hover {
   background-color: #F8951D;
@@ -238,14 +252,14 @@ img {
 .project__process {
   grid-column: 3/11;
 }
-.project__process .box {
-  margin: 2em 0;
-}
 .project__process .box h3 {
   margin: 16px 0;
 }
 .project__process .box p {
   margin: 1em 0;
+}
+.project__process .box .takeaways {
+  list-style-type: circle;
 }
 
 .intro .container {

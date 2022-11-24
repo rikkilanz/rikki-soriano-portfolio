@@ -38,23 +38,85 @@
                         <p><b>The purpose</b> of the project is to create a prototype app for a fictional business with a specific user archetype and target audience in mind. I created the prototype with Adobe XD and user-tested it with UseBerry.</p>
                     </div>
                     <div class="box">
-                        <h3>Wireframing</h3>
-                        <p>Before the sketching phase, I've researched and followed existing app design systems from other retail companies (H&M, Uniqlo, Shein). Most of the apps had a lot of images to highlight their products and use some sort of a gallery slider for users to browse. All of them are actually contained in a card to create some unity and content division</p>
+                        <h3>Research</h3>
+                        <p>I've researched and followed existing app design systems from other retail companies (Uniqlo, H&M, Shein).</p>
+                        <img src="images/rikki-soriano-klin-klothing-uniqlo-handm-shein.jpg" alt="Uniqlo, H&M, and Sheins UI Mobile Layout">
+                        <p class="caption">Uniqlo, H&M, and Sheins UI Mobile Layout</p>
+                        <p>Most of the apps had a lot of images to highlight their products and use some sort of a gallery slider for users to browse. All of them are actually contained in a card to create some unity and content division.</p>
                     </div>
+                    <hr>
                     <div class="box">
-                        <h3>Design Process</h3>
+                        <h3>Logo Design and Style Tile</h3>
+                        <img src="images/rikki-soriano-klin-klothing-logo-design.jpg" alt="">
                         <p>The idea for the logo is to stick with the business branding of being a minimal clothing brand. I played around with a bunch of typefaces from serif to sans-serifs and ended up using Crimson Pro. The type's thick serifs and serious tone fits the brand really well of presenting minimalism with an organic and authentic feel.</p>
+                        <img src="images/rikki-soriano-klin-klothing-style-tile.jpg" alt="">
+                        <p>For the style tile, I wanted to stick with keeping the UI colors to a minimal to keep consistency with the branding. The only colors I used for the UI design is a hue of red and green for actions. I also toned down the hues so it gives off a more earthy feel.</p>
+                        <p>I used Open Sans as the majority of the font for the UI for easy readability on mobile phones.</p>
                     </div>
+                    <hr>
                     <div class="box">
-                        <img src="images/rikki-soriano-terra-fortuna-logo-process.jpg" alt="">
-                        <h3>Design Process - Logo</h3>
-                        <p>The approach for the logo design is create this premium, royalty look that I thought of for the brand.Explored different types script fonts to achieve that majestic look.</p>
-                        <p>I chose Luna Sans for the full text which gives this premium look with it's letter terminals. For the icon, I used the font Altesse for it's cleaner flow, with thicker stems, and thinner terminals.</p>
+                        <h3>User Persona/Scenario</h3>
+                        <p>I created a user persona that fits the target audience of the business in order to design the UI. This way, we can empathize on how our users would feel navigating through the UI.</p>
+                        <img src="images/rikki-soriano-klin-klothing-user-persona.jpg" alt="">
+                        <p class="caption">Klin Klothing. User Persona - Zain Stanton</p>
+                        <p>Meet Zain Stanton! He is a young entrepreneur, loves playing with dogs, and lives a very busy lifestyle as an accountant.</p>
+                        
+                        <p>One of Zains goals is to save money to afford a house in Vancouver, while he dislikes a messy workspace environment.</p>
+
+                        <p>By empathizing with Zain, I started sketching out the wireframe designs and thought of how I could implement the branding of minimalism to Zain's busy lifestyle and his dislike for messy environments.
+                        </p>
                     </div>
+                    <hr>
                     <div class="box">
-                        <h3>Design Process - Website Style Tile</h3>
-                        <p>The goal for the website aesthetic is carry on the premium/royalty feel. I think that the dark blue just compliments the gold color of the logo really well.</p>
+                        <h3>User Flow</h3>
+                        <img src="images/rikki-soriano-klin-klothing-user-flowchart.jpg" alt="">
+                        <p class="caption">Klin Klothing. User Flowchart</p>
+                        <p>Users would browse through the UI with various products. The products are either saved for later, or placed in their carts. The user is then asked to check out their item placed in their carts. After various validations, the user's flow ends with a purchase end confirmation.</p>
                     </div>
+                    <hr>
+                    <div class="box">
+                        <h3>Wireframes</h3>
+                        <img src="images/rikki-soriano-klin-klothing-wireframe-1.jpg" alt="">
+                        <p class="caption">Klin Klothing. App Wireframes for Landing Page, Register Page, Login Page</p>
+                        <p>For my design, I've decided to re-create that same layout/style because it seems to work and is used by the majority of retail apps (Save-On Foods or AliExpress). </p>
+                        <img src="images/rikki-soriano-klin-klothing-wireframe-2.jpg" alt="">
+                        <p class="caption">Klin Klothing. App Wireframes for Home Page, Favourites Page</p>
+                        <img src="images/rikki-soriano-klin-klothing-wireframe-3.jpg" alt="">
+                        <p class="caption">Klin Klothing. App Wireframes for Cart Page, Checkout Page, Success Page</p>
+                        <p>Elements such as having a card style container to contain a product and its information. These cards would contain a product name, image, and a button to save items for later browsing. </p>
+                    </div>
+                    <hr>
+                    <div class="box">
+                        <h3>Prototype</h3>
+                        <img src="images/rikki-soriano-klin-klothing-user-flowchart.jpg" alt="">
+                        <p class="caption">Klin Klothing. User Flowchart</p>
+                        <p>The app prototype was made with Adobe XD. I've linked most of the buttons to lessen the misclick rate during the test. With this in mind, I can gather more data on how the user interacts with the mobile application and how they resolve their flow when the page changes.</p>
+                        <a class="cta pill pill--orange" href="#">Check out the prototype here!</a>
+                    </div>
+                    <hr>
+                    <div class="box">
+                        <h3>Test Findings</h3>
+                        <p>During this project, we were required to test our prototypes by using a third-party software, UseBerry. The data produced by the test was really useful for implementing design changes on where users were stuck.</p>
+                        <ul class="takeaways">
+                            <h4>Testing Takeaways:</h4>
+                            <li>
+                                <p>Users got stuck at the login page because the button was linked to a different frame.</p>
+                            </li>
+                            <li>
+                                <p>Users expect a product page to appear when a product card is clicked.</p>
+                            </li>
+                            <li>
+                                <p>A lot of users click on the image other than parts of the card.</p>
+                            </li>
+                            <li>
+                                <p>Coupon button in check out was clicked a lot assuming they thought it was the next button.</p>
+                            </li>
+                        </ul>
+                        <img src="images/rikki-soriano-klin-klothing-revision.jpg" alt="">
+                        <p>After getting some insights with UseBerry, I added and tweaked the final prototype based on the user testing.</p>
+                        <p class="caption">Klin Klothing. revisions after test</p>
+                    </div>
+                    <hr>
                 </div>
             </div>
         </section>
