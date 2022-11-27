@@ -258,8 +258,8 @@ img {
 .project__process .box p {
   margin: 1em 0;
 }
-.project__process .box .takeaways {
-  list-style-type: circle;
+.project__process .box .list {
+  list-style: circle;
 }
 
 .intro .container {

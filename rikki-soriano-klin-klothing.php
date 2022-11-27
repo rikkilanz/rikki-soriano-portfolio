@@ -97,7 +97,7 @@
                     <div class="box">
                         <h3>Test Findings</h3>
                         <p>During this project, we were required to test our prototypes by using a third-party software, UseBerry. The data produced by the test was really useful for implementing design changes on where users were stuck.</p>
-                        <ul class="takeaways">
+                        <ul class="list">
                             <h4>Testing Takeaways:</h4>
                             <li>
                                 <p>Users got stuck at the login page because the button was linked to a different frame.</p>
