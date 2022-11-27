@@ -60,9 +60,7 @@
                         <img src="images/rikki-soriano-klin-klothing-user-persona.jpg" alt="">
                         <p class="caption">Klin Klothing. User Persona - Zain Stanton</p>
                         <p>Meet Zain Stanton! He is a young entrepreneur, loves playing with dogs, and lives a very busy lifestyle as an accountant.</p>
-                        
                         <p>One of Zains goals is to save money to afford a house in Vancouver, while he dislikes a messy workspace environment.</p>
-
                         <p>By empathizing with Zain, I started sketching out the wireframe designs and thought of how I could implement the branding of minimalism to Zain's busy lifestyle and his dislike for messy environments.
                         </p>
                     </div>

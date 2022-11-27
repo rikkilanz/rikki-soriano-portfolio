@@ -160,7 +160,7 @@ img {
 }
 .pill--orange {
   background-color: #F8951D;
-  color: white;
+  color: white !important;
 }
 .pill--almond {
   background-color: #FFEBC6;
@@ -215,6 +215,11 @@ img {
   background-color: white;
   color: black;
 }
+.project a {
+  text-decoration: underline;
+  color: #F8951D;
+  font-weight: 800;
+}
 .project img {
   border-radius: 8px;
 }
@@ -252,6 +257,9 @@ img {
 .project__process {
   grid-column: 3/11;
 }
+.project__process .box video {
+  border-radius: 8px;
+}
 .project__process .box h3 {
   margin: 16px 0;
 }
@@ -260,6 +268,9 @@ img {
 }
 .project__process .box .list {
   list-style: circle;
+}
+.project__process .box .list li {
+  margin-left: 24px;
 }
 
 .intro .container {

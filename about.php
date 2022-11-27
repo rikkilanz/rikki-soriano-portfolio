@@ -29,7 +29,7 @@
                 </div>
                 <div class="about__info">
                     <p>I'm an upcoming UIUX Designer/Web Developer! I've always had passion for media and design ever since highschool.</p>   
-                    <p>📮 I was a Graphic Design graduate of 2020 from BCIT. Afterwards, it was a struggle to land a job so I created my own freelancing work. I then decided to take on the UIUX/Web Developer path after realizing that Graphic Design wasn't sufficient enough for me to grow.</p>
+                    <p>📮 I was a Graphic Design graduate of 2020 from BCIT. Afterwards, it was a struggle to land a job so I created my own freelancing work. I then decided to take on the UIUX/Web Developer after realizing that I could further expand my Graphic Design skills to creating amazing UI designs and hand-coding them and brind ideas to life!</p>
                     <p>I want to deliver my work for people to use whether as a usability purpose or even just for inspirations.</p>
                     <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
                     <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
