@@ -1,7 +1,6 @@
 <?php
 
     $header_class = $header_class ?? '';
-
 ?>
 
 <header>
@@ -11,7 +10,7 @@
                     <img 
                         <?php 
                         // Check if variable $header_class contains a string, if not, display the orange variation of the logo (used in most pages)
-                            if ($header_class != ''){
+                            if ($header_class  != ''){
                                 echo 'src="images/rikki-soriano-logo-horizontal-orange.svg"';
                         // Else, display the white version (only appears in index)
                             } else {

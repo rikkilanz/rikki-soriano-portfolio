@@ -13,19 +13,19 @@
         // We assign the value string description to constructed variable 'description'
         'description' => 'A website structured with HTML, styled with CSS, and used JavaScript plugins.',
         // Here, we create an array to support multiple data
-        'type' => ['UIUX', 'CODING']
+        'type' => ['CODING']
     ]);
 
     $klin_klothing = new Project([
         'name' => 'klin klothing | Mobile App Prototype',
         'description' => 'A working Adobe XD prototype of a mobile app for a fictional clothing brand.',
-        'type' => ['WIREFRAMING', 'UIUX']
+        'type' => ['UIUX', 'WIREFRAMING']
     ]);
 
     $live_2k = new Project([
         'name' => 'Live 2K | Coded Website Prototype',
         'description' => 'A working website protoype coded with HTML and CSS',
-        'type' => ['WIREFRAMING', 'UIUX', 'CODING']
+        'type' => ['UIUX', 'WIREFRAMING', 'CODING']
     ]);
 
     $fizzy_pop= new Project([

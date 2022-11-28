@@ -8,13 +8,14 @@
     ?>
     <main>
         <section class="project">
+        <div onclick="topFunction()" id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
             <div class="container grid">
                 <div class="project__image">
                     <img src="images/rikki-soriano-live-2k-thumb.jpg" alt="">
                 </div>
                 <div class="project__intro">
                     <h1>Live 2K | Coded Website Prototype</h1>
-                    <p>A website coded for a business under the Agile Methodology Project Management</p>
+                    <p>A website coded for a business under the Agile Methodology Project Management.</p>
                     <ul class="project__type">
                         <li class="pill pill--almond">WIREFRAMING</li>
                         <li class="pill pill--almond">CODING</li>
@@ -24,7 +25,7 @@
                 <div class="project__info">
                     <div class="project__timeline">
                         <h4>Timeline</h4>
-                        <p>2 Weeks</p>
+                        <p>6 Weeks</p>
                     </div>
                     <div class="project__tools">
                         <h4>Tools Used</h4>
@@ -77,12 +78,12 @@
                     <div class="box">
                         <h3>Wireframing</h3>
                         <p>When sketching the wireframes, I've used inspirations from other music festival websites. Coachella, Rolling Loud, and 88Rising helped me out ideate my wireframes. </p>
-                        <img src="images/rikki-soriano-live-2k-websites.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-websites.jpg" alt="an image of concert festival websites">
                         <p class="caption">Website landing pages of Coachella, 88rising: Head in the Clouds, and Rolling Loud</p>
                         <p>When sketching the wireframes, I've used inspirations from other music festival websites. Coachella, Rolling Loud, and 88Rising helped me out ideate my wireframes. </p>
-                        <img src="images/rikki-soriano-live-2k-lofi-wireframe-1.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-lofi-wireframe-1.jpg" alt="an image of Live 2K's low-fi wireframes for Homepage, About Page, and Tickets Page">
                         <p class="caption">Low-fi wireframes for Homepage, About Page, and Tickets Page</p>
-                        <img src="images/rikki-soriano-live-2k-lofi-wireframe-2.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-lofi-wireframe-2.jpg" alt="an image of Live 2K's low-fi wireframes for Artists Page, and Individual Artists Page">
                         <p class="caption">Low-fi wireframes for Artists Page, and Individual Artists Page</p>
                         <p>From my research, common elements throughout these websites that I implemented on my designs are: </p>
                             <ul class="list">
@@ -90,18 +91,18 @@
                                 <li><p>Creating an experience for the user</p></li>         
                             </ul>
                         <p>I wanted to focus on the experience by bringing aesthetic UI elements of the 2000's with a modern twist by organising information with usage of “windows-style” containers.</p>
-                        <img src="images/rikki-soriano-live-2k-hifi-wireframe-1.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-hifi-wireframe-1.jpg" alt="an image of Live 2K's hi-fi wireframes for Homepage, About Page, and Tickets Page"">
                         <p class="caption">Hi-fi wireframes for Homepage, About Page, and Tickets Page</p>
                         <p>Since this is a project with a 6-week time constraint, our team only stuck to produce essential pages of the website. (Home Page, Ticket Checkout Process, Artist Line-Up Page, Volunteering Form)</p>
-                        <img src="images/rikki-soriano-live-2k-hifi-wireframe-2.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-hifi-wireframe-2.jpg" alt="an image of Live 2K's hi-fi wireframes for Homepage, About Page, and Tickets Page"">
                         <p class="caption">Hi-fi wireframes for Homepage, About Page, and Tickets Page</p>
-                        <a class="cta pill pill--orange" href="#">Check out the prototype here!</a>
+                        <div class="cta flex"><a class="cta pill pill--orange" href="#">Check out the prototype here!</a></div>
                     </div>
                     <hr>
                     <div class="box">
                         <h3>Coding Process</h3>
                         <p>The coding process was a bit overwhelming at first. The Weekly Sprint Planning helped break down each major task to sub-tasks.</p>
-                        <img src="images/rikki-soriano-live-2k-sprint.jpg" alt="">
+                        <img src="images/rikki-soriano-live-2k-sprint.jpg" alt="an image of a spreadsheet document containing Live 2K's workload distribution">
                         <p class="caption">The third sprint iteration's tasklist</p>
                         <p>This is also the first time I've coded along with another Developer role and it was a bit of a struggle. We had to agree upon a system where when we coded together, we somehow had our files together in sync.</p>
                         <p>My developer partner and I shared the coding work by assigning what pages to work on. I've started coding the main page website/header at first to get the base website. </p>
@@ -116,9 +117,8 @@
                 </div>
             </div>
         </section>
+    <?php include('partials/project-slider.php') ?>
     </main>
     <?php include('partials/footer.php') ?>
-    <script src="scripts/main.js">
-    </script>
 </body>
 </html>

@@ -15,27 +15,26 @@
                 <div class="project-collection">
                     <div class="filter-btns">
                         <ul>
-                            <li class="pill active">ALL</li>
-                            <li class="pill">DESIGN</li>
-                            <li class="pill">DEVELOPMENT</li>
+                            <li data-project="all" class="filter-btn pill active">ALL</li>
+                            <li data-project="design" class="filter-btn pill">DESIGN</li>
+                            <li data-project="development" class="filter-btn pill">DEVELOPMENT</li>
                         </ul>
                     </div>
                     <div class="cards">
                         <ul class="cards-list flex">
                             <?php 
-                                // for($i=0; $i<6; $i++){
-                                //     echo '<li class="card-list-item">';
-                                //     include('global/card.php');
-                                //     echo '</li>';
-                                // }
-                                // foreach($projects as $project) {
-                                //     echo '<li class="card-list-item">';
-                                //     include('global/card.php');
-                                //     echo '</li>';
-                                // }
-
+                            // Clean up code
                                 for($i=0;$i<count($projects);$i++){
-                                    echo '<li class="card-list-item">';
+                                    echo '<li class="card-list-item project-filter ';
+                                    // Fix filtering method, not fully functional
+                                    if($projects[$i]->type[0] == 'CODING'){
+                                        echo 'development'; 
+                                    } elseif($projects[$i]->type[0] == 'UIUX' || 'GRAPHICS'){
+                                        echo 'design';
+                                    }else {
+                                        echo 'all';
+                                    }
+                                    echo '">';
                                     include('global/card.php');
                                     echo '</li>';
                                 }
@@ -47,7 +46,5 @@
         </section>
     </main>
     <?php include('partials/footer.php') ?>
-    <script src="scripts/main.js">
-    </script>
 </body>
 </html>

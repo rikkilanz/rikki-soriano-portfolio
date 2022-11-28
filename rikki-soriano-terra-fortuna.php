@@ -8,9 +8,10 @@
     ?>
     <main>
         <section class="project">
+        <div onclick="topFunction()" id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
             <div class="container grid">
                 <div class="project__image">
-                    <img src="images/rikki-soriano-terra-fortuna-thumb.jpg" alt="">
+                    <img src="images/rikki-soriano-terra-fortuna-thumb.jpg" alt="A desktop and mobile mockup of Terra Fortuna's website">
                 </div>
                 <div class="project__intro">
                     <h1>Terra Fortuna | Mobile Responsive Landing Page</h1>
@@ -43,7 +44,7 @@
                 </div>
                 <div class="project__process">
                     <div class="box">
-                        <p><b>The purpose</b> of the project was to create a responsive website design for mobile and desktop users. Another project requirement was to implement 3 Javascript plugins for the website (Added <a href="https://flickity.metafizzy.co/" target=”_blank”>Flickity</a>, <a href="https://michu2k.github.io/Accordion/" target=”_blank”>Accordion</a>, and <a href="https://lokeshdhakar.com/projects/lightbox2/"  target=”_blank”>Lightbox-JS</a>)</p>
+                        <p><b>The purpose</b> of the project was to create a responsive website design for mobile and desktop users. Another project requirement was to implement 3 Javascript plugins for the website (Added <a href="https://flickity.metafizzy.co/" title="Go to Flickity's page" target=”_blank”>Flickity</a>, <a href="https://michu2k.github.io/Accordion/" title="Go to Accordion-JS page" target=”_blank”>Accordion</a>, and <a href="https://lokeshdhakar.com/projects/lightbox2/" title="Go to Lightbox-JS page" target=”_blank”>Lightbox-JS</a>)</p>
                     </div>
                     <hr>
                     <div class="box">
@@ -59,15 +60,15 @@
                     <hr>
                     <div class="box">
                         <h3>Layout</h3>
-                        <img src="images/rikki-soriano-terra-fortuna-sketch.png" alt="">
-                        <p class="caption">Terra Fortuna initial website layout sketch</p>
                         <p>The content of the website is layed out to be easily responsive. All of the content is centre aligned because the purpose of the landing webpage is to show content quickly and in divided sections.</p>
+                        <img src="images/rikki-soriano-terra-fortuna-sketch.png" alt="A sketch of Terra Fortuna's website layout">
+                        <p class="caption">Terra Fortuna initial website layout sketch</p>
                         
-                        <p>I layed out the section in order of importance of information. I used the Javascript image slider plugin called <a href="https://flickity.metafizzy.co/" target=”_blank”>Flickity</a> to highlight appealing visuals for users to capture their attention. It then proceeds with the company's mission and values to reinforce the company's focus towards the users.</p>
+                        <p>I layed out the section in order of importance of information. I used the Javascript image slider plugin called <a href="https://flickity.metafizzy.co/" title="Go to Flickity's page" target=”_blank”>Flickity</a> to highlight appealing visuals for users to capture their attention. It then proceeds with the company's mission and values to reinforce the company's focus towards the users.</p>
                         
-                        <p>The team is introduced afterwards, highlighting what their position is and a brief description about them. In this section, I also implemented a <a href="https://lokeshdhakar.com/projects/lightbox2/" target=”_blank”>Lightbox</a> Javascript (when you click an Image, it zooms in on your screen) to let users have the option to see the image better.</p>
+                        <p>The team is introduced afterwards, highlighting what their position is and a brief description about them. In this section, I also implemented a <a href="https://lokeshdhakar.com/projects/lightbox2/" title="Go to Lightbox-JS page" target=”_blank”>Lightbox</a> Javascript (when you click an Image, it zooms in on your screen) to let users have the option to see the image better.</p>
                         
-                        <p>Finally a FAQ Section using an <a href="https://michu2k.github.io/Accordion/" target=”_blank”>Accordion</a> Javascript plugin to easily show and hide information without crowding the UI.</p>
+                        <p>Finally a FAQ Section using an <a href="https://michu2k.github.io/Accordion/" title="Go to Accordion-JS page" target=”_blank”>Accordion</a> Javascript plugin to easily show and hide information without crowding the UI.</p>
                     </div>
                     <hr>
                     <div class="box">
@@ -84,6 +85,7 @@
                         </video>
                         <p class="caption">Video displaying at higher resolution devices</p>
                         <p>This section took the most time to code because I had to play around with the code so that the image and video fit well so that it wouldn't be squished. One issue I had was that the video wasn't responding properly at different screen resolutions where it was creating unnecessary spacing at the top. I found out that the container had a top CSS attribute that was pushing it down, which I initially placed because the header was position fixed.</p>
+                        <hr>
                         <h4>Team Section</h4>
                         <p>In this section, I created a card class to contain images and corresponding information on the image. This card class was easy to reuse, especially when I have to display more than 1 person in this section.</p>
                         <video width="100%" height="100%" controls loop autoplay>
@@ -91,6 +93,7 @@
                         </video>
                         <p class="caption">Lightbox.js on the website's Team Section</p>
                         <p>This section also uses the Javascript plugin, lightbox-js. This plugin highlights the images when the user clicks on it where they can read further information about them.</p>
+                        <hr>
                         <h4>FAQ Section</h4>
                         <p>In this section, I used the Javascript library jQuery to take advantage of their accordion component. An accordion fits well in this FAQ section because most questions are around 1-2 sentences with answers ranging to a few sentences.</p>
                         <video width="100%" height="100%" controls loop autoplay>
@@ -103,14 +106,13 @@
                     <hr>
                     <div class="box">
                         <h3>Project Reflection</h3>
-                        <p>This is a project that I worked on with a time constraint of 3 weeks. I would further improve this project by taking advantage of tools like Sass to organise my styles, creating more reusable components like sections, grid systems, and cards.</p>
+                        <p>This is a project that I worked on with a time constraint of 3 weeks. I would further improve this project by taking advantage of tools like <a href="https://sass-lang.com/" titlle="Go to Sass' page" target="_blank">Sass</a> to organise my styles, creating more reusable components like sections, grid systems, and cards.</p>
                     </div>
                 </div>
             </div>
         </section>
+    <?php include('partials/project-slider.php') ?>
     </main>
     <?php include('partials/footer.php') ?>
-    <script src="scripts/main.js">
-    </script>
 </body>
 </html>
