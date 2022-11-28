@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #F8951D;
+  background-color: #FE950B;
   color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -100,7 +100,7 @@ img {
   color: black;
 }
 .hdr-main li:hover {
-  border-bottom: 3px #F8951D solid;
+  border-bottom: 3px #FE950B solid;
 }
 .hdr-main .icon {
   filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
@@ -173,7 +173,7 @@ img {
   padding: 8px 16px;
 }
 .pill--orange {
-  background-color: #F8951D;
+  background-color: #FE950B;
   color: white !important;
 }
 .pill--almond {
@@ -206,8 +206,8 @@ img {
   margin-left: 2.1em;
   width: 1.4em;
   height: 1.4em;
-  border-top: 0.5em solid #F8951D;
-  border-right: 0.5em solid #F8951D;
+  border-top: 0.5em solid #FE950B;
+  border-right: 0.5em solid #FE950B;
   border-radius: 5px;
   transform: rotate(45deg);
 }
@@ -222,7 +222,7 @@ img {
   margin-left: 2.3em;
 }
 .btn--orange {
-  background-color: #F8951D;
+  background-color: #FE950B;
 }
 .btn--orange::after {
   border-top: 0.5em solid white;
@@ -235,7 +235,7 @@ img {
 }
 .project a {
   text-decoration: underline;
-  color: #F8951D;
+  color: #FE950B;
   font-weight: 800;
 }
 .project img {
@@ -416,7 +416,7 @@ img {
   gap: 20px;
 }
 .featured-works .section-header {
-  color: #F8951D;
+  color: #FE950B;
   font-weight: 700;
   grid-area: 1/1/2/13;
 }
@@ -483,7 +483,7 @@ img {
 
 .works {
   background-color: white;
-  color: #F8951D;
+  color: #FE950B;
 }
 .works .container {
   flex-direction: column;
@@ -492,7 +492,7 @@ img {
 .works .container .intro {
   text-align: center;
   color: white;
-  background-color: #F8951D;
+  background-color: #FE950B;
   padding: 3em 0;
   width: 100%;
 }
@@ -512,11 +512,11 @@ img {
   cursor: pointer;
 }
 .works .container .filter-btns li.active {
-  background-color: #F8951D;
+  background-color: #FE950B;
   color: white;
 }
 .works .container .filter-btns li:hover {
-  background-color: #F8951D;
+  background-color: #FE950B;
   color: white;
   transition: 0.2s ease;
   transform: scale(103%);
@@ -546,10 +546,10 @@ img {
   max-width: 992px;
 }
 .about__header {
-  background-color: #F8951D;
+  background-color: #FE950B;
   text-align: center;
   color: white;
-  background-color: #F8951D;
+  background-color: #FE950B;
   padding: 3em 0;
   width: 100%;
 }
@@ -560,7 +560,7 @@ img {
 .about__section h2 {
   font-size: 72px;
   font-weight: 700;
-  color: #F8951D;
+  color: #FE950B;
   margin-bottom: 20px;
 }
 .about__section .about__pills {
