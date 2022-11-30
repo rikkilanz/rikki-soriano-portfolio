@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<?php include('partials/head.php');?>
+<?php 
+    $page_title = 'Projects | Rikki Soriano, Front-End Developer & UIUX Designer';
+    include('partials/head.php');
+?>
 <body>
     <?php 
         $header_class = 'hdr-main';

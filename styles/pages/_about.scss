@@ -8,6 +8,7 @@
         margin: 0 auto;
         width: 100%;
         max-width: 992px;
+        padding: 30px;
     }
     &__header{
         background-color: $rikki-color-1;
@@ -39,15 +40,81 @@
             // overflow: hidden;
             grid-column: 7 / 13;
             img {
-                height: 320px;
+                // height: 320px;
                 margin: 0 auto;
                 border-radius: 50%;
+                padding: 24px;
             }
-        }   
+        } 
     }
     &__info {
         gap: 2em;
         margin-bottom: 20px;
+        p {
+            margin-top: 1.5em;
+        }
+    }
+    &__mission {
+        grid-column: 1 / 13;
+        background-color: $rikki-color-1;
+        text-align: center;
+        padding: 2em 0;
+        color: white;
+        h3 {
+            font-size: $h2;
+            font-weight: 800;
+        }
+        p{
+            font-size: $h5;
+        }
+    }
+    &__values {
+        grid-column: 1 / 13;
+        background-color: $rikki-color-1;
+        text-align: center;
+        padding: 2em 0;
+        color: white;
+        h3 {
+            font-size: $h2;
+            font-weight: 800;
+            text-align: center;
+        }
+        p{
+            font-size: $h5;
+        }
+        .authenticity, .learning, .optimism {
+            flex-direction: column;
+            align-items: center;
+            margin: 50px 0;
+        }
+        .value {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            img {
+                height: 150px;
+                margin-bottom: 10px;
+            }
+            &-info{
+                max-width: 800px;
+                margin-top: 1.5em;
+            }
+        }
+    }
+    &__story{
+        grid-column: 1 / 13;
+        h3 {
+            font-size: $h1;
+            font-weight: 800;
+            color: $rikki-color-1;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+            font-weight: 800;
+            color: $rikki-color-1;
+        }
         p {
             margin: 1.5em 0;
         }

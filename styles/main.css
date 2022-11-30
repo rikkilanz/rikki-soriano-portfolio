@@ -303,6 +303,8 @@ img {
 
 .projects-other {
   background-color: white;
+  padding: 50px 0;
+  overflow: hidden;
 }
 .projects-other .container {
   grid-template-columns: repeat(12, 1fr);
@@ -544,6 +546,7 @@ img {
   margin: 0 auto;
   width: 100%;
   max-width: 992px;
+  padding: 30px;
 }
 .about__header {
   background-color: #FE950B;
@@ -576,14 +579,79 @@ img {
   grid-column: 7/13;
 }
 .about__section .about__profile-picture img {
-  height: 320px;
   margin: 0 auto;
   border-radius: 50%;
+  padding: 24px;
 }
 .about__info {
   gap: 2em;
   margin-bottom: 20px;
 }
 .about__info p {
+  margin-top: 1.5em;
+}
+.about__mission {
+  grid-column: 1/13;
+  background-color: #FE950B;
+  text-align: center;
+  padding: 2em 0;
+  color: white;
+}
+.about__mission h3 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.about__mission p {
+  font-size: 24px;
+}
+.about__values {
+  grid-column: 1/13;
+  background-color: #FE950B;
+  text-align: center;
+  padding: 2em 0;
+  color: white;
+}
+.about__values h3 {
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+}
+.about__values p {
+  font-size: 24px;
+}
+.about__values .authenticity, .about__values .learning, .about__values .optimism {
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.about__values .value {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about__values .value img {
+  height: 150px;
+  margin-bottom: 10px;
+}
+.about__values .value-info {
+  max-width: 800px;
+  margin-top: 1.5em;
+}
+.about__story {
+  grid-column: 1/13;
+}
+.about__story h3 {
+  font-size: 72px;
+  font-weight: 800;
+  color: #FE950B;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about__story h4 {
+  text-align: center;
+  font-weight: 800;
+  color: #FE950B;
+}
+.about__story p {
   margin: 1.5em 0;
 }/*# sourceMappingURL=main.css.map */
