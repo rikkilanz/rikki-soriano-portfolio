@@ -3,6 +3,11 @@
     $header_class = $header_class ?? '';
 ?>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W87G54Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <header>
         <div class="hdr hdr-index flex <?php echo $header_class; ?>">
             <div class="logo flex">
