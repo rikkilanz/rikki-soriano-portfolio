@@ -22,7 +22,7 @@
         grid-template-columns: repeat(12, 1fr);
         margin: 3em 0px;
         h2 {
-            font-size: $h1;
+            font-size: 70px;
             font-weight: 700;
             color: $rikki-color-1;
             margin-bottom: 20px;
@@ -37,10 +37,8 @@
             justify-content: center;
         }
         .about__profile-picture {
-            // overflow: hidden;
             grid-column: 7 / 13;
             img {
-                // height: 320px;
                 margin: 0 auto;
                 border-radius: 50%;
                 padding: 24px;

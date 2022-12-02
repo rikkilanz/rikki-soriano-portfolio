@@ -62,11 +62,7 @@ img {
     height: 120px;
     padding: 0px 3.8em;
     align-items: center;
-    // &--fixed {
-    //     position: fixed;
-    //     width: 100%;
-    //     top: 0;
-    // }
+
     .logo {
         height: 3em;
         width: auto;
@@ -466,7 +462,6 @@ img {
 
 //Footer Section
 .ftr {
-    // height: 100px;
     padding: 5em 8%;
     align-items: center;
     h2 {
@@ -507,3 +502,17 @@ img {
         text-decoration: underline;
     }
 }
+
+// Media Queries
+
+// @media (max-width: 393px){
+//     h1 {
+//       font-size: 3.75rem;
+//     }
+//   }
+
+// @media (max-width: 768px){
+//     h1 {
+//       font-size: 3.75rem;
+//     }
+//   }

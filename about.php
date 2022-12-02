@@ -23,7 +23,7 @@
                             <li class="pill pill--orange">Developer</li>
                             <li class="pill pill--almond">Music Nerd</li>
                             <li class="pill pill--almond">Gamer</li>
-                            <li class="pill pill--almond">Loves color orange</li>
+                            <li class="pill pill--almond">Hates the color orange</li>
                         </ul>
                         <div class="about__info">
                             <p>I'm an upcoming UIUX Designer/Web Developer! I have a fiery passion for design and creative media 🧡</p>   
