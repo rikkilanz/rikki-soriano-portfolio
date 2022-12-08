@@ -13,7 +13,8 @@
                         <h1>Hey, I'm Rikki!</h1>
                     </div>
                     <div class="description">
-                        <h2>I am an aspiring <b>UI/UX Designer/Front-End Developer</b> in pursuit for creative growth by learning and experience!</h2>
+                        <h2 class="d-block description--mobile"><b>UI/UX Designer/Front-End Developer</b></h2>
+                        <h2 class="description--desktop">I am an aspiring <b>UI/UX Designer/Front-End Developer</b> in pursuit for creative growth by learning and experience!</h2>
                     </div>
                 </div>
                 <div class="right-col flex">

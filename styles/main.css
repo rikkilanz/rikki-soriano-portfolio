@@ -10,6 +10,10 @@
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 body {
   background-color: #FE950B;
   color: white;
@@ -483,6 +487,75 @@ img {
   text-decoration: underline;
 }
 
+@media (max-width: 393px) {
+  .hdr {
+    position: fixed;
+    top: 0;
+  }
+  main {
+    margin-top: 120px;
+  }
+  .intro .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+  }
+  .intro .container .greeting {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .intro .container .greeting h1 {
+    font-size: 3em;
+  }
+  .intro .container .description {
+    font-size: 1em;
+  }
+  .intro .container .description--desktop {
+    display: none;
+  }
+  .intro .container .right-col {
+    flex-direction: column-reverse;
+  }
+  .featured-works {
+    padding: 0px;
+  }
+  .featured-works .container {
+    padding: 0px;
+    grid-template-columns: none;
+  }
+  .featured-works .container .section-header {
+    font-size: 2em;
+  }
+  .featured-works .feature {
+    grid-template-rows: none;
+    padding: 50px;
+    gap: 0px;
+  }
+  .featured-works .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ftr {
+    flex-direction: column;
+  }
+  .ftr .info-text h2 {
+    font-size: 2em;
+  }
+  .ftr .info-text p {
+    font-size: 1em;
+  }
+  .ftr .social-icons {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+}
 .works {
   background-color: white;
   color: #FE950B;
