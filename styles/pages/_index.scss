@@ -66,7 +66,7 @@ img {
     height: 120px;
     padding: 0px 3.8em;
     align-items: center;
-
+    background-color: $rikki-color-1;
     .logo {
         height: 3em;
         width: auto;
@@ -319,7 +319,7 @@ img {
 .projects-other {
     background-color: white;
     padding: 50px 0;
-    overflow: hidden;
+    overflow: scroll;
     .container {
         grid-template-columns: repeat(12, 1fr);
         max-width: 1200px;
@@ -466,6 +466,7 @@ img {
 
 //Footer Section
 .ftr {
+    
     padding: 5em 8%;
     align-items: center;
     h2 {
@@ -479,6 +480,9 @@ img {
         }
         .info-text {
             width: 70%;
+        }
+        .ftr-mobile {
+            display: none;
         }
     }
     .social-icons {
@@ -509,19 +513,31 @@ img {
 
 // Media Queries
 
-@media (max-width: 393px){
+@media (max-width: 414px){
+    //components
+    main {
+        margin-top: 150px;
+    }
+    .btn--top {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    // Index
     .hdr {
+        padding: 2em;
         position: fixed;
         top: 0;
-    }
-    main {
-        margin-top: 120px;
+        -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     }
     .intro {
         .container {
             display: flex;
             flex-direction: column;
             padding: 0px 15px;
+            margin-bottom: 30px;
             .greeting {
                 flex-direction: column;
                 align-items: center;
@@ -564,6 +580,20 @@ img {
     }
     .ftr {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .ftr-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            .ftr-desktop{
+                display: none;
+            }
+            .ftr-mobile {
+                display: block;
+            }
+        }
         .info-text{
             h2 {
                 font-size: 2em;
@@ -575,6 +605,25 @@ img {
         }
         .social-icons{
             justify-content: center;
+        }
+    }
+    // Individual artifacts pages
+    .project{
+        &__image, &__intro, &__info, &__process {
+            grid-column: 2 / 12;
+        }
+
+        &__info{
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        h4 {
+            font-size: 1.3em;
+        }
+        p {
+            font-size: 16px;
         }
     }
   }

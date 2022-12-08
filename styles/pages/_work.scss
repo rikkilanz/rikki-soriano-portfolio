@@ -53,3 +53,17 @@
         }
     }
 }
+
+@media (max-width: 414px){
+    .works {
+        .container{
+            .cards {
+                padding: 0 15px;
+                .card-list-item{
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

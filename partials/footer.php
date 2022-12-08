@@ -3,7 +3,8 @@
         <div class="ftr-info">
             <div class="info-text">
                 <h2>Keep in touch with me!</h2>
-                <p>Feel free to send me an email at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a> if you want to chat about
+                <p class="ftr-mobile">Feel free to send me an email at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a>
+                <p class="ftr-desktop">Feel free to send me an email at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a> if you want to chat about
                 my work/website/what kind of music I listen to or connect with me at:</p>
             </div>
             <div class="ftr-socials">
@@ -20,5 +21,8 @@
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="module">
+    
+</script>
 <script src="../scripts/main.js">
 </script>

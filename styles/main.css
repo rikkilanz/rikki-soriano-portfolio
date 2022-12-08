@@ -61,6 +61,7 @@ img {
   height: 120px;
   padding: 0px 3.8em;
   align-items: center;
+  background-color: #FE950B;
 }
 .hdr .logo {
   height: 3em;
@@ -308,7 +309,7 @@ img {
 .projects-other {
   background-color: white;
   padding: 50px 0;
-  overflow: hidden;
+  overflow: scroll;
 }
 .projects-other .container {
   grid-template-columns: repeat(12, 1fr);
@@ -462,6 +463,9 @@ img {
 .ftr .ftr-info .info-text {
   width: 70%;
 }
+.ftr .ftr-info .ftr-mobile {
+  display: none;
+}
 .ftr .social-icons {
   display: flex;
   margin-top: 10px;
@@ -487,18 +491,26 @@ img {
   text-decoration: underline;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 414px) {
+  main {
+    margin-top: 150px;
+  }
+  .btn--top {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
   .hdr {
+    padding: 2em;
     position: fixed;
     top: 0;
-  }
-  main {
-    margin-top: 120px;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   }
   .intro .container {
     display: flex;
     flex-direction: column;
     padding: 0px 15px;
+    margin-bottom: 30px;
   }
   .intro .container .greeting {
     flex-direction: column;
@@ -540,6 +552,20 @@ img {
   }
   .ftr {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ftr .ftr-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .ftr .ftr-info .ftr-desktop {
+    display: none;
+  }
+  .ftr .ftr-info .ftr-mobile {
+    display: block;
   }
   .ftr .info-text h2 {
     font-size: 2em;
@@ -549,6 +575,21 @@ img {
   }
   .ftr .social-icons {
     justify-content: center;
+  }
+  .project__image, .project__intro, .project__info, .project__process {
+    grid-column: 2/12;
+  }
+  .project__info {
+    flex-direction: column;
+  }
+  .project h1 {
+    font-size: 1.5em;
+  }
+  .project h4 {
+    font-size: 1.3em;
+  }
+  .project p {
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {
@@ -610,9 +651,24 @@ img {
   max-width: 30%;
 }
 
+@media (max-width: 414px) {
+  .works .container .cards {
+    padding: 0 15px;
+  }
+  .works .container .cards .card-list-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
 .about {
   background-color: white;
   color: black;
+}
+.about h3 {
+  font-size: 3em;
+}
+.about p {
+  font-size: 16px;
 }
 .about .container {
   flex-direction: column;
@@ -644,12 +700,12 @@ img {
   flex-wrap: wrap;
 }
 .about__section .about__intro {
-  grid-column: 1/7;
+  grid-column: 7/13;
   flex-direction: column;
   justify-content: center;
 }
 .about__section .about__profile-picture {
-  grid-column: 7/13;
+  grid-column: 1/7;
 }
 .about__section .about__profile-picture img {
   margin: 0 auto;
@@ -671,7 +727,6 @@ img {
   color: white;
 }
 .about__mission h3 {
-  font-size: 60px;
   font-weight: 800;
 }
 .about__mission p {
@@ -685,7 +740,6 @@ img {
   color: white;
 }
 .about__values h3 {
-  font-size: 60px;
   font-weight: 800;
   text-align: center;
 }
@@ -714,7 +768,6 @@ img {
   grid-column: 1/13;
 }
 .about__story h3 {
-  font-size: 72px;
   font-weight: 800;
   color: #FE950B;
   margin-bottom: 30px;
@@ -727,4 +780,20 @@ img {
 }
 .about__story p {
   margin: 1.5em 0;
+}
+
+@media (max-width: 414px) {
+  .about__section {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__section .about__pills {
+    justify-content: center;
+  }
+  .about__intro {
+    text-align: center;
+  }
+  .about__intro h2 {
+    font-size: 3em;
+  }
 }/*# sourceMappingURL=main.css.map */

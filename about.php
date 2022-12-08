@@ -16,6 +16,9 @@
             </div>
             <div class="container flex">
                 <div class="about__section grid">
+                    <div class="about__profile-picture">
+                        <img src="images/rikki-soriano-profile-picture.jpg" alt="">
+                    </div>
                     <div class="about__intro flex">
                         <h2>Hi, I'm Rikki!</h2>
                         <ul class="about__pills flex">
@@ -30,9 +33,6 @@
                             <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
                             <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
                         </div>
-                    </div>
-                    <div class="about__profile-picture">
-                        <img src="images/rikki-soriano-profile-picture.jpg" alt="">
                     </div>
                 </div>
             </div>

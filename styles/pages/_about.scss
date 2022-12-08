@@ -1,8 +1,14 @@
 @use "../config" as *;
 
 .about {
+    h3 {
+        font-size: 3em;
+    }
     background-color: white;
     color: black;
+    p {
+        font-size: 16px;
+    }
     .container {
         flex-direction: column;
         margin: 0 auto;
@@ -32,12 +38,12 @@
             flex-wrap: wrap;
         }
         .about__intro {
-            grid-column: 1 / 7;
+            grid-column: 7 / 13;
             flex-direction: column;
             justify-content: center;
         }
         .about__profile-picture {
-            grid-column: 7 / 13;
+            grid-column: 1 / 7;
             img {
                 margin: 0 auto;
                 border-radius: 50%;
@@ -59,7 +65,6 @@
         padding: 2em 0;
         color: white;
         h3 {
-            font-size: $h2;
             font-weight: 800;
         }
         p{
@@ -73,7 +78,6 @@
         padding: 2em 0;
         color: white;
         h3 {
-            font-size: $h2;
             font-weight: 800;
             text-align: center;
         }
@@ -102,7 +106,6 @@
     &__story{
         grid-column: 1 / 13;
         h3 {
-            font-size: $h1;
             font-weight: 800;
             color: $rikki-color-1;
             margin-bottom: 30px;
@@ -115,6 +118,24 @@
         }
         p {
             margin: 1.5em 0;
+        }
+    }
+}
+
+@media (max-width: 414px){
+    .about {
+        &__section {
+            display: flex;
+            flex-direction: column;
+            .about__pills{
+                justify-content: center;
+            }
+        }
+        &__intro {
+            text-align: center;
+            h2 {
+                font-size: 3em;
+            }
         }
     }
 }
