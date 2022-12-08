@@ -8,7 +8,7 @@
     ?>
     <main>
         <section class="project">
-        <div onclick="topFunction()" id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
+        <div id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
             <div class="container grid">
                 <div class="project__image">
                     <img src="images/rikki-soriano-klin-klothing-thumb.jpg" alt="A mobile mock of klin klothing's UI prototype">

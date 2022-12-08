@@ -41,19 +41,19 @@ function openCloseNav() {
     }
 }
 
-let topBtn = document.getElementsByClassName("btn--top");
+// let topBtn = document.getElementsByClassName("btn--top");
 
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    topBtn.style.display = "block";
-  } else {
-    topBtn.style.display = "none";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     topBtn.style.display = "block";
+//   } else {
+//     topBtn.style.display = "none";
+//   }
+// }
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+// function topFunction() {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }

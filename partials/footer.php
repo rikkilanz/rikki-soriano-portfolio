@@ -22,7 +22,12 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script type="module">
-    
+    import jump from './node_modules/jump.js/dist/jump.module.js';
+    let topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener('click', () => {
+        jump('html');
+        console.log('hello');
+    })
 </script>
 <script src="../scripts/main.js">
 </script>
