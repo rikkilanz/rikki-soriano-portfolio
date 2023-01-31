@@ -1,0 +1,48 @@
+@use "../config/" as *;
+
+//Footer Section
+.ftr {
+    
+    padding: 5em 8%;
+    align-items: center;
+    h2 {
+        font-weight: 700;
+    }
+    .ftr-info {
+        flex-basis: 80%;
+        margin-left: 2.5em;
+        p {
+            margin: 10px 0px;
+        }
+        .info-text {
+            width: 70%;
+        }
+        .ftr-mobile {
+            display: none;
+        }
+    }
+    .social-icons {
+        display: flex;
+        margin-top: 10px;
+        filter: invert(1);
+        gap: 10px;
+        img {
+            height: 40px;
+        }
+        li:hover{
+            transform: scale(105%);
+            transition: 0.3s ease;
+        }
+    }
+    .logo {
+        height: 80px;
+        width: auto;
+        flex-basis: 20%;
+        justify-content: center;
+    }
+    .email {
+        color: white;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

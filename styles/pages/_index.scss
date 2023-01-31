@@ -1,22 +1,5 @@
 @use "../config" as *;
 
-//Utility Classes
-.flex {
-    display: flex;
-}
-
-.grid {
-    display: grid;
-}
-
-.d-none {
-    display: none;
-}
-
-.d-block {
-    display: block;
-}
-
 // Intro Section
 body {
     background-color: $rikki-color-1;
@@ -61,62 +44,7 @@ img {
     display: block;
 }
 
-//Header
-.hdr {
-    height: 120px;
-    padding: 0px 3.8em;
-    align-items: center;
-    background-color: $rikki-color-1;
-    .logo {
-        height: 3em;
-        width: auto;
-        flex-basis: 30%;
-    }
-    .menu {
-        flex-basis: 70%;
-        justify-content: flex-end;
-    }
-    .nav-items {
-        align-items: center;
-        column-gap: 10px;
-        .icon {
-            height: 2.7em;
-        }
-        a {
-            text-decoration: none;
-        }
-    }
-    
-}
-
-.hdr-index {
-    width: 100%;
-        a{
-            color: white;
-        }
-        li:hover {
-            border-bottom: 3px white solid;
-        }
-    }
-    .icon {
-        filter: invert(1);
-    }
-
-.hdr-main {
-    background-color: white;
-        a{
-            color: black;
-        }
-        li:hover {
-            border-bottom: 3px $rikki-color-1 solid;
-        }
-        .icon {
-            filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
-        }
-    }
-
 // Components
-
 .caption {
     font-style: italic;
     color: #aaaaaa;
@@ -131,114 +59,6 @@ img {
     }
     &::after{
         content: ")";
-    }
-}
-
-.card{
-    border-radius: 8px;
-    overflow: hidden;
-    color: black;
-    border: 1px solid rgb(223, 223, 223);
-    height: 100%;
-    &:hover{
-        background-color: #F8951D;
-        transition: 0.2s ease;
-        transform: scale(101%);
-        box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
-        -webkit-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
-        -moz-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
-        .card__info__header, .card__info__description{
-            color: white;
-        }
-        .card__info__header {
-            text-decoration: underline;
-        }
-    }
-    &__link{
-        color: black;
-    }
-    &__info {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        flex-flow: wrap;
-        &__header {
-            font-size: $h4;
-            margin: 10px 0;
-        }
-        &__type {
-            display: flex;
-            flex-flow: wrap;
-            margin-bottom: 5px;
-            gap: 7px;
-        }
-    }
-    &__image{
-        width: 100%;
-    }
-}
-
-.pill {
-    border-radius: 20px;
-    background-color: #c9c9c9;
-    padding: 8px 16px;
-    &--orange{
-        background-color: $rikki-color-1;
-        color: white !important;
-    }
-    &--almond {
-        background-color: $rikki-color-2;
-    }
-}
-
-.btn {
-    background-color: white;
-    border: none;
-    height: 50px;
-    cursor: pointer;
-    &:hover{
-        transform: scale(103%);
-        box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        -webkit-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        transition: transform ease 0.1s;
-    }
-    &__circle {
-        display: inline-block;
-        width: 6em;
-        height: 6em;
-        border-radius: 50%;
-        &::after{
-            content: '';
-            display: inline-block;
-            margin-top: 2.4em;
-            margin-left: 2.1em;
-            width: 1.4em;
-            height: 1.4em;
-            border-top: 0.5em solid $rikki-color-1;
-            border-right: 0.5em solid $rikki-color-1;
-            border-radius: 5px;
-            -moz-transform: rotate(45deg);
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-        }
-    }
-    &--top {
-        position: fixed;
-        bottom: 100px;
-        right: 100px;
-        &::after {
-            transform: rotate(-45deg);
-            margin-top: 2.5em;
-            margin-left: 2.3em;
-        }
-    }
-    &--orange{
-        background-color: $rikki-color-1;
-        &::after {
-            border-top: 0.5em solid white;
-            border-right: 0.5em solid white;
-        }
     }
 }
 
@@ -313,40 +133,6 @@ img {
             }
     }
 }
-
-
-// Please fix this with proper BEM elements
-.projects-other {
-    background-color: white;
-    padding: 50px 0;
-    overflow: scroll;
-    .container {
-        grid-template-columns: repeat(12, 1fr);
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    .title {
-        grid-column: 3 / 11;
-        text-align: center;
-        color: black;
-        text-decoration: underline;
-        font-weight: 800;
-    }
-    li {
-        list-style-type: none;
-    }
-    .cards {
-        grid-column: 1 / 13;
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-        .card-list-item {
-            flex-basis: 30%;
-        }
-    }
-}
-
-
 
 // Intro Section
 .intro {
@@ -462,54 +248,6 @@ img {
     }
 }
 
-
-
-//Footer Section
-.ftr {
-    
-    padding: 5em 8%;
-    align-items: center;
-    h2 {
-        font-weight: 700;
-    }
-    .ftr-info {
-        flex-basis: 80%;
-        margin-left: 2.5em;
-        p {
-            margin: 10px 0px;
-        }
-        .info-text {
-            width: 70%;
-        }
-        .ftr-mobile {
-            display: none;
-        }
-    }
-    .social-icons {
-        display: flex;
-        margin-top: 10px;
-        filter: invert(1);
-        gap: 10px;
-        img {
-            height: 40px;
-        }
-        li:hover{
-            transform: scale(105%);
-            transition: 0.3s ease;
-        }
-    }
-    .logo {
-        height: 80px;
-        width: auto;
-        flex-basis: 20%;
-        justify-content: center;
-    }
-    .email {
-        color: white;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-}
 
 // Media Queries
 

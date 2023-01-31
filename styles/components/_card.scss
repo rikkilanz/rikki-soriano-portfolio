@@ -1,0 +1,45 @@
+@use "../config/" as *;
+
+.card{
+    border-radius: 8px;
+    overflow: hidden;
+    color: black;
+    border: 1px solid rgb(223, 223, 223);
+    height: 100%;
+    &:hover{
+        background-color: #F8951D;
+        transition: 0.2s ease;
+        transform: scale(101%);
+        box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
+        -webkit-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
+        -moz-box-shadow: 1px 6px 14px 0px rgba(0,0,0,0.24);
+        .card__info__header, .card__info__description{
+            color: white;
+        }
+        .card__info__header {
+            text-decoration: underline;
+        }
+    }
+    &__link{
+        color: black;
+    }
+    &__info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        &__header {
+            font-size: $h4;
+            margin: 10px 0;
+        }
+        &__type {
+            display: flex;
+            flex-flow: wrap;
+            margin-bottom: 5px;
+            gap: 7px;
+        }
+    }
+    &__image{
+        width: 100%;
+    }
+}

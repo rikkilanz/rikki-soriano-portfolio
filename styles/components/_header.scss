@@ -1,0 +1,55 @@
+@use "../config/" as *;
+
+//Header
+.hdr {
+    height: 120px;
+    padding: 0px 3.8em;
+    align-items: center;
+    background-color: $rikki-color-1;
+    .logo {
+        height: 3em;
+        width: auto;
+        flex-basis: 30%;
+    }
+    .menu {
+        flex-basis: 70%;
+        justify-content: flex-end;
+    }
+    .nav-items {
+        align-items: center;
+        column-gap: 10px;
+        .icon {
+            height: 2.7em;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    
+}
+
+.hdr-index {
+    width: 100%;
+        a{
+            color: white;
+        }
+        li:hover {
+            border-bottom: 3px white solid;
+        }
+    }
+    .icon {
+        filter: invert(1);
+    }
+
+.hdr-main {
+    background-color: white;
+        a{
+            color: black;
+        }
+        li:hover {
+            border-bottom: 3px $rikki-color-1 solid;
+        }
+        .icon {
+            filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
+        }
+    }

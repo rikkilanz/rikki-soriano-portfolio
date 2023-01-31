@@ -10,7 +10,7 @@
                 <div class="left-col flex">
                     <div class="greeting flex">
                         <img class="eye-icon" src="images/rikki-eye.svg" alt="rikki-eye-icon">
-                        <h1>Hey, I'm Rikki!</h1>
+                        <h1 class="red">Hey, I'm Rikki!</h1>
                     </div>
                     <div class="description">
                         <h2 class="d-block description--mobile"><b>UI/UX Designer/Front-End Developer</b></h2>
