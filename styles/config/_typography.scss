@@ -1,6 +1,6 @@
-// Variables
-$body-font: 'Montserrat', sans-serif;
-$paragraph-font: 'Chivo', sans-serif;
+// Typography
+$body-type: 'Montserrat', sans-serif;
+$paragraph-type: 'Chivo', sans-serif;
 $h1: 72px;
 $h2: 60px;
 $h3: 48px;
@@ -8,3 +8,66 @@ $h4: 36px;
 $h5: 24px;
 $p: 18px;
 
+
+@mixin font-p-20 {
+    font-family: $paragraph-type;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+@mixin font-p-16 {
+    font-family: $paragraph-type;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+@mixin text-p-12 {
+    font-family: $body-type;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+@mixin heading-b-64 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+@mixin heading-b-32 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@mixin heading-b-24 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@mixin heading-b-18 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@mixin link-b-u-16{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@mixin link-b-u-14{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@mixin link-b-u-12{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@mixin link-b-u-10{
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: underline;
+}

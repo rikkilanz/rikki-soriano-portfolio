@@ -3,6 +3,22 @@
     display: flex;
 }
 
+.ai-c {
+    align-items: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.fd-r {
+    flex-direction: rolumn;
+}
+
 .grid {
     display: grid;
 }
@@ -13,4 +29,10 @@
 
 .d-block {
     display: block;
+}
+
+.container {
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    height: 50vh;
 }

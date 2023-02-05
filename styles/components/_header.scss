@@ -1,20 +1,151 @@
 @use "../config/" as *;
 
-//Header
 .hdr {
-    height: 120px;
-    padding: 0px 3.8em;
-    align-items: center;
+    height: 80px;
     background-color: $rikki-color-1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
     .logo {
-        height: 3em;
         width: auto;
-        flex-basis: 30%;
+        img {
+            width: 77px;
+            height: 30px;
+        }
     }
-    .menu {
-        flex-basis: 70%;
-        justify-content: flex-end;
+    // Hamburger styles
+    .hamburger {
+        display: block;
+        .line {
+            width: 35px;
+            height: 5px;
+            display: block;
+            margin: 5px auto;
+            border-radius: 5px;
+            // Hamburger transitions
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+        &-active {
+            .line:nth-child(1){
+                -webkit-transform: translateY(10px);
+                -ms-transform: translateY(10px);
+                -o-transform: translateY(10px);
+                transform: translateY(10px);
+            }
+            .line:nth-child(3){
+                -webkit-transform: translateY(-10px);
+                -ms-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+                transform: translateY(-10px);
+            }
+        }
+        :hover {
+            cursor: pointer;
+        }
     }
+    .nav {
+        position: fixed;
+        display: block;
+        width: 260px;
+        top: -300px;
+        left: 10px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+        &-active{
+            top: 80px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+        .nav-items {
+            -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75); 
+            box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            @include link-b-u-16;
+            text-decoration: none;
+            text-align: right;
+            padding: 0 5px;
+            li {
+                border-left: none;
+                border-right: none;
+                padding: 20px 10px;
+                a {
+                    display: block;
+                }
+            }
+            :first-child {
+                border-bottom: none;
+            }
+            :nth-child(2) {
+                border-bottom: none;
+            }
+            :last-child {
+                border-top: none;
+                border-bottom: none;
+            }
+            :nth-child(3) {
+                display: none;
+            }
+        }
+    }
+    &--orange {
+        width: 100%;
+        a{
+            color: $white;
+        }
+        li:hover {
+            border-bottom: 3px white solid;
+        }
+        .icon {
+            filter: invert(1);
+        }
+        .line {
+            background-color: $white;
+        }
+        .nav {
+            background-color: $rikki-color-1;
+            a {
+                color: $white;
+            }
+            li {
+                border: solid $white 1px;
+            }
+        }
+    }
+    &--white {
+        background-color: $white;
+        a{
+            color: $rikki-color-1;
+        }
+        li:hover {
+            border-bottom: 3px $rikki-color-1 solid;
+        }
+        .icon {
+            filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
+        }
+        .line {
+            background-color: $rikki-color-1;
+        }
+        .nav {
+            background-color: $white;
+            li {
+                border: solid $gray 1px;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: $desktop-regular){
+    //Header
+.hdr {
+    padding: 0px 3.8em;
     .nav-items {
         align-items: center;
         column-gap: 10px;
@@ -28,28 +159,4 @@
     
 }
 
-.hdr-index {
-    width: 100%;
-        a{
-            color: white;
-        }
-        li:hover {
-            border-bottom: 3px white solid;
-        }
-    }
-    .icon {
-        filter: invert(1);
-    }
-
-.hdr-main {
-    background-color: white;
-        a{
-            color: black;
-        }
-        li:hover {
-            border-bottom: 3px $rikki-color-1 solid;
-        }
-        .icon {
-            filter: invert(79%) sepia(33%) saturate(7127%) hue-rotate(348deg) brightness(104%) contrast(94%);
-        }
-    }
+}

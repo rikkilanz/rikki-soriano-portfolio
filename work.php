@@ -6,7 +6,7 @@
 ?>
 <body>
     <?php 
-        $header_class = 'hdr-main';
+        $header_class = 'hdr--white';
         include('partials/header.php');
     ?>
     <main>

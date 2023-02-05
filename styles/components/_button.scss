@@ -1,65 +1,96 @@
 @use "../config/" as *;
 
 .btn {
-    background-color: white;
-    border: none;
-    height: 50px;
+    border-radius: 20px;
+    padding: 3px 9px;
+    color: $rikki-color-1;
+    background-color: $white;
     cursor: pointer;
-    &:hover{
-        transform: scale(103%);
-        box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        -webkit-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-        transition: transform ease 0.1s;
-    }
-    &__circle {
-        display: inline-block;
-        width: 6em;
-        height: 6em;
-        border-radius: 50%;
+    display: flex;
+    align-items: center;
+    @include link-b-u-12;
+    &--cta {
+        // Buton arrow design after text
         &::after{
             content: '';
             display: inline-block;
-            margin-top: 2.4em;
-            margin-left: 2.1em;
-            width: 1.4em;
-            height: 1.4em;
-            border-top: 0.5em solid $rikki-color-1;
-            border-right: 0.5em solid $rikki-color-1;
-            border-radius: 5px;
+            width: 0.7em;
+            height: 0.7em;
+            border-top: 0.3em solid $rikki-color-1;
+            border-right: 0.3em solid $rikki-color-1;
+            border-radius: 3px;
+            margin-left: 5px;
             -moz-transform: rotate(45deg);
             -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
         }
     }
-    &--top {
-        position: fixed;
-        bottom: 100px;
-        right: 100px;
-        &::after {
-            transform: rotate(-45deg);
-            margin-top: 2.5em;
-            margin-left: 2.3em;
-        }
-    }
+    // Button colors
     &--orange{
         background-color: $rikki-color-1;
-        &::after {
-            border-top: 0.5em solid white;
-            border-right: 0.5em solid white;
-        }
+        color:$white;
     }
-}
-
-.pill {
-    border-radius: 20px;
-    background-color: #c9c9c9;
-    padding: 8px 16px;
-    &--orange{
-        background-color: $rikki-color-1;
-        color: white !important;
-    }
+    // Used for information pills, not interactable
     &--almond {
         background-color: $rikki-color-2;
+        color: $black;
+        cursor: auto;
+        text-decoration: none;
+        @include text-p-12;
     }
+    &--gray {
+        background-color: $gray;
+    }
+    // Button size
+    &--s {
+        @include link-b-u-16;
+    }
+    &--m {
+        @include link-b-u-16;
+        padding: 6px 11px;
+    }
+    // &:hover{
+    //     transform: scale(103%);
+    //     box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
+    //     -webkit-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
+    //     -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
+    //     transition: transform ease 0.1s;
+    // }
+    // &__circle {
+    //     display: inline-block;
+    //     width: 6em;
+    //     height: 6em;
+    //     border-radius: 50%;
+    //     &::after{
+    //         content: '';
+    //         display: inline-block;
+    //         margin-top: 2.4em;
+    //         margin-left: 2.1em;
+    //         width: 1.4em;
+    //         height: 1.4em;
+    //         border-top: 0.5em solid $rikki-color-1;
+    //         border-right: 0.5em solid $rikki-color-1;
+    //         border-radius: 5px;
+    //         -moz-transform: rotate(45deg);
+    //         -webkit-transform: rotate(45deg);
+    //         transform: rotate(45deg);
+    //     }
+    // }
+    // &--top {
+    //     position: fixed;
+    //     bottom: 100px;
+    //     right: 100px;
+    //     &::after {
+    //         transform: rotate(-45deg);
+    //         margin-top: 2.5em;
+    //         margin-left: 2.3em;
+    //     }
+    // }
+    // &--orange{
+    //     background-color: $rikki-color-1;
+    //     &::after {
+    //         border-top: 0.5em solid white;
+    //         border-right: 0.5em solid white;
+    //     }
+    // }
 }
