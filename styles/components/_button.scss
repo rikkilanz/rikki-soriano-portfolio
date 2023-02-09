@@ -1,12 +1,11 @@
 @use "../config/" as *;
 
 .btn {
-    border-radius: 20px;
+    border-radius: 100px;
     padding: 3px 9px;
     color: $rikki-color-1;
     background-color: $white;
     cursor: pointer;
-    display: flex;
     align-items: center;
     @include link-b-u-12;
     &--cta {
@@ -93,4 +92,19 @@
     //         border-right: 0.5em solid white;
     //     }
     // }
+}
+
+.filter-btn {
+    border: solid $gray 1px;
+    background-color: $white;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 3px 9px;
+    font-size: 12px;
+    &--active {
+        background-color: $rikki-color-1;
+        font-weight: 700;
+        color: $white;
+    }
 }

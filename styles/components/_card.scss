@@ -1,5 +1,7 @@
 @use "../config/" as *;
 
+
+//individual card itself
 .card{
     border-radius: 8px;
     overflow: hidden;
@@ -42,5 +44,17 @@
     }
     &__image{
         width: 100%;
+    }
+}
+
+// listing cards and display them
+.cards {
+    // padding: 0 30px;
+    flex-direction: column;
+    gap: 20px;
+    .card {
+        &__info__description{
+            display: none;
+        }
     }
 }

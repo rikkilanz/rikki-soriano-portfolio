@@ -1,35 +1,21 @@
 @use "../config" as *;
 
-.works {
+.projects {
     background-color: white;
     color: $rikki-color-1;
-    .container {
-        flex-direction: column;
-        align-items: center;
-        .intro {
-            text-align: center;
-            color: white;
-            background-color: $rikki-color-1;
-            padding: 3em 0;
-            width: 100%;
-        }
-        .filter-btns {
-            margin: 3em 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    &-intro-heading{
+        @include heading-b-18;
+    }     
+        &-filter {
+            margin: 18px 0;
             ul {
-                display: flex;
-                justify-content: center;
-                gap: 10px;
+                gap: 2px;
             }
             li {
-                background-color: #c9c9c9;
-                color: black;
-                border-radius: 20px;
-                padding: 8px 16px;
                 cursor: pointer;
-                &.active {
-                    background-color: $rikki-color-1;
-                    color: white;
-                }
                 &:hover {
                     background-color: $rikki-color-1;
                     color: white;
@@ -39,31 +25,23 @@
             }
         }
         .cards {
-            margin: 3em 0px;
-            max-width: 1200px;
-            .cards-list {
-            flex-flow: wrap;
-            justify-content: center;
-            gap: 20px;
-            }
-            .card-list-item {
-                flex-basis: 30%;
-                max-width: 30%;
+            &-list {
+                flex-direction: column;
             }
         }
     }
-}
 
-@media (max-width: 414px){
-    .works {
-        .container{
-            .cards {
-                padding: 0 15px;
-                .card-list-item{
-                    flex-basis: 100%;
-                    max-width: 100%;
-                }
-            }
-        }
-    }
-}
+
+// @media (max-width: 414px){
+//     .works {
+//         .container{
+//             .cards {
+//                 padding: 0 15px;
+//                 .card-list-item{
+//                     flex-basis: 100%;
+//                     max-width: 100%;
+//                 }
+//             }
+//         }
+//     }
+// }

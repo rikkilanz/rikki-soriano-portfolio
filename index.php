@@ -39,7 +39,7 @@
         </section>
         <section class="featured">
             <h2 class="featured__title">Featured Work</h2>
-                <div class="cards flex">
+                <ul class="cards flex">
                     <?php 
                         for($i=0; $i<3; $i++){
                             echo '<li class="card-list-item">';
@@ -47,9 +47,11 @@
                             echo '</li>';
                         }
                     ?>
-                </div>
-                <a class="btn btn--s" href="work.php">Check out all my projects here!</a>
+                </ul>
         </section>
+        <div class="cta">
+            <a class="btn btn--s" href="work.php">Check out all my projects here!</a>
+        </div>
     </main>
     <?php include('partials/footer.php') ?>
 </body>

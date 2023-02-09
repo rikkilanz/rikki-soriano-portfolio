@@ -18,7 +18,7 @@ var filterBtn = $('.filter-btn')
 
 // add active class on selected tab
 filterBtn.click(function(){
-  $(this).addClass('active').siblings().removeClass('active');
+  $(this).addClass('filter-btn--active').siblings().removeClass('filter-btn--active');
 })
 
 })
