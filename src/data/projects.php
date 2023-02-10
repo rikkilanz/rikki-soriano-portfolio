@@ -1,6 +1,7 @@
 <?php
     // We call the init.php file to import other php documents like the functions and the Class blueprint for the prject object
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/init.php');
+    require_once(get_path('src/init.php'));
+
 
     // We create a new object from the class Project we imported with require()
     $terra_fortuna = new Project([

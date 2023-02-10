@@ -1,3 +1,7 @@
+<?php
+    require_once('../src/init.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
@@ -21,8 +25,8 @@
                     <li data-project="development" class="filter-btn">DEVELOPMENT</li>
                 </ul>
             </div>
-            <div class="project-collection">
-                    <ul class="cards cards-list flex">
+            <div class="projects-collection">
+                    <ul class="cards flex">
                         <?php 
                         // Clean up code
                             for($i=0;$i<count($projects);$i++){

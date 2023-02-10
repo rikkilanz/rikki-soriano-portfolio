@@ -106,6 +106,7 @@ b {
 
 p {
   font-size: 16px;
+  line-height: 1.5;
 }
 
 a {
@@ -119,95 +120,6 @@ img {
 
 li {
   list-style-type: none;
-}
-
-.caption {
-  font-style: italic;
-  color: #aaaaaa;
-  text-align: center;
-  font-size: 14px;
-  margin-top: 5px;
-}
-.caption a {
-  color: #FFEBC6;
-}
-.caption::before {
-  content: "(";
-}
-.caption::after {
-  content: ")";
-}
-
-.project {
-  background-color: white;
-  color: black;
-}
-.project a {
-  text-decoration: underline;
-  color: #FE950B;
-  font-weight: 800;
-}
-.project img {
-  border-radius: 8px;
-}
-.project li {
-  line-height: 1.5;
-}
-.project .grid {
-  grid-template-columns: repeat(12, 1fr);
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.project__image {
-  grid-column: 3/11;
-  margin: 20px 0;
-}
-.project__type {
-  display: flex;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
-}
-.project__intro {
-  grid-column: 3/11;
-  margin: 20px 0;
-}
-.project__intro h1, .project__intro p {
-  margin: 20px 0;
-}
-.project__info {
-  display: flex;
-  -moz-column-gap: 2em;
-       column-gap: 2em;
-  grid-column: 3/11;
-}
-.project__tools ul, .project__languages ul, .project__process ul {
-  list-style: circle;
-  margin-left: 24px;
-}
-.project__tools li, .project__languages li, .project__process li {
-  font-family: "Chivo", sans-serif;
-}
-.project__process {
-  grid-column: 3/11;
-  margin: 20px 0;
-}
-.project__process .box {
-  margin: 20px 0;
-}
-.project__process .box p {
-  margin-bottom: 20px;
-}
-.project__process .box h4 {
-  margin-bottom: 16px;
-}
-.project__process .box h3 {
-  margin: 32px 0 16px;
-}
-.project__process .box video {
-  border-radius: 8px;
-}
-.project__process .cta {
-  justify-content: center;
 }
 
 .intro {
@@ -263,7 +175,7 @@ li {
   color: #FE950B;
   flex-direction: column;
   align-items: center;
-  padding: 0 30px;
+  padding: 30px 30px;
 }
 .projects-intro-heading {
   font-size: 18px;
@@ -284,7 +196,7 @@ li {
   transition: 0.2s ease;
   transform: scale(103%);
 }
-.projects .cards-list {
+.projects .cards {
   flex-direction: column;
 }
 
@@ -724,4 +636,130 @@ li {
   background-color: #FE950B;
   font-weight: 700;
   color: #FFFDFA;
+}
+
+.project .description {
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.project-intro {
+  background-color: #FFFDFA;
+  color: #010B13;
+  padding: 20px 30px;
+}
+.project-thumbnail {
+  width: 100%;
+  border-radius: 0;
+}
+.project-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.project-type {
+  margin-top: 8px;
+  gap: 8px;
+}
+.project-description {
+  margin: 20px 0;
+}
+.project-info .heading-info {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.project-info li {
+  margin-bottom: 8px;
+}
+.project-links {
+  gap: 12px;
+}
+.project-links img {
+  width: 40px;
+  height: 40px;
+}
+.project-purpose {
+  padding: 30px;
+}
+.project-purpose a {
+  text-decoration: underline;
+  color: #FFFDFA;
+}
+.project-purpose p {
+  margin: 8px 0;
+}
+.project-process {
+  background-color: #FFFDFA;
+  color: #010B13;
+}
+
+.article-section {
+  padding: 16px 30px;
+}
+.article-section-header {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  border-bottom: 1px #010B13 solid;
+  border-top: 1px #010B13 solid;
+}
+.article-section-header button {
+  width: 20px;
+  height: 20px;
+}
+.article-section-heading {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+.article-section-content {
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.article-section-content a {
+  text-decoration: underline;
+  color: #FE950B;
+}
+.article-section-content ul {
+  padding-left: 12px;
+}
+.article-section-content li {
+  list-style-type: disc;
+}
+.article-section-content li p {
+  margin: 0;
+}
+.article-section-content p {
+  margin: 12px 0;
+}
+.article-section-content .caption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  font-style: italic;
+  color: #C9C9C9;
+  text-align: center;
+  margin-top: 5px;
+}
+.article-section-content .caption a {
+  color: #FFEBC6;
+}
+.article-section-content .caption::before {
+  content: "(";
+}
+.article-section-content .caption::after {
+  content: ")";
+}
+.article-section-subheading {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.projects-slider {
+  background-color: #FFFDFA;
 }/*# sourceMappingURL=main.css.map */

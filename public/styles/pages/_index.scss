@@ -13,6 +13,7 @@ b {
 
 p {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 a {
@@ -28,95 +29,6 @@ li {
     list-style-type: none;
 }
 
-// Components
-.caption {
-    font-style: italic;
-    color: #aaaaaa;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 5px;
-    a{
-        color: $rikki-color-2;
-    }
-    &::before{
-        content: "(";
-    }
-    &::after{
-        content: ")";
-    }
-}
-
-.project {
-    background-color: white;
-    color: black;
-    a {
-        text-decoration: underline;
-        color: $rikki-color-1;
-        font-weight: 800;
-    }
-    img {
-        border-radius: 8px;
-    }
-    li {
-        line-height: 1.5;
-    }
-    .grid {
-        grid-template-columns: repeat(12, 1fr);
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    &__image {
-        grid-column: 3 / 11;
-        margin: 20px 0;
-    }
-    &__type{
-        display: flex;
-        column-gap: 5px;
-    }
-    &__intro{
-        grid-column: 3 / 11;
-        margin: 20px 0;
-        h1, p {
-            margin: 20px 0;
-        }
-    }
-    &__info{
-        display: flex;
-        column-gap: 2em;
-        grid-column: 3 / 11;
-    }
-    &__tools, &__languages, &__process{
-        ul {
-            list-style: circle;
-            margin-left: 24px;
-        }
-        li{
-            font-family: $paragraph-type;
-        }
-    }
-    &__process{
-        grid-column: 3 / 11;
-        margin: 20px 0;
-        .box {
-            margin: 20px 0;
-            p{
-                margin-bottom: 20px;
-            }
-            h4 {
-                margin-bottom: 16px;
-            }
-            h3 {
-                margin: 32px 0 16px;
-            }
-            video {
-                border-radius: 8px;
-            }
-            }
-            .cta {
-                justify-content: center;
-            }
-    }
-}
 
 // Intro Section at the index.php
 // this is the intro heading/banner

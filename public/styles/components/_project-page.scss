@@ -1,0 +1,191 @@
+@use "../config/" as *;
+
+
+// for project page template
+.project {
+    .description {
+        @include font-p-16;
+    }
+    &-intro {
+        background-color: $white;
+        color: $black;
+        padding: 20px 30px;
+    }
+    &-thumbnail{
+        width: 100%;
+        border-radius: 0;
+    }
+    &-title{
+        @include heading-b-24;
+    }
+    &-type {
+        margin-top: 8px;
+        gap: 8px;
+    }
+    &-description {
+        margin: 20px 0;
+    }
+    &-info {
+        .heading-info {
+            @include heading-b-18;
+            margin-bottom: 8px;
+        }
+        li {
+            margin-bottom: 8px;
+        }  
+    }
+    &-links {
+        gap: 12px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &-purpose{
+        padding: 30px;
+        a {
+            text-decoration: underline;
+            color: $white;
+        }
+        p {
+            margin: 8px 0;
+        }
+    }
+    &-process{
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.article-section{
+    padding: 16px 30px;
+    &-header {
+        padding: 12px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+        border-bottom: 1px $black solid;
+        border-top: 1px $black solid;
+        button {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &-heading {
+        @include heading-b-18;
+        margin: 16px 0;
+    }
+    &-content{
+        @include font-p-16;
+        a {
+            text-decoration: underline;
+            color: $rikki-color-1
+        }
+        ul {
+            padding-left: 12px;
+        }
+        li{
+            list-style-type: disc;
+            p{
+                margin: 0;
+            }
+        }
+        p {
+            margin: 12px 0;
+        }
+        .caption {
+            @include text-p-12;
+            font-style: italic;
+            color: $gray;
+            text-align: center;
+            margin-top: 5px;
+            a{
+                color: $rikki-color-2;
+            }
+            &::before{
+                content: "(";
+            }
+            &::after{
+                content: ")";
+            }
+        }
+    }
+    &-subheading {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 12px 0;
+    }
+}
+
+// .project {
+//     background-color: white;
+//     color: black;
+//     a {
+//         text-decoration: underline;
+//         color: $rikki-color-1;
+//         font-weight: 800;
+//     }
+//     img {
+//         border-radius: 8px;
+//     }
+//     li {
+//         line-height: 1.5;
+//     }
+//     .grid {
+//         grid-template-columns: repeat(12, 1fr);
+//         max-width: 1200px;
+//         margin: 0 auto;
+//     }
+//     &__image {
+//         grid-column: 3 / 11;
+//         margin: 20px 0;
+//     }
+//     &__type{
+//         display: flex;
+//         column-gap: 5px;
+//     }
+//     &__intro{
+//         grid-column: 3 / 11;
+//         margin: 20px 0;
+//         h1, p {
+//             margin: 20px 0;
+//         }
+//     }
+//     &__info{
+//         display: flex;
+//         column-gap: 2em;
+//         grid-column: 3 / 11;
+//     }
+//     &__tools, &__languages, &__process{
+//         ul {
+//             list-style: circle;
+//             margin-left: 24px;
+//         }
+//         li{
+//             font-family: $paragraph-type;
+//         }
+//     }
+//     &__process{
+//         grid-column: 3 / 11;
+//         margin: 20px 0;
+//         .box {
+//             margin: 20px 0;
+//             p{
+//                 margin-bottom: 20px;
+//             }
+//             h4 {
+//                 margin-bottom: 16px;
+//             }
+//             h3 {
+//                 margin: 32px 0 16px;
+//             }
+//             video {
+//                 border-radius: 8px;
+//             }
+//             }
+//             .cta {
+//                 justify-content: center;
+//             }
+//     }
+// }

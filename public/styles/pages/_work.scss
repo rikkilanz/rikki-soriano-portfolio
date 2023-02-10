@@ -5,7 +5,7 @@
     color: $rikki-color-1;
     flex-direction: column;
     align-items: center;
-    padding: 0 30px;
+    padding: 30px 30px;
     &-intro-heading{
         @include heading-b-18;
     }     
@@ -24,12 +24,10 @@
                 }
             }
         }
-        .cards {
-            &-list {
-                flex-direction: column;
-            }
-        }
+    .cards {
+        flex-direction: column;
     }
+}
 
 
 // @media (max-width: 414px){
