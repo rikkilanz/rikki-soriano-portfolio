@@ -1,141 +1,149 @@
 @use "../config" as *;
 
 .about {
-    h3 {
-        font-size: 3em;
-    }
+    align-items: center;
     background-color: white;
-    color: black;
-    p {
-        font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    .page-intro-heading {
+        padding: 24px 0;
     }
-    .container {
+    &-intro{
+        background-color: $rikki-color-1;
         flex-direction: column;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 992px;
-        padding: 30px;
     }
-    &__header{
-        background-color: $rikki-color-1;
-        text-align: center;
-        color: white;
-        background-color: $rikki-color-1;
-        padding: 3em 0;
-        width: 100%;
+    &-profile-image {
+        img {
+            margin: 0 auto;
+            border-radius: 50%;
+            padding: 24px;
+        }
+        // img:before {
+        //     content: "";
+        //     background-color: $rikki-color-2;
+        //     height: 1500px;
+        //     width: 1500px;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        // }
+    &-pills {
+        flex-wrap: wrap;
     }
-    &__section{
-        grid-template-columns: repeat(12, 1fr);
-        margin: 3em 0px;
-        h2 {
-            font-size: 70px;
-            font-weight: 700;
-            color: $rikki-color-1;
-            margin-bottom: 20px;
-        }
-        .about__pills {
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .about__intro {
-            grid-column: 7 / 13;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .about__profile-picture {
-            grid-column: 1 / 7;
-            img {
-                margin: 0 auto;
-                border-radius: 50%;
-                padding: 24px;
-            }
-        } 
-    }
-    &__info {
-        gap: 2em;
-        margin-bottom: 20px;
-        p {
-            margin-top: 1.5em;
-        }
-    }
-    &__mission {
-        grid-column: 1 / 13;
-        background-color: $rikki-color-1;
-        text-align: center;
-        padding: 2em 0;
-        color: white;
-        h3 {
-            font-weight: 800;
-        }
-        p{
-            font-size: $h5;
-        }
-    }
-    &__values {
-        grid-column: 1 / 13;
-        background-color: $rikki-color-1;
-        text-align: center;
-        padding: 2em 0;
-        color: white;
-        h3 {
-            font-weight: 800;
-            text-align: center;
-        }
-        p{
-            font-size: $h5;
-        }
-        .authenticity, .learning, .optimism {
-            flex-direction: column;
-            align-items: center;
-            margin: 50px 0;
-        }
-        .value {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            img {
-                height: 150px;
-                margin-bottom: 10px;
-            }
-            &-info{
-                max-width: 800px;
-                margin-top: 1.5em;
-            }
-        }
-    }
-    &__story{
-        grid-column: 1 / 13;
-        h3 {
-            font-weight: 800;
-            color: $rikki-color-1;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        h4 {
-            text-align: center;
-            font-weight: 800;
-            color: $rikki-color-1;
-        }
-        p {
-            margin: 1.5em 0;
-        }
-    }
+//     &__header{
+//         background-color: $rikki-color-1;
+//         text-align: center;
+//         color: white;
+//         background-color: $rikki-color-1;
+//         padding: 3em 0;
+//         width: 100%;
+//     }
+//     &__section{
+//         grid-template-columns: repeat(12, 1fr);
+//         margin: 3em 0px;
+//         h2 {
+//             font-size: 70px;
+//             font-weight: 700;
+//             color: $rikki-color-1;
+//             margin-bottom: 20px;
+//         }
+//         .about__pills {
+//             gap: 10px;
+//             flex-wrap: wrap;
+//         }
+//         .about__intro {
+//             grid-column: 7 / 13;
+//             flex-direction: column;
+//             justify-content: center;
+//         }
+
+//     }
+//     &__info {
+//         gap: 2em;
+//         margin-bottom: 20px;
+//         p {
+//             margin-top: 1.5em;
+//         }
+//     }
+//     &__mission {
+//         grid-column: 1 / 13;
+//         background-color: $rikki-color-1;
+//         text-align: center;
+//         padding: 2em 0;
+//         color: white;
+//         h3 {
+//             font-weight: 800;
+//         }
+//         p{
+//             font-size: $h5;
+//         }
+//     }
+//     &__values {
+//         grid-column: 1 / 13;
+//         background-color: $rikki-color-1;
+//         text-align: center;
+//         padding: 2em 0;
+//         color: white;
+//         h3 {
+//             font-weight: 800;
+//             text-align: center;
+//         }
+//         p{
+//             font-size: $h5;
+//         }
+//         .authenticity, .learning, .optimism {
+//             flex-direction: column;
+//             align-items: center;
+//             margin: 50px 0;
+//         }
+//         .value {
+//             display: flex;
+//             align-items: center;
+//             flex-direction: column;
+//             img {
+//                 height: 150px;
+//                 margin-bottom: 10px;
+//             }
+//             &-info{
+//                 max-width: 800px;
+//                 margin-top: 1.5em;
+//             }
+//         }
+//     }
+//     &__story{
+//         grid-column: 1 / 13;
+//         h3 {
+//             font-weight: 800;
+//             color: $rikki-color-1;
+//             margin-bottom: 30px;
+//             text-align: center;
+//         }
+//         h4 {
+//             text-align: center;
+//             font-weight: 800;
+//             color: $rikki-color-1;
+//         }
+//         p {
+//             margin: 1.5em 0;
+//         }
+//     }
 }
 
-@media (max-width: 414px){
-    .about {
-        &__section {
-            display: flex;
-            flex-direction: column;
-            .about__pills{
-                justify-content: center;
-            }
-        }
-        &__intro {
-            text-align: center;
-            h2 {
-                font-size: 3em;
-            }
-        }
-    }
+// @media (max-width: 414px){
+//     .about {
+//         &__section {
+//             display: flex;
+//             flex-direction: column;
+//             .about__pills{
+//                 justify-content: center;
+//             }
+//         }
+//         &__intro {
+//             text-align: center;
+//             h2 {
+//                 font-size: 3em;
+//             }
+//         }
+//     }
+// }
 }

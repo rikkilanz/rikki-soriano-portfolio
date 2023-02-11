@@ -59,7 +59,7 @@
                 <section class="article-section">
                     <div class="article-section-header">
                         <h3 class="article-section-heading">Planning</h3>
-                        <button>+</button>
+                        <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
                         <p>Before coding, there were a few requirements for this project:</p>
@@ -74,7 +74,7 @@
                 <section class="article-section">
                     <div class="article-section-header">
                         <h3 class="article-section-heading">Layout</h3>
-                        <button>+</button>
+                        <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
                         <p>The content of the website is layed out to be easily responsive. All of the content is centre aligned because the purpose of the landing webpage is to show content quickly and in divided sections.</p>
@@ -91,7 +91,7 @@
                 <section class="article-section">
                     <div class="article-section-header">
                         <h3 class="article-section-heading">Coding Process</h3>
-                        <button>+</button>
+                        <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
                         <h4 class="article-section-subheading">Gallery Section</h4>
@@ -126,11 +126,14 @@
                         <p>This way, we can display what the commonly asked question is while hiding any information that may distractingly populate the screen.
                         </p>
                     </div>
+                    <div class="cta">
+                        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                    </div>
                 </section>
                 <section class="article-section">
                     <div class="article-section-header">
                         <h3 class="article-section-heading">Project Reflection</h3>
-                        <button>+</button>
+                        <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
                     <p>This is a project that I worked on with a time constraint of 3 weeks. I would further improve this project by taking advantage of tools like <a href="https://sass-lang.com/" titlle="Go to Sass' page" target="_blank">Sass</a> to organise my styles, creating more reusable components like sections, grid systems, and cards.</p>

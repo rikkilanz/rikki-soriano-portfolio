@@ -1,5 +1,7 @@
 <section class="projects-slider">
-    <button>Check out my other projects! 🚀</button>
+    <div class="cta">
+        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">Check out my other projects! 🚀</a>
+    </div>
     <!-- <div class="flex">
         <a class="title" href="work.php">Check out my other projects! 🚀</a>
         <div class="cards flex">

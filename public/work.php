@@ -14,8 +14,8 @@
         include('partials/header.php');
     ?>
     <main>
-        <section class="projects flex">
-            <div class="projects-intro-heading">
+        <section class="page-style projects flex">
+            <div class="page-intro-heading">
                 <h1>Projects</h1>
             </div>
             <div class="projects-filter">

@@ -122,6 +122,23 @@ li {
   list-style-type: none;
 }
 
+main {
+  margin-top: 80px;
+}
+
+.page-style {
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.page-intro-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FE950B;
+}
+
 .intro {
   flex-direction: column;
   padding: 0 30px;
@@ -155,31 +172,8 @@ li {
   padding: 30px 0;
 }
 
-.cta {
-  text-align: center;
-  padding: 30px 25px;
-  background-color: white;
-}
-.cta .btn--s {
-  background-color: #FE950B;
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  font-weight: 700;
-  text-decoration: underline;
-  padding: 15px 25px;
-}
-
 .projects {
-  background-color: white;
   color: #FE950B;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px 30px;
-}
-.projects-intro-heading {
-  font-size: 18px;
-  font-weight: 700;
 }
 .projects-filter {
   margin: 18px 0;
@@ -201,148 +195,36 @@ li {
 }
 
 .about {
+  align-items: center;
   background-color: white;
-  color: black;
-}
-.about h3 {
-  font-size: 3em;
-}
-.about p {
-  font-size: 16px;
-}
-.about .container {
   flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 992px;
-  padding: 30px;
+  align-items: center;
 }
-.about__header {
+.about .page-intro-heading {
+  padding: 24px 0;
+}
+.about-intro {
   background-color: #FE950B;
-  text-align: center;
-  color: white;
-  background-color: #FE950B;
-  padding: 3em 0;
-  width: 100%;
-}
-.about__section {
-  grid-template-columns: repeat(12, 1fr);
-  margin: 3em 0px;
-}
-.about__section h2 {
-  font-size: 70px;
-  font-weight: 700;
-  color: #FE950B;
-  margin-bottom: 20px;
-}
-.about__section .about__pills {
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.about__section .about__intro {
-  grid-column: 7/13;
   flex-direction: column;
-  justify-content: center;
 }
-.about__section .about__profile-picture {
-  grid-column: 1/7;
-}
-.about__section .about__profile-picture img {
+.about-profile-image img {
   margin: 0 auto;
   border-radius: 50%;
   padding: 24px;
 }
-.about__info {
-  gap: 2em;
-  margin-bottom: 20px;
-}
-.about__info p {
-  margin-top: 1.5em;
-}
-.about__mission {
-  grid-column: 1/13;
-  background-color: #FE950B;
-  text-align: center;
-  padding: 2em 0;
-  color: white;
-}
-.about__mission h3 {
-  font-weight: 800;
-}
-.about__mission p {
-  font-size: 24px;
-}
-.about__values {
-  grid-column: 1/13;
-  background-color: #FE950B;
-  text-align: center;
-  padding: 2em 0;
-  color: white;
-}
-.about__values h3 {
-  font-weight: 800;
-  text-align: center;
-}
-.about__values p {
-  font-size: 24px;
-}
-.about__values .authenticity, .about__values .learning, .about__values .optimism {
-  flex-direction: column;
-  align-items: center;
-  margin: 50px 0;
-}
-.about__values .value {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.about__values .value img {
-  height: 150px;
-  margin-bottom: 10px;
-}
-.about__values .value-info {
-  max-width: 800px;
-  margin-top: 1.5em;
-}
-.about__story {
-  grid-column: 1/13;
-}
-.about__story h3 {
-  font-weight: 800;
-  color: #FE950B;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.about__story h4 {
-  text-align: center;
-  font-weight: 800;
-  color: #FE950B;
-}
-.about__story p {
-  margin: 1.5em 0;
+.about-profile-image-pills {
+  flex-wrap: wrap;
 }
 
-@media (max-width: 414px) {
-  .about__section {
-    display: flex;
-    flex-direction: column;
-  }
-  .about__section .about__pills {
-    justify-content: center;
-  }
-  .about__intro {
-    text-align: center;
-  }
-  .about__intro h2 {
-    font-size: 3em;
-  }
-}
 .hdr {
+  top: 0;
   height: 80px;
   background-color: #FE950B;
   align-items: center;
   justify-content: space-between;
   padding: 0 18px;
+  position: fixed;
+  z-index: 999;
 }
 .hdr .logo {
   width: auto;
@@ -440,6 +322,7 @@ li {
   border: solid #FFFDFA 1px;
 }
 .hdr--white {
+  width: 100%;
   background-color: #FFFDFA;
 }
 .hdr--white a {
@@ -551,7 +434,7 @@ li {
 }
 .card__info__header {
   font-size: 16px;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 400;
 }
 .card__info__type {
@@ -579,20 +462,10 @@ li {
   background-color: #FFFDFA;
   cursor: pointer;
   align-items: center;
+  text-decoration: none;
   font-size: 12px;
   font-weight: 700;
   text-decoration: underline;
-}
-.btn--cta::after {
-  content: "";
-  display: inline-block;
-  width: 0.7em;
-  height: 0.7em;
-  border-top: 0.3em solid #FE950B;
-  border-right: 0.3em solid #FE950B;
-  border-radius: 3px;
-  margin-left: 5px;
-  transform: rotate(45deg);
 }
 .btn--orange {
   background-color: #FE950B;
@@ -602,11 +475,11 @@ li {
   background-color: #FFEBC6;
   color: #010B13;
   cursor: auto;
-  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 1;
   font-weight: 400;
+  text-decoration: none;
 }
 .btn--gray {
   background-color: #C9C9C9;
@@ -615,12 +488,30 @@ li {
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
+  text-decoration: none;
 }
 .btn--m {
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
+  text-decoration: none;
   padding: 6px 11px;
+}
+
+.cta {
+  text-align: center;
+  padding: 30px 25px;
+  background-color: white;
+}
+.cta .btn--s {
+  background-color: #FE950B;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration: none;
+  padding: 15px 25px;
 }
 
 .filter-btn {
@@ -636,6 +527,32 @@ li {
   background-color: #FE950B;
   font-weight: 700;
   color: #FFFDFA;
+}
+
+.more-btn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: none;
+}
+.more-btn:before, .more-btn:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  border-radius: 2px;
+  background: #FE950B;
+}
+.more-btn:before {
+  left: 52.4%;
+  width: 25%;
+  margin-left: -15%;
+  height: 100%;
+}
+.more-btn:after {
+  top: 50%;
+  height: 25%;
+  margin-top: -15%;
+  width: 100%;
 }
 
 .project .description {
@@ -657,8 +574,9 @@ li {
   font-weight: 700;
 }
 .project-type {
-  margin-top: 8px;
+  margin: 20px 0;
   gap: 8px;
+  flex-wrap: wrap;
 }
 .project-description {
   margin: 20px 0;
@@ -704,10 +622,6 @@ li {
   flex-grow: 1;
   border-bottom: 1px #010B13 solid;
   border-top: 1px #010B13 solid;
-}
-.article-section-header button {
-  width: 20px;
-  height: 20px;
 }
 .article-section-heading {
   font-size: 18px;
@@ -758,6 +672,16 @@ li {
   font-weight: 700;
   font-size: 16px;
   margin: 12px 0;
+}
+.article-section .cta {
+  padding: 0px;
+  margin: 24px 0 0 0;
+}
+.article-section .cta img {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
 }
 
 .projects-slider {

@@ -19,8 +19,9 @@
         @include heading-b-24;
     }
     &-type {
-        margin-top: 8px;
+        margin: 20px 0;
         gap: 8px;
+        flex-wrap: wrap;
     }
     &-description {
         margin: 20px 0;
@@ -67,10 +68,10 @@
         flex-grow: 1;
         border-bottom: 1px $black solid;
         border-top: 1px $black solid;
-        button {
-            width: 20px;
-            height: 20px;
-        }
+        // button {
+        //     width: 20px;
+        //     height: 20px;
+        // }
     }
     &-heading {
         @include heading-b-18;
@@ -115,6 +116,16 @@
         font-weight: 700;
         font-size: 16px;
         margin: 12px 0;
+    }
+    .cta {
+        padding: 0px;
+        margin: 24px 0 0 0;
+        img {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-left: 2px;
+        }
     }
 }
 

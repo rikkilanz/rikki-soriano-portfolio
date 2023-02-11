@@ -1,43 +1,43 @@
+<?php
+    require_once('../src/init.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
-    $page_title = 'About | Rikki Soriano, Front-End Developer & UIUX Designer';
+    $page_title = 'Projects | Rikki Soriano, Front-End Developer & UIUX Designer';
     include('partials/head.php');
 ?>
 <body>
     <?php 
-        $header_class = 'hdr-main';
-        include('partials/header.php') 
+        $header_class = 'hdr--white';
+        include('partials/header.php');
     ?>
     <main>
-        <section class="about">
-            <div class="about__header">
+        <section class="about flex">
+            <div class="page-intro-heading">
                 <h1>About</h1>
             </div>
-            <div class="container flex">
-                <div class="about__section grid">
-                    <div class="about__profile-picture">
-                        <img src="images/rikki-soriano-profile-picture.jpg" alt="">
-                    </div>
-                    <div class="about__intro flex">
-                        <h2>Hi, I'm Rikki!</h2>
-                        <ul class="about__pills flex">
-                            <li class="pill pill--orange">Designer</li>
-                            <li class="pill pill--orange">Developer</li>
-                            <li class="pill pill--almond">Music Nerd</li>
-                            <li class="pill pill--almond">Gamer</li>
-                            <li class="pill pill--almond">Hates the color orange</li>
-                        </ul>
-                        <div class="about__info">
-                            <p>I'm an upcoming UIUX Designer/Web Developer! I have a fiery passion for design and creative media 🧡</p>   
-                            <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
-                            <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
-                        </div>
-                    </div>
+            <div class="about-intro flex">
+                <div class="about-profile-image">
+                    <img src="images/rikki-soriano-profile-picture.jpg" alt="">
+                </div>
+                <h2>Hi, I'm Rikki!</h2>
+                <ul class="about-pills flex">
+                    <li class="btn btn--orange">Designer</li>
+                    <li class="btn btn--orange">Developer</li>
+                    <li class="btn btn--almond">Music Nerd</li>
+                    <li class="btn btn--almond">Gamer</li>
+                    <li class="btn btn--almond">Hates the color orange</li>
+                </ul>
+                <div class="about-info">
+                    <p>I'm an upcoming UIUX Designer/Web Developer! I have a fiery passion for design and creative media 🧡</p>   
+                    <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
+                    <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
                 </div>
             </div>
         </section>
-        <section class="about__mission">
+        <!-- <section class="about__mission">
             <h3>Mission</h3>
             <p>“Delivering works of quality and creativity for people to use for purpose and inspiration.”</p>
         </section>
@@ -93,7 +93,7 @@
                     <p>As an avid competitive gamer, at times when team is crunched and is mentally down, having a small optimism to win makes such a big difference.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
     <?php include('partials/project-slider.php') ?>
     </main>
     <?php include('partials/footer.php') ?>
