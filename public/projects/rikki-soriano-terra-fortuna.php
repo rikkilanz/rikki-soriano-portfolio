@@ -13,7 +13,7 @@
     ?>
     <main>
         <section class="project">
-            <div id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
+            <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
             <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-terra-fortuna-thumb.jpg" alt="A desktop and mobile mockup of Terra Fortuna's website">
             <section class="project-intro">
                 <h1 class="project-title">Terra Fortuna | Mobile Responsive Landing Page</h1>
@@ -27,22 +27,22 @@
                         <h3 class="heading-info">Timeline</h3>
                         <p class="description">2 Weeks</p>
                     </li>
-                    <li class="project-info-tools">
-                        <h3 class="heading-info">Tools</h3>
-                        <p class="description">Adobe Illustrator</p>
-                        <p class="description">Visual Studio Code</p>
-                    </li>
                     <li class="project-info-languages">
                         <h3 class="heading-info">Languages</h3>
                         <p class="description">HTML</p>
                         <p class="description">CSS</p>
                         <p class="description">JS</p>
                     </li>
+                    <li class="project-info-tools">
+                        <h3 class="heading-info">Tools</h3>
+                        <p class="description">Adobe Illustrator</p>
+                        <p class="description">Visual Studio Code</p>
+                    </li>
                     <li class="project-info-links">
                         <h3 class="heading-info">Project Links</h3>
                         <ul class="project-links flex">
                             <li class="link-item">
-                                <a href=""><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="https://github.com/rikkilanz/terra-fortuna"></a>
+                                <a href="https://github.com/rikkilanz/terra-fortuna"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt=""></a>
                             </li>
                             <li class="link-item">
                                 <a href=""><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt=""></a>

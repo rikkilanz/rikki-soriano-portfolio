@@ -1,6 +1,6 @@
 <div class="card">
     <a class="card__link" href="<?php echo get_public_url('projects/rikki-soriano-') . set_name($projects[$i]->name) ?>.php">
-    <div class="card__image"><img src="images/rikki-soriano-<?php echo h($projects[$i]->image_url); ?>" alt=""></div>
+    <div class="card__image"><img src="<?php echo get_public_url('')?>images/rikki-soriano-<?php echo h($projects[$i]->image_url); ?>" alt=""></div>
     <div class="card__info">
         <ul class="card__info__type">
             <?php 
@@ -14,3 +14,4 @@
     </div>
     </a>
 </div>
+

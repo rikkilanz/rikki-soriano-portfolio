@@ -51,6 +51,10 @@ main {
 .intro {
     flex-direction: column;
     padding: 0 30px;
+    &-icon-title {
+        display: flex;
+        flex-direction: column;
+    }
     &__logo {
         width: 45px;
         align-self: center;
@@ -133,7 +137,6 @@ main {
         text-align: center;
         padding: 30px 0;
     }
-
 //     max-width: 1440px;
 //     margin: 0 auto;
 //     .container {
@@ -294,8 +297,121 @@ main {
 //     }
 //   }
 
-// @media (max-width: 768px){
-//     h1 {
-//       font-size: 3.75rem;
-//     }
-//   }
+@media only screen and (max-width: 374px) {
+    .shapes {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-cta {
+        display: none;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: $mobile-regular) {
+    main {
+        margin-top: 100px;
+    }
+    .intro {
+        &-icon-title{
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 16px;
+        }
+        &__logo {
+            width: 71px;
+            height: 69px;
+            margin-bottom: 0px;
+        }
+        &__title{
+            margin-top: 16px;
+        }
+    }
+    .shapes{
+        position: absolute;
+        z-index: -1;
+        :nth-child(1){
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            // transform: translate(0px, 200px);
+        }
+        :nth-child(2){
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            transform: translate(-30px, 190px);
+        }
+        :nth-child(3){
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            transform: translate(250px, 80px);
+        }
+        :nth-child(4){
+            width: 84px;
+            height: 84px;
+            position: absolute;
+            transform: translate(-70px, 0px);
+        }
+        :nth-child(5){
+            width: 0px;
+            height: 0px;
+            position: absolute;
+        }
+    }
+    .featured {
+        &__title{
+            padding: 45px;
+        }
+        .cards {
+            gap: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: $tablet-regular) {
+    main {
+        margin-top: 150px;
+    }
+    .intro{
+        &__title{
+            font-size: 48px;
+        }
+        &__description{
+            width: 460px;
+            margin: 0 auto;
+        }
+        .cta {
+            background-color: transparent;
+            margin-bottom: 42px;
+            .btn {
+                background-color: white;
+                color: $rikki-color-1;
+                img {
+                    filter: invert(68%) sepia(26%) saturate(4461%) hue-rotate(352deg) brightness(99%) contrast(102%);
+                }
+            }
+        }
+    }
+    .featured{
+        padding: 54px 30px;
+        &__title {
+            @include heading-b-32;
+            padding-top: 0px;
+        }
+        .cards {
+            flex-direction: row;
+            gap: 20px;
+            .card-list-item {
+                flex-basis: 32%;
+            }
+        }
+    }
+    .mobile-cta {
+        display: none;
+    }
+}

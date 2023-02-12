@@ -3,3 +3,41 @@
 .projects-slider {
     background-color: $white;
 }
+
+
+@media only screen and (max-width: 766px) {
+    .projects-slider {
+        .slider {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: $tablet-regular) {
+    .projects-slider{
+        .mobile-view {
+            display: none;
+        }
+        .slider {
+            display: flex;
+            flex-direction: column;
+            padding: 60px 32px;
+            .page-intro-heading{
+                @include heading-b-32;
+                text-align: center;
+                margin-bottom: 60px;
+            }
+            .cards {
+                flex-direction: row;
+                gap: 10px;
+                .card-list-item{
+                    margin: 0 16px;
+                    height: 100%;
+                    .card {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

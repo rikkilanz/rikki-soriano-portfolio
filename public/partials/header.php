@@ -33,7 +33,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <ul class="nav-items">
                 <li><a href="<?php echo get_public_url('work.php');?>" title="Go to Rikki Soriano projects page">Work</a></li>
                 <li><a href="<?php echo get_public_url('about.php');?>" title="Learn more about Rikki Soriano">About</a></li>
-                <li><a href="https://www.linkedin.com/in/rikkisoriano/" title="Visit Rikki Soriano LinkedIn page" target="_blank"><img class="icon" src="images/linkedin-icon.svg" alt="linkedin logo"></a></li>
+                <li><a href="https://www.linkedin.com/in/rikkisoriano/" title="Visit Rikki Soriano LinkedIn page" target="_blank"><img class="icon" src="<?php echo get_public_url('images/');?>linkedin-icon.svg" alt="linkedin logo"></a></li>
             </ul>
         </nav>
     </div>

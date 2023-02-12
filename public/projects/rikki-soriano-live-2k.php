@@ -13,7 +13,7 @@
     ?>
     <main>
         <section class="project">
-            <div id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
+            <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
             <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-live-2k-thumb.jpg" alt="Live 2k landing page with folder icons as navigation">
             <section class="project-intro">
                 <h1 class="project-title">Live 2K | Coded Website Prototype</h1>

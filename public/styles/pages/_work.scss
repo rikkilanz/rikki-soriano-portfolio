@@ -22,17 +22,35 @@
     }
 }
 
+@media only screen and (min-width: $mobile-regular) { 
+    .projects{
+        &-filter {
+            ul{
+                gap: 8px;
+            }
+            .filter-btn {
+                font-size: 16px;
+            }
+        }
+        .cards {
+            gap: 30px;
+        }
+    }
+}
 
-// @media (max-width: 414px){
-//     .works {
-//         .container{
-//             .cards {
-//                 padding: 0 15px;
-//                 .card-list-item{
-//                     flex-basis: 100%;
-//                     max-width: 100%;
-//                 }
-//             }
-//         }
-//     }
-// }
+//teblet breakpoint
+@media only screen and (min-width: $tablet-regular) { 
+    .projects{
+        &-collection{
+            .cards {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+                .card-list-item{
+                    flex-basis: 30%;
+                }
+            }
+        }
+    }
+}

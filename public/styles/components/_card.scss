@@ -54,6 +54,14 @@
     gap: 20px;
     .card {
         &__info__description{
+            @include font-p-16;
+        }
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .card {
+        &__info__description{
             display: none;
         }
     }

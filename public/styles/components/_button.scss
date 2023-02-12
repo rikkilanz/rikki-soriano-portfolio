@@ -51,42 +51,33 @@
         text-decoration: none;
         padding: 6px 11px;
     }
+    &__circle {
+        display: inline-block;
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+    }
+    &--top {
+        z-index: 999;
+        position: fixed;
+        bottom: 100px;
+        right: 100px;
+        img {
+            margin-left: 15px;
+            margin-top: 8px;
+        }
+        &:hover{
+            -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75); 
+            box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75);
+            transform: translateY(-2px);
+        }
+    }
     // &:hover{
     //     transform: scale(103%);
     //     box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
     //     -webkit-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
     //     -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
     //     transition: transform ease 0.1s;
-    // }
-    // &__circle {
-    //     display: inline-block;
-    //     width: 6em;
-    //     height: 6em;
-    //     border-radius: 50%;
-    //     &::after{
-    //         content: '';
-    //         display: inline-block;
-    //         margin-top: 2.4em;
-    //         margin-left: 2.1em;
-    //         width: 1.4em;
-    //         height: 1.4em;
-    //         border-top: 0.5em solid $rikki-color-1;
-    //         border-right: 0.5em solid $rikki-color-1;
-    //         border-radius: 5px;
-    //         -moz-transform: rotate(45deg);
-    //         -webkit-transform: rotate(45deg);
-    //         transform: rotate(45deg);
-    //     }
-    // }
-    // &--top {
-    //     position: fixed;
-    //     bottom: 100px;
-    //     right: 100px;
-    //     &::after {
-    //         transform: rotate(-45deg);
-    //         margin-top: 2.5em;
-    //         margin-left: 2.3em;
-    //     }
     // }
     // &--orange{
     //     background-color: $rikki-color-1;
@@ -112,6 +103,7 @@
         // margin: 15px 0;
     }
 }
+
 
 .filter-btn {
     border: solid $gray 1px;
@@ -153,4 +145,27 @@
        margin-top: -15%;
        width: 100%;
      }
+}
+
+@media only screen and (min-width: $mobile-regular){
+    .cta {
+        padding: 34px 25px;
+        .btn--s {
+            font-size: 14px !important;
+        }
+        img {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-left: 2px;
+        }
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .cta {
+        img {
+            display: none;
+        }
+    }
 }

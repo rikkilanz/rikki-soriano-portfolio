@@ -1,6 +1,18 @@
 
 $(document).ready(function(){
 
+//Slick slider
+
+
+$('.card-slider').slick({
+  slidesToShow:3,
+  // autoplay: true,
+  slidesToScroll:1,
+  dots: false,
+  // adaptiveHeight: true
+})
+
+
 //Filter Work
 
 var filterBtn = $('.filter-btn')
@@ -23,7 +35,6 @@ filterBtn.click(function(){
 
 })
 
-
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
 const hdr = document.querySelector('.hdr');
@@ -33,7 +44,6 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('hamburger-active');
   nav.classList.toggle('nav-active');
 })
-
 
 // let topBtn = document.getElementsByClassName("btn--top");
 

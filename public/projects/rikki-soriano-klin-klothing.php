@@ -13,7 +13,7 @@
     ?>
     <main>
         <section class="project">
-            <div id="topBtn" title="Go to top" class="d-none btn btn__circle btn--top btn--orange"></div>
+            <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
             <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-klin-klothing-thumb.jpg" alt="A mobile mock of klin klothing's UI prototype">
             <section class="project-intro">
                 <h1 class="project-title">Klin Klothing | Mobile App Prototype</h1>
