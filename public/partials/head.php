@@ -1,6 +1,6 @@
 <?php
     $page_title = $page_title ?? 'Rikki Soriano, Front-End Developer & UIUX Designer | Portfolio';
-    $page_desc = $page_desc ?? 'Hello! My name is Rikki Soriano, a Designer/Front-End Developer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!'
+    $page_desc = $page_desc ?? 'Hello! My name is Rikki Soriano, a Designer/Front-End Developer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!';
 ?>
 <head>
     <!-- Google Tag Manager -->

@@ -74,12 +74,12 @@
                     <li class="value-list-item flex">
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-learning.svg" alt="">
                         <h4 class="value-title">Learning</h4>
-                        <p>Taking feedback is crucial, and an authentic communication of feedback is very valuable for me when producing creative work.</p>
+                        <p>Being able to adapt new things and changes takes time. Learning for me is a crucial part of being able to grow and evolve.</p>
                     </li>
                     <li class="value-list-item flex">
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-optimism.svg" alt="">
                         <h4 class="value-title">Optimism</h4>
-                        <p>Taking feedback is crucial, and an authentic communication of feedback is very valuable for me when producing creative work.</p>
+                        <p>As an avid competitive gamer, at times when team is crunched and is mentally down, having a small optimism to win makes such a big difference.</p>
                     </li>
                 </ul>
             </section>

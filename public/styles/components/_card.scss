@@ -17,23 +17,20 @@
         .card__info__header, .card__info__description{
             color: $white;
         }
-        .card__info__header {
-            text-decoration: underline;
-        }
     }
     &__link{
         color: $black;
     }
     &__info {
-        padding: 24px 12px;
+        padding: 24px 20px;
         display: flex;
         flex-direction: column;
-        flex-flow: wrap;
+        // flex-flow: wrap;
         @include text-p-12;
         &__header {
             font-size: 16px;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 800;
         }
         &__type {
             display: flex;
@@ -55,14 +52,31 @@
     .card {
         &__info__description{
             @include font-p-16;
+            margin-top: 8px;
+            font-size: 14px;
         }
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
     .card {
         &__info__description{
             display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop-regular) {
+    .card {
+        &__info {
+            padding: 34px 30px;
+        }
+        &__info__header{
+            font-size: 24px;
+            padding: 12px 0;
+        }
+        &__info__description{
+            font-size: 16px !important;
         }
     }
 }

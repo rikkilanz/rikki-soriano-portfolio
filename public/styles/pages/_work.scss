@@ -54,3 +54,19 @@
         }
     }
 }
+
+@media only screen and (min-width: $laptop-regular) { 
+    .projects {
+        &-collection {
+            padding: 0 120px;
+        }
+    }
+}
+
+@media only screen and (min-width: $desktop-regular) { 
+    .projects {
+        &-collection {
+            padding: 0 362px;
+        }
+    }
+}

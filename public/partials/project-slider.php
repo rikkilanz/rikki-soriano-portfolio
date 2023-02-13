@@ -8,7 +8,7 @@
             <?php 
                 for($i=0; $i<count($projects); $i++){
                     echo '<li class="card-list-item">';
-                    include('./global/card.php');
+                    include(get_path('public\global\card.php'));
                     echo '</li>';
                 }
             ?>

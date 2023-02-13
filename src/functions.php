@@ -41,8 +41,8 @@ function redirect($path) {
 
 function get_path($path = "") {
     if ($path != "") {
-        if($path[0] != '/') {
-        $path = '/' . $path;
+        if($path[0] != '\\') {
+        $path = '\\' . $path;
     }
 }
     return PROJECT_ROOT . $path;

@@ -106,7 +106,6 @@
             grid-template-rows: 71px 0.6fr 0.3fr; 
             gap: 0px 0px; 
             .info-text { grid-area: 2 / 1 / 3 / 2; }
-            .logo { grid-area: 1 / 1 / 2 / 2; }
             .ftr-copyright { grid-area: 3 / 1 / 4 / 3; }
             .ftr-socials { grid-area: 2 / 2 / 3 / 3; }
             .ftr-image { grid-area: 1 / 1 / 2 / 2; }
@@ -130,16 +129,77 @@
         &-tablet-description{
             @include font-p-16;
             text-align: left;
-            // .email {
-            //     @include link-b-u-16;
-            //     color: $white;
-            // }
         }
         &-copyright{
             text-align: right;
         }
         &-socials-icons{
             justify-content: flex-end;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 1365px) {
+    .ftr {
+        .display-laptop{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: $laptop-regular) {
+    .ftr {
+        background-color: transparent;
+        padding: 68px 172px;
+        &-info {
+            grid-template-rows: 1.6fr 0.3fr 0.1fr; 
+            grid-template-columns: 0.8fr 0.6fr; 
+        }
+        &-image {
+            display: none;
+        }
+        .info-text{
+            grid-area: 1 / 1 / 2 / 2;
+            .ftr-title {
+                font-size: 64px;
+            }
+            .email {
+                @include link-b-u-16;
+                color: $white;
+            }
+        }
+        .ftr-socials {
+            grid-area: 2 / 1 / 3 / 2;
+            align-self: end;
+            padding: 24px 0;
+            &-icons{
+                justify-content: flex-start;
+                margin: 0;
+            }
+        }
+        &-logo{
+            grid-area: 1 / 2 / 3/ 3;
+            justify-self: end;
+            align-self: center;
+            img {
+                height: 124px;
+                width: auto;
+            }
+        }
+        &-copyright{
+            text-align: left;
+            align-self: end;
+        }
+    }
+}
+
+@media only screen and (min-width: $desktop-regular) {
+    .ftr {
+        padding: 80px 188px;
+        &-copyright{
+            font-size: 10px;
         }
     }
 }

@@ -5,9 +5,8 @@
             </div>
             <div class="info-text">
                 <h2 class="ftr-title">Keep in touch with me!</h2>
-                <p class="ftr-tablet-description">Feel free if you want to chat about my work/website/what kind of music I listen to.</p>
-                <p class="ftr-desktop-description">Feel free to send me an email at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a> if you want to chat about
-                my work/website/what kind of music I listen to or connect with me at:</p>
+                <p class="ftr-tablet-description">Feel free<span class="display-laptop"> to send me an email at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a></span> to chat about my work/website/what kind of music I listen to<span class="display-laptop"> or connect with me at:</span></p>
+                
             </div>
             <div class="ftr-socials">
                 <ul class="ftr-socials-icons flex">
@@ -18,11 +17,11 @@
                     <li><a href="mailto: rikkilanz@gmail.com" title="Email Rikki at rikkilanz@gmail.com" target="_blank"><img src="<?php echo get_public_url('images/')?>email-icon.svg" alt="email logo"></a></li>
                 </ul>
             </div>
+            <div class="ftr-logo display-laptop">
+                <a href="<?php echo get_public_url('index.php');?>"><img src="<?php echo get_public_url('images/')?>rikki-soriano-logo-horizontal-white.svg" alt="rikki soriano logo"></a>
+            </div>
             <p class="ftr-copyright">Hand-coded with 🔥 | &copy; Rikki Soriano <script>document.write(new Date().getFullYear())</script></p>
         </div>
-        <!-- <div class="logo flex">
-            <a class="flex" href="index.php" title="Go to Rikki Soriano homepage"><img src="images/rikki-soriano-logo-horizontal-white.svg" alt="Rikki Soriano Logo" ></a>
-        </div> -->
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
