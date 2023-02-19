@@ -9,22 +9,6 @@
     align-items: center;
     text-decoration: none;
     @include link-b-u-12;
-    // &--cta {
-    //     // Buton arrow design after text
-    //     &::after{
-    //         content: '';
-    //         display: inline-block;
-    //         width: 0.7em;
-    //         height: 0.7em;
-    //         border-top: 0.3em solid $rikki-color-1;
-    //         border-right: 0.3em solid $rikki-color-1;
-    //         border-radius: 3px;
-    //         margin-left: 5px;
-    //         -moz-transform: rotate(45deg);
-    //         -webkit-transform: rotate(45deg);
-    //         transform: rotate(45deg);
-    //     }
-    // }
     // Button colors
     &--orange{
         background-color: $rikki-color-1;
@@ -72,20 +56,6 @@
             transform: translateY(-2px);
         }
     }
-    // &:hover{
-    //     transform: scale(103%);
-    //     box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-    //     -webkit-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-    //     -moz-box-shadow: -1px 5px 3px 0px rgba(0,0,0,0.26);
-    //     transition: transform ease 0.1s;
-    // }
-    // &--orange{
-    //     background-color: $rikki-color-1;
-    //     &::after {
-    //         border-top: 0.5em solid white;
-    //         border-right: 0.5em solid white;
-    //     }
-    // }
 }
 
 // Button CTA section in the index.php

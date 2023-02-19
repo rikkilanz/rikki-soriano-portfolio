@@ -1,32 +1,4 @@
 <?php 
-// Return a path to a asset or url
-// Adds a leading '/' if one has not been provided.
-// function get_url($path = "") {
-//     if($path[0] != '/') {
-//         $path = '/' . $path;
-//     }
-//     return WWW_ROOT . $path;
-// }
-
-// function get_project_path($path = "") {
-//     if($path[0] != '/') {
-//         $path = '/' . $path;
-//     }
-//     return PROJECT_ROOT . $path;
-// }
-
-// function get_path($path = "") {
-//     if ($path != "") {
-//         if($path[0] != '/') {
-//         $path = '/' . $path;
-//     }
-// }
-//     return PROJECT_ROOT . $path;
-// }
-
-// function redirect($path) {
-//     header('Location: ' . get_public_url($path) );
-// }
 
 function get_public_url($path = "") {
     if($path[0] != '/') {
