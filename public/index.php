@@ -15,7 +15,7 @@
                 <div class="intro-icon-title">
                     <img class="intro__logo" src="images/rikki-eye.svg" alt="rikki-eye-icon">
                     <h1 class="intro__title">Hey, I'm Rikki!</h1>
-                    <h2 class="intro__description">I am an aspiring <b>UI/UX Designer/Front-End Developer</b> in pursuit for creative growth by learning and experience!</h2>
+                    <h2 class="intro__description">I am an aspiring <b>Front-End Developer/UX Designer</b> in pursuit for creative growth by learning and experience!</h2>
                 </div>
                 <div class="right-col d-none">
                     <a class="btn btn--cta btn--s" href="work.php">Check out all my projects here!</a>
