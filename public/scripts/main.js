@@ -67,12 +67,12 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('nav-active');
 })
 
-import jump from 'jump.module.js';
-    let topBtn = document.getElementById("topBtn");
-    topBtn.addEventListener('click', () => {
-        jump('html');
-        console.log('hello');
-})
+// import jump from 'jump.module.js';
+//     let topBtn = document.getElementById("topBtn");
+//     topBtn.addEventListener('click', () => {
+//         jump('html');
+//         console.log('hello');
+// })
 
 
 // //Animate shapes
