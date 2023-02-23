@@ -8,7 +8,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass:watch": "node_modules\\.bin\\sass public/styles/main.scss:public/dist/css/main.min.css --style=compressed --watch"
+    "sass:watch": "node_modules\\.bin\\sass public/styles/main.scss:public/dist/css/main.min.css --style=compressed --watch",
+    "sass:build": "node_modules/.bin/sass public/styles/main.scss:public/dist/css/main.min.css --style=compressed"
   },
   "repository": {
     "type": "git",
