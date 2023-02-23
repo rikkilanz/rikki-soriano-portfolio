@@ -67,7 +67,7 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('nav-active');
 })
 
-import jump from 'module.js';
+import jump from 'jump.module.js';
     let topBtn = document.getElementById("topBtn");
     topBtn.addEventListener('click', () => {
         jump('html');
