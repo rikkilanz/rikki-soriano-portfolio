@@ -13,7 +13,7 @@ $('.card-slider').slick({
   prevArrow:'<div class="slick-prev"><img src="/public/images/arrow-up.svg" alt=""></div>'
 })
 
-if(document.body.classList.contains('progress-bar')) {
+if(document.body.className.match('progress-bar')) {
   //progress bar
   let processScroll = () => {
     let docElem = document.documentElement, 
