@@ -1,6 +1,6 @@
 <?php 
 
-function get_public_url($path = "") {
+function get_public_url($path = "/") {
     if($path[0] != '/') {
         $path = '/' . $path;
     }
@@ -11,7 +11,7 @@ function redirect($path) {
     header('Location: ' . get_public_url($path) );
 }
 
-function get_path($path = "") {
+function get_path($path = "/") {
     if ($path != "") {
         if($path[0] != '/') {
         $path = '/' . $path;

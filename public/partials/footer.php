@@ -25,13 +25,13 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="module">
+<!-- <script type="module">
     import jump from '../../node_modules/jump.js/dist/jump.module.js';
     let topBtn = document.getElementById("topBtn");
     topBtn.addEventListener('click', () => {
         jump('html');
         console.log('hello');
     })
-</script>
+</script> -->
 <script src="<?php echo get_public_url('scripts/main.js');?>">
 </script>

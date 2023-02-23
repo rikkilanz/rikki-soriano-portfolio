@@ -52,7 +52,9 @@ filterBtn.click(function(){
 // animateDiv('.rikki-shape-4');
 // animateDiv('.rikki-shape-5');
 
+
 })
+
 
 //Hamburger
 const hamburger = document.querySelector('.hamburger');
@@ -63,6 +65,13 @@ const hdr = document.querySelector('.hdr');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('hamburger-active');
   nav.classList.toggle('nav-active');
+})
+
+import jump from 'module.js';
+    let topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener('click', () => {
+        jump('html');
+        console.log('hello');
 })
 
 
