@@ -13,7 +13,7 @@ $('.card-slider').slick({
   prevArrow:'<div class="slick-prev"><img src="/public/images/arrow-up.svg" alt=""></div>'
 })
 
-if(document.body.idList.contains('progress-bar')) {
+if(document.body.classList.contains('progress-bar')) {
   //progress bar
   let processScroll = () => {
     let docElem = document.documentElement, 
@@ -21,7 +21,7 @@ if(document.body.idList.contains('progress-bar')) {
       scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
         scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight - 700,
       scrollPercent = scrollTop / scrollBottom * 100 + '%';
-      document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);	
+      document.getElementByClass("progress-bar").style.setProperty("--scrollAmount", scrollPercent);	
   }
 
   document.addEventListener('scroll', processScroll);
