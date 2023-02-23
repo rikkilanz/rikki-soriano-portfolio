@@ -13,17 +13,19 @@ $('.card-slider').slick({
   prevArrow:'<div class="slick-prev"><img src="/public/images/arrow-up.svg" alt=""></div>'
 })
 
-//progress bar
-let processScroll = () => {
-	let docElem = document.documentElement, 
-		docBody = document.body,
-		scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
-    	scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight - 700,
-		scrollPercent = scrollTop / scrollBottom * 100 + '%';
-    document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);	
-}
+if(document.body.idList.contains('progress-bar')) {
+  //progress bar
+  let processScroll = () => {
+    let docElem = document.documentElement, 
+      docBody = document.body,
+      scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+        scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight - 700,
+      scrollPercent = scrollTop / scrollBottom * 100 + '%';
+      document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);	
+  }
 
-document.addEventListener('scroll', processScroll);
+  document.addEventListener('scroll', processScroll);
+}
 
 
 //Filtering function for work.php page
@@ -66,14 +68,6 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('hamburger-active');
   nav.classList.toggle('nav-active');
 })
-
-// import jump from 'jump.module.js';
-//     let topBtn = document.getElementById("topBtn");
-//     topBtn.addEventListener('click', () => {
-//         jump('html');
-//         console.log('hello');
-// })
-
 
 // //Animate shapes
 // function makeNewPosition(){
