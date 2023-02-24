@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jump.js": "^1.0.2",
+    "lightbox2": "^2.11.4",
     "sass": "^1.58.3"
   },
   "name": "rikki-soriano-portfolio",

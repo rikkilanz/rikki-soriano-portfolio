@@ -26,5 +26,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo get_public_url('styles/');?>slick.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_public_url('styles/');?>lightbox.css"/>
     <link rel="stylesheet" href="<?php echo get_public_url('dist/css/main.min.css');?>">
 </head>
