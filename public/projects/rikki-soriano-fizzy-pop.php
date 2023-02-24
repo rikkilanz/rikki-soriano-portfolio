@@ -15,7 +15,7 @@
         <div id="progress-bar"></div>
         <section class="project">
             <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
-            <a href="<?php echo get_public_url('images/')?>rikki-soriano-fizzy-pop-thumb.jpg" data-lightbox="rikki-soriano-fizzy-pop-thumb"><img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-fizzy-pop-thumb.jpg" alt="A mobile mock of klin klothing's UI prototype"></a>
+            <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-fizzy-pop-thumb.jpg" alt="A mobile mock of klin klothing's UI prototype">
             <section class="project-intro">
                 <h1 class="project-title">Fizzy POP | Beverage Branding</h1>
                 <ul class="project-type flex">
