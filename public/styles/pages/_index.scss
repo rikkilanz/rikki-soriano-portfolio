@@ -78,34 +78,68 @@ main {
         left: 0;
         z-index: -1;
         opacity: 0.5;
-        display: none;
     }
 }
-
-// @for $i from 1 through 10 {
-//     $x1: 0.7 + random(1000);
-//     $y1: 0.7 + random(1000);
-//     $x2: 0.7 + random(1000);
-//     $y2: 0.7 + random(1000);
-//     $rotation: random(360);
-//     $speed: 10 + random(50);
-//     $shape-size: random(200);
-    
-//     @keyframes animate-shape-#{$i} {
-//         0% {
-//             transform: translate(#{$x1}px,#{$y1}px) rotate(#{$rotation + 0}deg);
+//         .rikki-shape-2{
+//             display: block;
+//             position: absolute;
+//             -webkit-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
+//             -moz-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
+//             -o-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
+//             animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
 //         }
-//         100% {
-//             transform: translate(#{$x2}px,#{$y2}px) rotate(#{$rotation + 360}deg);
-//         }
-//     }
-  
-//     .rikki-shape-#{$i} { 
-//         animation: animate-shape-#{$i} #{$speed}s alternate ease-in-out infinite;
-//         width: $shape-size;
-//         height: $shape-size;
+//         @-webkit-keyframes moveX {
+//             from { left: 0; } to { left: 100vw; }
+//           }
+//           @-moz-keyframes moveX {
+//             from { left: 0; } to { left: 100vw; }
+//           }
+//           @-o-keyframes moveX {
+//             from { left: 0; } to { left: 100vw; }
+//           }
+//           @keyframes moveX {
+//             from { left: 0; } to { left: 100vw; }
+//           }
+          
+//           @-webkit-keyframes moveY {
+//             from { top: 0; } to { top: 100vh; }
+//           }
+//           @-moz-keyframes moveY {
+//             from { top: 0; } to { top: 100vh; }
+//           }
+//           @-o-keyframes moveY {
+//             from { top: 0; } to { top: 100vh; }
+//           }
+//           @keyframes moveY {
+//             from { top: 0; } to { top: 100vh; }
+//           }
 //     }
 // }
+
+@for $i from 1 through 10 {
+    $x1: 0.7 + random(1000);
+    $y1: 0.7 + random(1000);
+    $x2: 0.7 + random(1000);
+    $y2: 0.7 + random(1000);
+    $rotation: random(360);
+    $speed: 10 + random(50);
+    $shape-size: random(200);
+    
+    @keyframes animate-shape-#{$i} {
+        0% {
+            transform: translate(#{$x1}px,#{$y1}px) rotate(#{$rotation + 0}deg);
+        }
+        100% {
+            transform: translate(#{$x2}px,#{$y2}px) rotate(#{$rotation + 360}deg);
+        }
+    }
+  
+    .rikki-shape-#{$i} { 
+        animation: animate-shape-#{$i} #{$speed}s alternate ease-in-out infinite;
+        width: $shape-size;
+        height: $shape-size;
+    }
+}
 
 // Featured Section in the index.php
 // This contains cards of featured projects
