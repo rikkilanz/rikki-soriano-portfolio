@@ -221,6 +221,7 @@
             position: relative;
             display: inline-block;
             top: 0;
+            background-color: transparent;
             .nav-items {
                 display: flex;
                 -webkit-box-shadow: none;
@@ -256,6 +257,9 @@
                     display: block;
                 }
             }
+        }
+        &--orange{
+            background-color: transparent;
         }
         &--white {
             .nav{

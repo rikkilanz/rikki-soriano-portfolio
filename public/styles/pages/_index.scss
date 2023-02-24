@@ -80,57 +80,34 @@ main {
         opacity: 0.5;
     }
 }
-//         .rikki-shape-2{
-//             display: block;
-//             position: absolute;
-//             -webkit-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
-//             -moz-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
-//             -o-animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
-//             animation: moveX 12s linear 0s infinite alternate, moveY 13.4s linear 0s infinite alternate;
-//         }
-//         @-webkit-keyframes moveX {
-//             from { left: 0; } to { left: 100vw; }
-//           }
-//           @-moz-keyframes moveX {
-//             from { left: 0; } to { left: 100vw; }
-//           }
-//           @-o-keyframes moveX {
-//             from { left: 0; } to { left: 100vw; }
-//           }
-//           @keyframes moveX {
-//             from { left: 0; } to { left: 100vw; }
-//           }
-          
-//           @-webkit-keyframes moveY {
-//             from { top: 0; } to { top: 100vh; }
-//           }
-//           @-moz-keyframes moveY {
-//             from { top: 0; } to { top: 100vh; }
-//           }
-//           @-o-keyframes moveY {
-//             from { top: 0; } to { top: 100vh; }
-//           }
-//           @keyframes moveY {
-//             from { top: 0; } to { top: 100vh; }
-//           }
-//     }
-// }
 
 @for $i from 1 through 10 {
     $x1: 0.7 + random(1000);
     $y1: 0.7 + random(1000);
     $x2: 0.7 + random(1000);
     $y2: 0.7 + random(1000);
+    $x3: 0.7 + random(1000);
+    $y3: 0.7 + random(1000);
+    $x4: 0.7 + random(1000);
+    $y4: 0.7 + random(1000);
+    $x5: 0.7 + random(1000);
+    $y5: 0.7 + random(1000);
     $rotation: random(360);
-    $speed: 10 + random(50);
+    $speed: 40 + random(50);
     $shape-size: random(200);
     
     @keyframes animate-shape-#{$i} {
         0% {
             transform: translate(#{$x1}px,#{$y1}px) rotate(#{$rotation + 0}deg);
         }
-        100% {
+        25% {
             transform: translate(#{$x2}px,#{$y2}px) rotate(#{$rotation + 360}deg);
+        }
+        50% {
+            transform: translate(#{$x3}px,#{$y3}px) rotate(#{$rotation + 360}deg);
+        }
+        100% {
+            transform: translate(#{$x4}px,#{$y4}px) rotate(#{$rotation + 360}deg);
         }
     }
   
