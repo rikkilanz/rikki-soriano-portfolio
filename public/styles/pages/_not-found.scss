@@ -1,0 +1,28 @@
+@use "../config" as *;
+
+.page-not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-image{
+        display: flex;
+        align-self: center;
+        width: 500px;
+        height: 500px;
+        // max-width: 300px;
+    }
+    &-info{
+        .intro__title{
+            text-align: left;
+        }
+        .cta {
+            background-color: transparent;
+            padding: 30px 0;
+            .btn--s {
+            background-color: $white;
+            color: $rikki-color-1;
+        }
+        }
+        
+    }
+};
