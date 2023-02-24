@@ -33,6 +33,5 @@
         console.log('hello');
     })
 </script>
-<script src="<?php echo get_public_url('scripts/lightbox.js');?>"></script>
 <script src="<?php echo get_public_url('scripts/main.js');?>">
 </script>
