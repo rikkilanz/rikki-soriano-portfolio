@@ -43,10 +43,10 @@
                         <h3 class="heading-info">Project Links</h3>
                         <ul class="project-links flex">
                             <li class="link-item">
-                                <a href="https://github.com/rikkilanz/terra-fortuna"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt=""></a>
+                                <a href="https://github.com/rikkilanz/terra-fortuna"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="Check out the code files for Terra Fortuna Website"></a>
                             </li>
                             <li class="link-item">
-                                <a href=""><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt=""></a>
+                                <a href="https://rikkilanz.github.io/terra-fortuna/"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Check out the website prototype"></a>
                             </li>
                         </ul>
                     </li>
