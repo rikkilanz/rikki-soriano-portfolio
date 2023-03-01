@@ -45,13 +45,13 @@
                         <h3 class="heading-info">Project Links</h3>
                         <ul class="project-links flex">
                             <li class="link-item">
-                                <a href="https://xd.adobe.com/view/a3f5bfb8-80ba-4fc9-ac54-4a78fdbbe447-f6a6/?fullscreen" target="_blank"><img src="<?php echo get_public_url('images/')?>adobe-xd-icon.svg" alt=""></a>
+                                <a href="https://xd.adobe.com/view/25987f56-7328-4773-81f3-adbd456080fc-70cb/?fullscreen" target="_blank"><img src="<?php echo get_public_url('images/')?>adobe-xd-icon.svg" alt="Check out the Live2K initial prototype at Adobe XD"></a>
                             </li>
                             <li class="link-item">
-                                <a href="https://github.com/rikkilanz/live-2k" target="_blank"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt=""></a>
+                                <a href="https://github.com/rikkilanz/live-2k" target="_blank"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="Check out the code files of Live 2K at Rikki's GitHub"></a>
                             </li>
                             <li class="link-item">
-                                <a href=""><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt=""></a>
+                                <a href="https://live2k.rikkisoriano.com/"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Visit the live website of Live 2K"></a>
                             </li>
                         </ul>
                     </li>
