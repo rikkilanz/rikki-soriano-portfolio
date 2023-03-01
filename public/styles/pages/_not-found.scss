@@ -32,6 +32,15 @@
     }
 }
 
+@media only screen and (min-width: $tablet-regular) {
+    .page-not-found {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
 @media only screen and (min-width: $desktop-regular) { 
     .page-not-found {
         display: flex;
