@@ -1,5 +1,4 @@
 <?php
-
     $page_title = $page_title ?? 'Rikki Soriano, Front-End Developer & UX Designer | Portfolio';
     $page_desc = $page_desc ?? 'Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!';
 ?>
