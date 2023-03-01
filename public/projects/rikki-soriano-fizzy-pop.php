@@ -38,7 +38,7 @@
                 </ul>
             </section>
             <section class="project-purpose">
-                <p class="description"><b>The purpose:</b>The project goal was to come up with a fictional beverage company. The project's final deliverable requirements were a company logo and marketing posters with 3D renders of the product.</p> 
+                <p class="description"><b>The purpose:</b> The project goal was to come up with a fictional beverage company. The project's final deliverable requirements were a company logo and marketing posters with 3D renders of the product.</p> 
             </section>
             <section class="project-process">
                 <section class="article-section">
