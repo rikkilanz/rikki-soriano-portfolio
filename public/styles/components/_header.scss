@@ -51,9 +51,11 @@
     .nav {
         position: fixed;
         display: block;
-        width: 98%;
+        width: 95%;
         top: -300px;
-        left: 10px;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
