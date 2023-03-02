@@ -173,46 +173,46 @@
                 height: 70px;
             }
         }
-        .hamburger {
-            display: block;
-            .line {
-                width: 40px;
-                height: 7px;
-                display: block;
-                margin: 5px auto;
-                border-radius: 5px;
-                // Hamburger transitions
-                -webkit-transition: all 0.3s ease-in-out;
-                -o-transition: all 0.3s ease-in-out;
-                transition: all 0.3s ease-in-out;
-            }
-            &-active {
-                .line:nth-child(1){
-                    -webkit-transform: translateY(12px);
-                    -ms-transform: translateY(12px);
-                    -o-transform: translateY(12px);
-                    transform: translateY(12px);
-                }
-                .line:nth-child(3){
-                    -webkit-transform: translateY(-12px);
-                    -ms-transform: translateY(-12px);
-                    -o-transform: translateY(-12px);
-                    transform: translateY(-12px);
-                }
-            }
-            :hover {
-                cursor: pointer;
-            }
-        }
-        .nav {
-            &-active {
-                top: 150px;
-            }
-        }
+        // .hamburger {
+        //     display: none;
+        //     .line {
+        //         width: 40px;
+        //         height: 7px;
+        //         display: block;
+        //         margin: 5px auto;
+        //         border-radius: 5px;
+        //         // Hamburger transitions
+        //         -webkit-transition: all 0.3s ease-in-out;
+        //         -o-transition: all 0.3s ease-in-out;
+        //         transition: all 0.3s ease-in-out;
+        //     }
+        //     &-active {
+        //         .line:nth-child(1){
+        //             -webkit-transform: translateY(12px);
+        //             -ms-transform: translateY(12px);
+        //             -o-transform: translateY(12px);
+        //             transform: translateY(12px);
+        //         }
+        //         .line:nth-child(3){
+        //             -webkit-transform: translateY(-12px);
+        //             -ms-transform: translateY(-12px);
+        //             -o-transform: translateY(-12px);
+        //             transform: translateY(-12px);
+        //         }
+        //     }
+        //     :hover {
+        //         cursor: pointer;
+        //     }
+        // }
+        // .nav {
+        //     &-active {
+        //         top: 150px;
+        //     }
+        // }
     }
 }
 
-@media only screen and (min-width: $laptop-regular){
+@media only screen and (min-width: $tablet-regular){
     .hdr {
         position: relative;
         justify-content: space-between;
