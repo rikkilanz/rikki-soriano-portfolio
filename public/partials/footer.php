@@ -30,16 +30,16 @@
 
 echo $_SERVER['REQUEST_URI'];
 
-// if(str_contains($_SERVER['REQUEST_URI'], '/projects')){
-//     echo '<script type="module">
-//     import jump from "../scripts/jump.module.js";
-//     let topBtn = document.getElementById("topBtn");
-//     topBtn.addEventListener("click", () => {
-//         jump("html");
-//         console.log("hello");
-//     })
-// </script>';
-// }
+if(str_contains($_SERVER['REQUEST_URI'], '/projects')){
+    echo '<script type="module">
+    import jump from "../scripts/jump.module.js";
+    let topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener("click", () => {
+        jump("html");
+        console.log("hello");
+    })
+</script>';
+}
 
 ?>
 
