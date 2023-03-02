@@ -155,9 +155,9 @@
                                 <p>Coupon button in check out was clicked a lot assuming they thought it was the next button.</p>
                             </li>
                         </ul>
+                        <p>After getting some insights with UseBerry, I added and tweaked the final prototype based on the user testing.</p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-klin-klothing-revision.jpg" alt="an image of klin klothing's protoypes revisions">
                         <p class="caption">Klin Klothing. revisions after test</p>
-                        <p>After getting some insights with UseBerry, I added and tweaked the final prototype based on the user testing.</p>
                     </div>
                 </section>
             </section>
