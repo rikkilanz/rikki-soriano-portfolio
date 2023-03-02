@@ -36,7 +36,6 @@ if(str_contains($_SERVER['REQUEST_URI'], '/projects')){
     let topBtn = document.getElementById("topBtn");
     topBtn.addEventListener("click", () => {
         jump("html");
-        console.log("hello");
     })
 </script>';
 }
