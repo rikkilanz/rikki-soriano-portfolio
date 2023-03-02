@@ -81,6 +81,7 @@
     }
     &-content{
         @include font-p-16;
+        line-height: 1.5;
         a {
             text-decoration: underline;
             color: $rikki-color-1
