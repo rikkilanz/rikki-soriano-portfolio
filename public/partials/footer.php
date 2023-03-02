@@ -28,7 +28,9 @@
 
 <?php
 
-if(str_contains(getcwd(), '\projects')){
+echo get_cwd();
+
+if(str_contains(getcwd(), '/projects')){
     echo '<script type="module">
     import jump from "../scripts/jump.module.js";
     let topBtn = document.getElementById("topBtn");
