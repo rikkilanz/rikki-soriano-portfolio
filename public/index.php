@@ -21,7 +21,7 @@
                     <a class="btn btn--cta btn--s" href="work.php">Check out all my projects here!</a>
                 </div>
                 <div class="cta desktop-cta">
-                    <a class="btn btn--s" href="work.php">Check out all my projects here! <img src="<?php echo get_public_url('images/')?>cta-arrow.svg" alt=""></a>
+                    <a class="btn btn--s" href="work.php">Check out all my projects here! <img src="<?php echo get_public_url('images/')?>cta-arrow.svg" alt="Go to Rikki Soriano's projects page"></a>
                 </div>
                 <div class="shapes">
                     <svg class="rikki-shape rikki-shape-1" width="119" height="111" viewBox="0 0 119 111" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@
                     </ul>
             </section>
             <div class="cta mobile-cta">
-                <a class="btn btn--s" href="work.php">Check out all my projects here! <img src="<?php echo get_public_url('images/')?>cta-arrow.svg" alt=""></a>
+                <a class="btn btn--s" href="work.php">Check out all my projects here! <img src="<?php echo get_public_url('images/')?>cta-arrow.svg" alt="Go to Rikki Soriano's projects page"></a>
             </div>
         </div>
     </main>
