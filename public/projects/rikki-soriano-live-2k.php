@@ -51,7 +51,7 @@
                                 <a href="https://github.com/rikkilanz/live-2k" target="_blank"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="Check out the code files of Live 2K at Rikki's GitHub"></a>
                             </li>
                             <li class="link-item">
-                                <a href="https://live2k.rikkisoriano.com/"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Visit the live website of Live 2K"></a>
+                                <a href="https://live2k.rikkisoriano.com/" target="_blank"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Visit the live website of Live 2K"></a>
                             </li>
                         </ul>
                     </li>

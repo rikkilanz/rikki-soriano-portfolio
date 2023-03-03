@@ -43,10 +43,10 @@
                         <h3 class="heading-info">Project Links</h3>
                         <ul class="project-links flex">
                             <li class="link-item">
-                                <a href="https://github.com/rikkilanz/terra-fortuna"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="Check out the code files for Terra Fortuna Website"></a>
+                                <a href="https://github.com/rikkilanz/terra-fortuna" target="_blank"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="Check out the code files for Terra Fortuna Website"></a>
                             </li>
                             <li class="link-item">
-                                <a href="https://rikkilanz.github.io/terra-fortuna/"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Check out the website prototype"></a>
+                                <a href="https://rikkilanz.github.io/terra-fortuna/" target="_blank"><img src="<?php echo get_public_url('images/')?>website-icon.svg" alt="Check out the website prototype"></a>
                             </li>
                         </ul>
                     </li>
@@ -128,7 +128,7 @@
                         </p>
                     </div>
                     <div class="cta">
-                        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php" title="View code files at GitHub" target="_blank">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                     </div>
                 </section>
                 <section class="article-section">
