@@ -1,10 +1,8 @@
-
 $(document).ready(function(){
 
 //Slick slider, initilized at project-slider.php
 $('.card-slider').slick({
   slidesToShow:3,
-  // autoplay: true,
   slidesToScroll:1,
   dots: false,
   adaptiveHeight: true,
@@ -27,6 +25,28 @@ if(document.body.className.match('progress-bar')) {
   document.addEventListener('scroll', processScroll);
 }
 
+//Scroll to top button
+
+let topBtn = document.querySelector('#topBtn');
+
+window.onscroll = () => {
+  showTopButton()
+  if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 700) {
+    // you're at the bottom of the page
+    topBtn.style.display = "none";
+}
+};
+
+function showTopButton() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    topBtn.style.display = "block";
+  }
+  else {
+    topBtn.style.display = "none";
+  }
+}
+
+
 
 //Filtering function for work.php page
 var filterBtn = $('.filter-btn')
@@ -46,15 +66,6 @@ filterBtn.click(function(){
   $(this).addClass('filter-btn--active').siblings().removeClass('filter-btn--active');
 })
 
-//animate shapes
-
-// animateDiv('.rikki-shape-1');
-// animateDiv('.rikki-shape-2');
-// animateDiv('.rikki-shape-3');
-// animateDiv('.rikki-shape-4');
-// animateDiv('.rikki-shape-5');
-
-
 })
 
 
@@ -68,26 +79,3 @@ hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('hamburger-active');
   nav.classList.toggle('nav-active');
 })
-
-// //Animate shapes
-// function makeNewPosition(){
-    
-//   // Get viewport dimensions (remove the dimension of the div)
-//   var h = $(window).height();
-//   var w = $(window).width();
-  
-//   var nh = Math.floor(Math.random() * h);
-//   var nw = Math.floor(Math.random() * w);
-
-//   return [nh,nw];    
-  
-// }
-
-// function animateDiv(myclass){
-//   var newq = makeNewPosition();
-  
-//   $(myclass).animate({ top: newq[0], left: newq[1] }, 5000,   function(){
-//     animateDiv(myclass);        
-//   });
-  
-// };

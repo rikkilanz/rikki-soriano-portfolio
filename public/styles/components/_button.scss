@@ -46,14 +46,18 @@
         position: fixed;
         bottom: 100px;
         right: 100px;
+        display: none;
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75); 
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75);
+        transform: translateY(-2px);
         img {
             margin-left: 15px;
             margin-top: 8px;
         }
-        &:hover{
-            -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75); 
-            box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75);
-            transform: translateY(-2px);
+        &:active{
+            -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0); 
+            box-shadow: 0px 5px 0px 0px rgba(0,0,0,0);
+            transform: translateY(2px);
         }
     }
 }
@@ -62,7 +66,7 @@
 .cta {
     text-align: center;
     padding: 30px 25px;
-    background-color: white;
+    background-color: $white;
     .btn--s {
         background-color: $rikki-color-1;
         color: white;
@@ -70,12 +74,19 @@
         @include link-b-u-10;
         text-decoration: none;
         padding: 15px 25px;
-    }
-    :hover {
+        display: inline-block;
         -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75); 
         box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.75);
         transform: translateY(-2px);
     }
+    :active {
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,0); 
+        box-shadow: 0px 5px 0px 0px rgba(0,0,0,0);
+        transform: translateY(2px);
+    }
+    // :hover {
+        
+    // }
 }
 
 
