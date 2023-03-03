@@ -19,7 +19,7 @@
     <meta property="og:description" content="Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!" />
     <meta property="og:image" content="<?php echo get_public_url('images/');?>rikki-soriano-og-graph-image.jpg" />
     <meta name="description" content="Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!">
-    <meta name="keywords" content="rikki soriano, uiux designer, frontend developer, vancouver web developer, vancouver uiux designer, bcit new media, uiux designer, graphic designer, web developer, vancouver, user experience">
+    <meta name="keywords" content="rikki soriano, uiux designer, frontend developer, vancouver web developer, vancouver uiux designer, bcit new media, uiux designer, graphic designer, web developer, vancouver, user experience, new media">
     <meta name="author" content="Rikki Soriano">
     <link rel="shortcut icon" href="<?php echo get_public_url('images/');?>favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
