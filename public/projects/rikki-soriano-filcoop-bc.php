@@ -14,8 +14,8 @@
     <main>
         <div id="progress-bar"></div>
         <section class="project">
-            <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
-            <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-thumb.jpg" alt="A desktop and mobile mockup of Terra Fortuna's website">
+            <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt="a vector image of an arrow"></div>
+            <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-thumb.jpg" alt="Images of FILCOOP's redesign screen displayed next to each other">
             <section class="project-intro">
                 <h1 class="project-title">FILCOOP BC | Website Redesign</h1>
                 <ul class="project-type flex">
@@ -54,7 +54,7 @@
                     </div>
                     <div class="article-section-content">
                         <p>Not only the aesthetics of FIL-COOP BC's website needs some touchup, but the information architecture of the website is unorganized and the main call to action of the website is drowned within pages.</p>
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-old-design.jpg" alt="an image of HTML code structure for the weather app">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-old-design.jpg" alt="an image of FILCOOP's old website">
                         <p class="caption">FILCOOP BC's current design of their News Bulletin page</p>
                         <p>Not only this is a frustrating experience for the user, but it strays away farther from reaching the goal of the organization.</p>
                         <p>One of the goals of the website is to get prospects to join them as members of the organization but as a user:</p>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="article-section-content">
                         <p>To have a great understanding of what is required of the website, I've created a user scenario with whom is a user that I can empathize.</p>
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-user-scenario.jpg" alt="An image of Postman software fetching for API data">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-user-scenario.jpg" alt="a user scenarion for a persona names Christina Molina, with user scenarion description">
                         <p class="caption">A user scenario to define the problems encountered of a user.</p>
                         
                         <p>In this scenario, we get into a role of a mother raising kids, who is looking to support her family by joining organizations that provide services and programs that FIL-COOP BC provides.</p>
@@ -104,12 +104,12 @@
                         <h4 class="article-section-subheading">Header/Footer</h4>
                         <p>I started off by re-designing the header by reorganizing the information architecture of the website, stating the primary navigation and sub-navigations.</p>
                         
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-information-architecture.jpg" alt="A coding snippet of the fetch function usage">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-information-architecture.jpg" alt="an image of FILCOOP's redesigned information architecture">
                         <p class="caption">Restructured information architecture of the old website design.</p>
                         
                         <p>The header is a crucial navigator for our user's journey, and by restructuring the information architecture of the website, we can make it easier for users to flow through their experience.</p>
                         
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-header.jpg" alt="A coding snippet of the fetch function usage">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-header.jpg" alt="an image of the redesigned header of FILCOOP">
                         <p class="caption">The redesigned header with a contast call-to-action button.</p>
 
                         <p>A visible call to action also eases the process of being able to support the organization's goal so a user can decide when they want to donate while in the process of browsing.</p>
@@ -118,12 +118,12 @@
                         <h4 class="article-section-subheading">Page Sections/Typography Hierarchy</h4>
                         <p>When creating the wireframes, I wanted a proper hierarchy of text since the website contains a lot of information in a text format. To achieve this, I've created proper and consistent sections to divide information and prevent cognitive overload.</p>
                         
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-home-sectioning.jpg" alt="A coding snippet of the fetch function usage">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-home-sectioning.jpg" alt="an image of FILCOOP's homepage divided sections">
                         <p class="caption">An illustration of divided sections on the redesigned websites homepage.</p>
                         
                         <p>I've also added some image media that supports the text so the site feels livelier and supports the branding of the organization.</p>
 
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-content-dividing.jpg" alt="A coding snippet of the fetch function usage">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-content-dividing.jpg" alt="an image of FILCOOP's homepage divided contents">
                         <p class="caption">Loader code snippets and loading animation component</p>
                         
                         <p>With consistent-sized headings and mixed media, we can engage and direct the user's attention easily so they have a better experience of reading and looking for the information they need.</p>
@@ -137,22 +137,22 @@
                     <div class="article-section-content">
                     <p>To support the organization's goal of collecting donations, I've set up the header to have ease of access for the donate call to action.</p>
                     
-                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-ia.jpg" alt="A coding snippet of the fetch function usage">
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-ia.jpg" alt="an image of the redesigned information architecture">
                     <p class="caption">User donation flowchart</p>
 
                     <p>This then leads users to fill up a form with their information regarding donations.</p>
 
-                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donation-form.jpg" alt="A coding snippet of the fetch function usage">
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donation-form.jpg" alt="first page of FILCOOP'S donation form">
                     <p class="caption">First page of the user donation form. Process is broken down step-by-step.</p>
 
                     <p>Since we're managing user information and payment, I've broken down the process into a step-by-step process to not overwhelm users as well as reduce input mistakes.</p>
 
-                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donate-flow.jpg" alt="A coding snippet of the fetch function usage">
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donate-flow.jpg" alt="an illustration of how a user would donate">
                     <p class="caption">Donation step-by-step process</p>
 
                     <div class="cta">
-                            <a class="btn btn--s" href="https://www.figma.com/proto/bymkkI1TXJmemo4CbIHEs2/FIL-COOP-BC-Project?node-id=2%3A264&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A264" title="View Weather Now React JS app" target="_blank">View live prototype here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
-                        </div>
+                        <a class="btn btn--s" href="https://www.figma.com/proto/bymkkI1TXJmemo4CbIHEs2/FIL-COOP-BC-Project?node-id=2%3A264&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A264" title="View Weather Now React JS app" target="_blank">View live prototype here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                    </div>
                     </div>
                 </section>
                 <section class="article-section">
