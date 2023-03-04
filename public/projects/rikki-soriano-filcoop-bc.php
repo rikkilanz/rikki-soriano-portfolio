@@ -26,7 +26,7 @@
                 <ul class="project-info">
                     <li class="project-info-timeline">
                         <h3 class="heading-info">Timeline</h3>
-                        <p class="description">6 Weeks</p>
+                        <p class="description">2 Weeks</p>
                     </li>
                     <li class="project-info-tools">
                         <h3 class="heading-info">Tools</h3>
