@@ -53,5 +53,5 @@
         $live_2k,
         $fizzy_pop,
         $weather_now,
-        // $filcoop_bc,
+        $filcoop_bc,
     ];

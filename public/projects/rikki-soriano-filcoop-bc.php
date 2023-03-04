@@ -22,7 +22,7 @@
                     <li class="btn btn--almond">CODING</li>
                     <li class="btn btn--almond">UIUX</li>
                 </ul>
-                <h2 class="project-description">A website redesign to support modern web standards, better accesbility and user experience for the webs users of FIL-COOP BC.</h2>
+                <h2 class="project-description">A website redesign to support modern web standards, better accesbility and user experience for the website users of FIL-COOP BC.</h2>
                 <ul class="project-info">
                     <li class="project-info-timeline">
                         <h3 class="heading-info">Timeline</h3>
@@ -54,7 +54,8 @@
                     </div>
                     <div class="article-section-content">
                         <p>Not only the aesthetics of FIL-COOP BC's website needs some touchup, but the information architecture of the website is unorganized and the main call to action of the website is drowned within pages.</p>
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-html-structure.jpg" alt="an image of HTML code structure for the weather app">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-old-design.jpg" alt="an image of HTML code structure for the weather app">
+                        <p class="caption">FILCOOP BC's current design of their News Bulletin page</p>
                         <p>Not only this is a frustrating experience for the user, but it strays away farther from reaching the goal of the organization.</p>
                         <p>One of the goals of the website is to get prospects to join them as members of the organization but as a user:</p>
                             <ul class="list">
@@ -72,50 +73,85 @@
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                        <p>To have a great understanding of what is required of the website, I’ve created a user scenario with whom is a user that I can empathize.</p>
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-postman.jpg" alt="An image of Postman software fetching for API data">
-                        <p class="caption">Postman software fetching for API data</p>
+                        <p>To have a great understanding of what is required of the website, I've created a user scenario with whom is a user that I can empathize.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-user-scenario.jpg" alt="An image of Postman software fetching for API data">
+                        <p class="caption">A user scenario to define the problems encountered of a user.</p>
                         
                         <p>In this scenario, we get into a role of a mother raising kids, who is looking to support her family by joining organizations that provide services and programs that FIL-COOP BC provides.</p>
-
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-fetch.jpg" alt="A coding snippet of the fetch function usage">
-                        <p class="caption">Usage of the fetch function when grabbing API data</p>
-                        
-                        <p>I then coded the JavaScript to load the data from the API by using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">.fetch()</a> function. Within this function, I've chained a series of codes to store the data as a JSON for a readable format, as well as storing it in a variable for accessing later (whether by passing it as a parameter to a function or just displaying the data with console.log to read the data.)</p>
                     </div>
                 </section>
                 <section class="article-section">
                     <div class="article-section-header">
-                        <h3 class="article-section-heading">Displaying the Data</h3>
+                        <h3 class="article-section-heading">Solution</h3>
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                        <p>Displaying the data was a little bit of a struggle. I found out that the API displays its data as object arrays, so I placed the fetched data as a variable where I can access its array of data and objects.</p>
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-data-accessing.jpg" alt="A coding snippet of the fetch function usage">
-                        
-                        <p>Another issue I ran into was that every time I refreshed the page, it would continuously add more data forecasts without getting rid of the previous.</p>
-
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-clear-code.jpg" alt="A coding snippet of the fetch function usage">
-                        
-                        <p>This was solved by clearing the forecast container before the data is loaded so that every time the page refreshes, we delete its current posted data. </p>
+                        <p>The redesign would support the user flow of being able to get the information they need and how they can donate to support the cause.</p>
+                        <p>The possible solution:</p>
+                        <ul class="list">
+                            <li><p>Have a clear call-to-action button</p></li>
+                            <li><p>Creating a user flow that directs them to donate</p></li>         
+                            <li><p>Restructure the information architecture for readability</p></li>       
+                        </ul>
                     </div>
                 </section>
                 <section class="article-section">
                     <div class="article-section-header">
-                        <h3 class="article-section-heading">Moving Into React</h3>
+                        <h3 class="article-section-heading">Wireframes</h3>
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                        <p>An issue I ran into was that the Loader component I made was not displaying properly. It was just displaying always while my data was loading and when it is loaded. I solved this by using a React function called .useState() and .useEffect()</p>
+                        <h4 class="article-section-subheading">Header/Footer</h4>
+                        <p>I started off by re-designing the header by reorganizing the information architecture of the website, stating the primary navigation and sub-navigations.</p>
                         
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-loading.jpg" alt="A coding snippet of the fetch function usage">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-information-architecture.jpg" alt="A coding snippet of the fetch function usage">
+                        <p class="caption">Restructured information architecture of the old website design.</p>
+                        
+                        <p>The header is a crucial navigator for our user's journey, and by restructuring the information architecture of the website, we can make it easier for users to flow through their experience.</p>
+                        
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-header.jpg" alt="A coding snippet of the fetch function usage">
+                        <p class="caption">The redesigned header with a contast call-to-action button.</p>
+
+                        <p>A visible call to action also eases the process of being able to support the organization's goal so a user can decide when they want to donate while in the process of browsing.</p>
+                    </div>
+                    <div class="article-section-content">
+                        <h4 class="article-section-subheading">Page Sections/Typography Hierarchy</h4>
+                        <p>When creating the wireframes, I wanted a proper hierarchy of text since the website contains a lot of information in a text format. To achieve this, I've created proper and consistent sections to divide information and prevent cognitive overload.</p>
+                        
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-home-sectioning.jpg" alt="A coding snippet of the fetch function usage">
+                        <p class="caption">An illustration of divided sections on the redesigned websites homepage.</p>
+                        
+                        <p>I've also added some image media that supports the text so the site feels livelier and supports the branding of the organization.</p>
+
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-content-dividing.jpg" alt="A coding snippet of the fetch function usage">
                         <p class="caption">Loader code snippets and loading animation component</p>
+                        
+                        <p>With consistent-sized headings and mixed media, we can engage and direct the user's attention easily so they have a better experience of reading and looking for the information they need.</p>
+                    </div>
+                </section>
+                <section class="article-section">
+                    <div class="article-section-header">
+                        <h3 class="article-section-heading">User Donation Flow</h3>
+                        <div class="more-btn"></div>
+                    </div>
+                    <div class="article-section-content">
+                    <p>To support the organization's goal of collecting donations, I've set up the header to have ease of access for the donate call to action.</p>
+                    
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-ia.jpg" alt="A coding snippet of the fetch function usage">
+                    <p class="caption">User donation flowchart</p>
 
-                        <p>States gave me the ability to set whether and API data has been set or not. Another was having the ability to set states for the loading component when it should appear or not. </p>
+                    <p>This then leads users to fill up a form with their information regarding donations.</p>
 
-                        <p>UseEffect was used and called to fetch the API data, where then it sets the state of whether the loader is loading, the data is available, and when an error is caught.</p>
-                        <div class="cta">
-                            <a class="btn btn--s" href="https://github.com/rikkilanz/weather-react-app" title="View code files at GitHub" target="_blank">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donation-form.jpg" alt="A coding snippet of the fetch function usage">
+                    <p class="caption">First page of the user donation form. Process is broken down step-by-step.</p>
+
+                    <p>Since we're managing user information and payment, I've broken down the process into a step-by-step process to not overwhelm users as well as reduce input mistakes.</p>
+
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-donate-flow.jpg" alt="A coding snippet of the fetch function usage">
+                    <p class="caption">Donation step-by-step process</p>
+
+                    <div class="cta">
+                            <a class="btn btn--s" href="https://www.figma.com/proto/bymkkI1TXJmemo4CbIHEs2/FIL-COOP-BC-Project?node-id=2%3A264&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A264" title="View Weather Now React JS app" target="_blank">View live prototype here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                         </div>
                     </div>
                 </section>
@@ -125,14 +161,9 @@
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                    <p>React is a really great JS framework. It helped me make my project cleaner and more efficient by understanding component-based pieces that build the overall app. It also gave me the ability to explore more about what other coding languages and libraries might offer me. </p>
+                    <p>Overall, this project is a great learning process for me in the importance of creating a design that supports both user and organizational goals. </p>
 
-                    <p>Some improvements that I might add in this project, later on, is more functionality by adding a GPS location tracker to know where you are located and set the weather for you, as well as a search functionality.</p>
-
-                    <div class="cta">
-                            <a class="btn btn--s" href="https://rikkilanz.github.io/weather-react-app/" title="View Weather Now React JS app" target="_blank">View live prototype here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
-                        </div>
-                    </div>
+                    <p>Some key takeaway I would improve further is to keep in mind accessibility standards like the contrast of text. Having access to 3 branding colours give you the freedom to use them creatively, but at the same time must be used with intent.</p>
                 </section>
             </section>
     </section>
