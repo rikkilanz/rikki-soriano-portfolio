@@ -31,7 +31,7 @@ let topBtn = document.querySelector('#topBtn');
 
 window.onscroll = () => {
   showTopButton()
-  if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 700) {
+  if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 600) {
     // you're at the bottom of the page
     topBtn.style.display = "none";
 }

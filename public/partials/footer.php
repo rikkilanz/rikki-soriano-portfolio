@@ -28,8 +28,6 @@
 
 <?php
 
-echo $_SERVER['REQUEST_URI'];
-
 if(str_contains($_SERVER['REQUEST_URI'], '/projects')){
     echo '<script type="module">
     import jump from "../scripts/jump.module.js";
