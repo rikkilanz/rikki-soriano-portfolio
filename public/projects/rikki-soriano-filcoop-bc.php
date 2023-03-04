@@ -124,7 +124,7 @@
                         <p>I've also added some image media that supports the text so the site feels livelier and supports the branding of the organization.</p>
 
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-content-dividing.jpg" alt="an image of FILCOOP's homepage divided contents">
-                        <p class="caption">Loader code snippets and loading animation component</p>
+                        <p class="caption">About page section content dividing</p>
                         
                         <p>With consistent-sized headings and mixed media, we can engage and direct the user's attention easily so they have a better experience of reading and looking for the information they need.</p>
                     </div>
