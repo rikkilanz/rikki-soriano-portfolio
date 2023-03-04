@@ -41,8 +41,8 @@
         'type' => ['CODING', 'React.js']
     ]);
     $filcoop_bc= new Project([
-        'name' => 'FIL-COOP BC | Website Redesign',
-        'description' => 'A redesign for a cooperative website, FIL-COOP BC',
+        'name' => 'FILCOOP BC | Website Redesign',
+        'description' => 'A website redesign to support modern web standards, better accesbility and user experience for the webs users of FIL-COOP BC',
         'type' => ['UIUX', 'Figma']
     ]);
 

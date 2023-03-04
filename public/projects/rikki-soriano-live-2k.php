@@ -32,6 +32,7 @@
                     <li class="project-info-tools">
                         <h3 class="heading-info">Tools</h3>
                         <p class="description">Visual Studio Code</p>
+                        <p class="description">MAMP</p>
                         <p class="description">Adobe XD</p>
                         <p class="description">Google Suite</p>
                         <p class="description">Discord</p>
