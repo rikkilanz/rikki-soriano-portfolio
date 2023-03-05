@@ -14,10 +14,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title?></title>
-    <meta property="og:title" content="<?php echo $page_title?>" />
-    <meta property="og:url" content="https://www.rikkisoriano.com/" />
-    <meta property="og:description" content="Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!" />
-    <meta property="og:image" content="<?php echo get_public_url('images/');?>rikki-soriano-og-graph-image.jpg" />
+    <meta property="og:title" content="<?php echo $page_title?>">
+    <meta property="og:url" content="https://www.rikkisoriano.com/">
+    <meta property="og:description" content="Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!">
+    <meta property="og:image" content="<?php echo get_public_url('images/');?>rikki-soriano-og-graph-image.jpg">
     <meta name="description" content="Hello! My name is Rikki Soriano, a Front-End Developer/UX Designer based in Vancouver, Canada. I invite you to come check my design and development works in this portfolio!">
     <meta name="keywords" content="rikki soriano, uiux designer, frontend developer, vancouver web developer, vancouver uiux designer, bcit new media, uiux designer, graphic designer, web developer, vancouver, user experience, new media">
     <meta name="author" content="Rikki Soriano">
@@ -25,6 +25,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_public_url('styles/');?>slick.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_public_url('styles/');?>slick.css">
     <link rel="stylesheet" href="<?php echo get_public_url('dist/css/main.min.css');?>">
 </head>

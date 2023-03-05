@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
+    $page_title = 'Rikki Soriano - Klin Klothing | Mobile App Prototype';
+    $page_desc = 'A working Adobe XD mobile app prototype for a fictional clothing brand.';
     include('../partials/head.php');
 ?>
 <body>

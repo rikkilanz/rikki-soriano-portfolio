@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
+    $page_title = 'Rikki Soriano - Terra Fortuna | Mobile Responsive Landing Page';
+    $page_desc = 'A mobile first responsive real estate website coded with HTML, CSS and JS.';
     include('../partials/head.php');
 ?>
 <body>
@@ -137,7 +139,7 @@
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                    <p>This is a project that I worked on with a time constraint of 3 weeks. I would further improve this project by taking advantage of tools like <a href="https://sass-lang.com/" titlle="Go to Sass' page" target="_blank">Sass</a> to organise my styles, creating more reusable components like sections, grid systems, and cards.</p>
+                    <p>This is a project that I worked on with a time constraint of 3 weeks. I would further improve this project by taking advantage of tools like <a href="https://sass-lang.com/" title="Go to Sass' page" target="_blank">Sass</a> to organise my styles, creating more reusable components like sections, grid systems, and cards.</p>
                     </div>
                 </section>
             </section>

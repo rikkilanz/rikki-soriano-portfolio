@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
+    $page_title = 'Rikki Soriano - Weather Now | React.js Web App';
+    $page_desc = 'Weather Now is a weather app using API to call and display the weather forecast using the React.js framework.';
     include('../partials/head.php');
 ?>
 <body>

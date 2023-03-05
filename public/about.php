@@ -5,7 +5,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
-    $page_title = 'Projects | Rikki Soriano, Front-End Developer & UIUX Designer';
+    $page_title = 'About | Rikki Soriano, Front-End Developer & UIUX Designer';
+    $page_desc = 'Rikki Soriano is a creative individual focusing on aspects of Graphic + UIUX design. He\'s on the journey to expand his bringing creative visions by diving into coding and development. He\'s honing his skills to fuse both design and development to bring out visions to life.';
     include('partials/head.php');
 ?>
 <body>

@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
+    $page_title = 'Rikki Soriano - Fizzy POP | Beverage Branding';
+    $page_desc = 'A branding project for a fictional soda beverage company.';
     include('../partials/head.php');
 ?>
 <body>

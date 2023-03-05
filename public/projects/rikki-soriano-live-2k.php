@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
+    $page_title = 'Rikki Soriano - Live 2K | Coded Website Prototype';
+    $page_desc = 'A website coded for a business under the Agile Methodology Project Management.';
     include('../partials/head.php');
 ?>
 <body>
