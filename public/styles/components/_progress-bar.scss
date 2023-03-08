@@ -1,30 +1,24 @@
 @use "../config/" as *;
 
 /* Progress bar */
-#progress-bar {
+.progress-bar {
 	--scrollAmount: 0%;
-	background-color: $rikki-color-2;
+	background-color: $rikki-color-1;
 	width: var(--scrollAmount);
 	height: 4px;
 	position: fixed;
-	top: 150px;
+	top: 80px;
     z-index: 999;
 }
 
 @media only screen and (min-width: $mobile-regular) { 
-	#progress-bar{
+	.progress-bar{
 		top: 100px;
 	}
 }
 
 @media only screen and (min-width: $tablet-regular) { 
-	#progress-bar{
-		top: 150px;
-	}
-}
-
-@media only screen and (min-width: $laptop-regular) { 
-	#progress-bar{
+	.progress-bar{
 		top: 0;
 	}
 }
