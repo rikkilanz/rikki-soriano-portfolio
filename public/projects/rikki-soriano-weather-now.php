@@ -14,7 +14,7 @@
         include('../partials/header.php');
     ?>
     <main>
-        <div id="progress-bar"></div>
+        <div class="progress-bar"></div>
         <section class="project">
             <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
             <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-weather-now-thumb.jpg" alt="A desktop and mobile mockup of Terra Fortuna's website">
