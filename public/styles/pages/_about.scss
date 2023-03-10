@@ -25,17 +25,18 @@
         flex-direction: column;
         padding: 30px;
         display: flex;
-        
+        align-items: center;
     }
     // Profile image
     &-profile-image {
         z-index: 1;
+        position: relative;
         img {
             margin: 0 auto;
             border-radius: 50%;
             padding: 0 30px;
-            transform: translate(10px, -10px);
             z-index: 2;
+            transform: translate(10px, -10px);
         }   
         .circle{
             background-color: $rikki-color-2;
@@ -43,9 +44,8 @@
             width: 160px;
             border-radius: 50%;
             position: absolute;
-            top: 0;
-            left: 0;
-            transform: translate(40px, 180px);
+            top: 4px;
+            left: -4px;
             z-index: 0;
         }
     }
@@ -104,12 +104,14 @@
         .value-list-item {
             flex-direction: column;
             align-items: center;
-            margin: 24px 0
+            margin: 24px 0;
+            flex-basis: 33.33%;
         }
         .value-title {
             @include heading-b-18;
             text-transform: uppercase;
             margin: 8px 0;
+            justify-content: center;
         }
     }
 }
@@ -120,9 +122,6 @@
             padding: 32px 70px;
         }
         &-profile-image{
-            .circle {
-                transform: translate(100px, 205px);
-            }
             img {
                 padding: 0px;
                 width: 169px;
@@ -156,11 +155,10 @@
             .about-profile-image {
                 grid-area: 1 / 2 / 4 / 3;
                 align-self: center;
+                justify-self: center;
                 .circle {
-                    transform: translate(400px, 260px);
                     width: 300px;
                     height: 300px;
-                    display: none
                 }
                 img {
                     width: 300px;
@@ -213,6 +211,16 @@
             padding: 32px 252px;
             .about-heading-text{
                 font-size: 64px;
+            }
+            .about-profile-image{
+                .circle {
+                    width: 400px;
+                    height: 400px;
+                }
+                img {
+                    width: 400px;
+                    height: 400px;
+                }
             }
         }
         &-pills{
