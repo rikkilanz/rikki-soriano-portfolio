@@ -11,11 +11,8 @@ $('.card-slider').slick({
   prevArrow:'<div class="slick-prev"><img src="/public/images/arrow-up.svg" alt=""></div>'
 })
 
-
+//Projects page rogress bar
 if(document.querySelector('.progress-bar')) {
-  console.log('Hello')
-
-  //progress bar
   let processScroll = () => {
     let docElem = document.documentElement, 
       docBody = document.body,
@@ -24,12 +21,10 @@ if(document.querySelector('.progress-bar')) {
       scrollPercent = scrollTop / scrollBottom * 100 + '%';
       document.querySelector('.progress-bar').style.setProperty('--scrollAmount', scrollPercent);	
   }
-
   document.addEventListener('scroll', processScroll);
 }
 
 //Scroll to top button
-
 let topBtn = document.querySelector('#topBtn');
 
 window.onscroll = () => {
@@ -48,8 +43,6 @@ function showTopButton() {
     topBtn.style.display = "none";
   }
 }
-
-
 
 //Filtering function for work.php page
 var filterBtn = $('.filter-btn')
@@ -71,8 +64,7 @@ filterBtn.click(function(){
 
 })
 
-
-//Hamburger
+//Hamburger menu
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
 const hdr = document.querySelector('.hdr');
