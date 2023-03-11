@@ -31,7 +31,6 @@
                         // Clean up code
                             for($i=0;$i<count($projects);$i++){
                                 echo '<li class="card-list-item project-filter ';
-                                // Fix filtering method, not fully functional
                                 if($projects[$i]->type[0] == 'CODING'){
                                     echo 'development'; 
                                 } elseif($projects[$i]->type[0] == 'UIUX' || 'GRAPHICS'){

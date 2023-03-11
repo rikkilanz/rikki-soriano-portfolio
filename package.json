@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^4.1.1",
     "jump.js": "^1.0.2",
     "sass": "^1.58.3"
   },

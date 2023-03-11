@@ -130,7 +130,7 @@
                         </p>
                     </div>
                     <div class="cta">
-                        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php" title="View code files at GitHub" target="_blank">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                        <a class="btn btn--s" href="https://rikkilanz.github.io/terra-fortuna/" title="View code files at GitHub" target="_blank">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                     </div>
                 </section>
                 <section class="article-section">

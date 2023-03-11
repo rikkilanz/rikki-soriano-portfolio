@@ -24,38 +24,44 @@ if(document.querySelector('.progress-bar')) {
   document.addEventListener('scroll', processScroll);
 }
 
-//Scroll to top button
-let topBtn = document.querySelector('#topBtn');
 
-window.onscroll = () => {
-  showTopButton()
-  if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 600) {
-    // you're at the bottom of the page
-    topBtn.style.display = "none";
-}
-};
+const URL = window.location.href;
 
-function showTopButton() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    topBtn.style.display = "block";
+if(URL.includes('project')){
+  //Scroll to top button
+  let topBtn = document.querySelector('#topBtn');
+
+  window.onscroll = () => {
+    showTopButton()
+    if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 600) {
+      // you're at the bottom of the page
+      topBtn.style.display = "none";
   }
-  else {
-    topBtn.style.display = "none";
+  };
+
+  function showTopButton() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      topBtn.style.display = "block";
+    }
+    else {
+      topBtn.style.display = "none";
+    }
   }
 }
+
+var cardItem = document.querySelectorAll('.card-list-item');
 
 //Filtering function for work.php page
 var filterBtn = $('.filter-btn')
-  filterBtn.click(function(){
-    const type = $(this).attr('data-project');
-    if (type == 'all'){
-      $('.card-list-item').show('500');
-    }else {
-      $('.card-list-item').not('.' + type).hide('500', function(){
-      });
-      $('.card-list-item').filter('.' + type).show('500');
-    }
-  })
+filterBtn.click(function(){
+  const type = $(this).attr('data-project');
+  if (type == 'all'){
+    $('.card-list-item').removeClass('animate__animated animate__bounceOut').addClass('animate__animated animate__bounceIn').show('fast');
+  }else {
+    $('.card-list-item').not('.' + type).removeClass('animate__animated animate__bounceIn').addClass('animate__animated animate__bounceOut').hide('fast');
+    $('.card-list-item').filter('.' + type).removeClass('animate__animated animate__bounceOut').addClass('animate__animated animate__bounceIn').show('fast');
+  }
+})
 
 // add active class on selected tab
 filterBtn.click(function(){
