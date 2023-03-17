@@ -21,8 +21,8 @@
             <section class="project-intro">
                 <h1 class="project-title">FILCOOP BC | Website Redesign</h1>
                 <ul class="project-type flex">
-                    <li class="btn btn--almond">CODING</li>
                     <li class="btn btn--almond">UIUX</li>
+                    <li class="btn btn--almond">Figma</li>
                 </ul>
                 <h2 class="project-description">A website redesign to support modern web standards, better accesbility and user experience for the website users of FIL-COOP BC.</h2>
                 <ul class="project-info">

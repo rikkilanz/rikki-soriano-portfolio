@@ -61,5 +61,5 @@
         $fizzy_pop,
         $weather_now,
         $filcoop_bc,
-        // $forward_platform,
+        $forward_platform,
     ];

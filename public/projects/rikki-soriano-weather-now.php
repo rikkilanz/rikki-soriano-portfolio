@@ -22,7 +22,7 @@
                 <h1 class="project-title">Weather Now | React.js Web App</h1>
                 <ul class="project-type flex">
                     <li class="btn btn--almond">CODING</li>
-                    <li class="btn btn--almond">UIUX</li>
+                    <li class="btn btn--almond">React.js</li>
                 </ul>
                 <h2 class="project-description">A weather app using an API call to display the weather forecast using the React.js framework.</h2>
                 <ul class="project-info">
