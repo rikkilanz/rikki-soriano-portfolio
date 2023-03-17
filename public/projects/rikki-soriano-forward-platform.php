@@ -22,24 +22,27 @@
                 <h1 class="project-title">Forward Platform | Mobile Responsive Landing Page</h1>
                 <ul class="project-type flex">
                     <li class="btn btn--almond">CODING</li>
-                    <li class="btn btn--almond">UIUX</li>
+                    <li class="btn btn--almond">HTML</li>
+                    <li class="btn btn--almond">PHP</li>
+                    <li class="btn btn--almond">CSS</li>
                 </ul>
                 <h2 class="project-description">Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.</h2>
                 <ul class="project-info">
                     <li class="project-info-timeline">
                         <h3 class="heading-info">Timeline</h3>
-                        <p class="description">2 Weeks</p>
+                        <p class="description">24 Hours</p>
                     </li>
                     <li class="project-info-languages">
                         <h3 class="heading-info">Languages</h3>
                         <p class="description">HTML</p>
                         <p class="description">CSS</p>
-                        <p class="description">JS</p>
+                        <p class="description">PHP</p>
                     </li>
                     <li class="project-info-tools">
                         <h3 class="heading-info">Tools</h3>
-                        <p class="description">Adobe Illustrator</p>
                         <p class="description">Visual Studio Code</p>
+                        <p class="description">Figma</p>
+                        <p class="description">MAMP</p>
                     </li>
                     <li class="project-info-links">
                         <h3 class="heading-info">Project Links</h3>
