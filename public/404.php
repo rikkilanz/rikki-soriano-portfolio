@@ -16,7 +16,7 @@
             </div>
             <div class="page-not-found-info">
                 <h1 class="intro__title">You must be lost!?</h1>
-                <div class="cta"><a class="btn btn--s" href="index.php">Quick! press this button to make everything okay :)</a></div>
+                <div class="cta"><a class="btn btn--s" href="<?php echo get_public_url('')?>index.php">Quick! press this button to make everything okay :)</a></div>
             </div>
         </section>
         <div class="page-not-found intro">

@@ -40,10 +40,17 @@
         'description' => 'A weather app using an API call to display the weather forecast using the React.js framework',
         'type' => ['CODING', 'React.js']
     ]);
+
     $filcoop_bc= new Project([
         'name' => 'FILCOOP BC | Website Redesign',
         'description' => 'A website redesign to support modern web standards, better accesbility and user experience for the webs users of FIL-COOP BC',
         'type' => ['UIUX', 'Figma']
+    ]);
+
+    $forward_platform = new Project([
+        'name' => 'Forward Platform | Local Mentoring Website',
+        'description' => 'Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.',
+        'type' => ['CODING', 'HTML', 'PHP', 'SASS']
     ]);
 
     // This is the array that we call in our index.php with a foreach loop so it loops through all the objects and gets displayed in the card with their assigned values in this file.
@@ -54,4 +61,5 @@
         $fizzy_pop,
         $weather_now,
         $filcoop_bc,
+        // $forward_platform,
     ];
