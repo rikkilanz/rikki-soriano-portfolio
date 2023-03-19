@@ -128,7 +128,7 @@
                         <p>I coded the Home Page, Tickets Page, Artist Page, while our other developer helped create the footer section, Ethos page, and the Volunteer Sign Up form.</p>
                         <div class="cta">
                         <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">View code files at GitHub<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
-                    </div>
+                        </div>
                     </div>
                 </section>
                 <section class="article-section">
