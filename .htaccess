@@ -1,1 +1,10 @@
 ErrorDocument 404 /public/404.php
+
+RewriteCond %{HTTP_HOST} ^(www.)?rikkisoriano.com$
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /public/$1
+RewriteCond %{HTTP_HOST} ^(www.)?rikkisoriano.com$
+RewriteRule ^(/)?$ public/index.php [L]
+

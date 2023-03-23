@@ -4,7 +4,7 @@ function get_public_url($path = "/") {
     if($path[0] != '/') {
         $path = '/' . $path;
     }
-    return WWW_ROOT . '/public' . $path;
+    return WWW_ROOT . $path;
 }
 
 function redirect($path) {
