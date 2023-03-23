@@ -35,15 +35,15 @@
         'type' => ['GRAPHICS', 'BRANDING', 'PACKAGING']
     ]);
 
-    $weather_now= new Project([
+    $weather_now = new Project([
         'name' => 'Weather Now | React.js Web App',
         'description' => 'A weather app using an API call to display the weather forecast using the React.js framework',
         'type' => ['CODING', 'React.js']
     ]);
 
-    $filcoop_bc= new Project([
+    $filcoop_bc = new Project([
         'name' => 'FILCOOP BC | Website Redesign',
-        'description' => 'A website redesign to support modern web standards, better accesbility and user experience for the webs users of FIL-COOP BC',
+        'description' => 'A website redesign to support modern web standards, better accessibility and user experience for the website users of FIL-COOP BC',
         'type' => ['UIUX', 'Figma']
     ]);
 
