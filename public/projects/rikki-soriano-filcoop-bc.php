@@ -5,7 +5,7 @@
 <html lang="en-CA">
 <?php 
     $page_title = 'Rikki Soriano - FILCOOP BC | Website Redesign';
-    $page_desc = 'A website redesign to support modern web standards, better accesbility and user experience for the website users of FIL-COOP BC.';
+    $page_desc = 'A website redesign to support modern web standards, better accessibility and user experience for the website users of FIL-COOP BC.';
     include('../partials/head.php');
 ?>
 <body>
