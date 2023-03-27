@@ -11,7 +11,7 @@
             <div class="ftr-socials">
                 <ul class="ftr-socials-icons flex">
                     <li><a href="https://www.linkedin.com/in/rikkisoriano/" title="Visit Rikki Soriano LinkedIn page" target="_blank"><img src="<?php echo get_public_url('images/')?>linkedin-icon.svg" alt="linkedin logo"></a></li>
-                    <li><a href="https://www.instagram.com/rikkilanz/" title="Visit Rikki Soriano Instagram page" target="_blank"><img src="<?php echo get_public_url('images/')?>instagram-icon.svg" alt="instagram logo"></a></li>
+                    <li><a href="https://www.instagram.com/rikki.visuals/" title="Visit Rikki Soriano Instagram page" target="_blank"><img src="<?php echo get_public_url('images/')?>instagram-icon.svg" alt="instagram logo"></a></li>
                     <li><a href="https://github.com/rikkilanz" title="Visit Rikki Soriano GitHub page" target="_blank"><img src="<?php echo get_public_url('images/')?>github-icon.svg" alt="github logo"></a></li>
                     <li><a href="https://dribbble.com/rikkilanz" title="Visit Rikki Soriano Dribble page" target="_blank"><img src="<?php echo get_public_url('images/')?>dribble-icon.svg" alt="dribble logo"></a></li>
                     <li><a href="mailto:rikkilanz@gmail.com" title="Email Rikki at rikkilanz@gmail.com" target="_blank"><img src="<?php echo get_public_url('images/')?>email-icon.svg" alt="email logo"></a></li>
