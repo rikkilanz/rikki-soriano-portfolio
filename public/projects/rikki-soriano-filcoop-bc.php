@@ -112,7 +112,7 @@
                         <p>The header is a crucial navigator for our user's journey, and by restructuring the information architecture of the website, we can make it easier for users to flow through their experience.</p>
                         
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-filcoop-bc-header.jpg" alt="an image of the redesigned header of FILCOOP">
-                        <p class="caption">The redesigned header with a contast call-to-action button.</p>
+                        <p class="caption">The redesigned header with a contrast call-to-action button.</p>
 
                         <p>A visible call to action also eases the process of being able to support the organization's goal so a user can decide when they want to donate while in the process of browsing.</p>
                     </div>
