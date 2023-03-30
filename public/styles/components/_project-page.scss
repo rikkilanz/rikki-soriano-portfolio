@@ -33,7 +33,7 @@
             margin-bottom: 8px;
         }
         li {
-            margin-bottom: 8px;
+            margin: 16px 0;
         }  
     }
     &-links {
@@ -62,7 +62,7 @@
 
 .article-section{
     padding: 0 30px;
-    margin: 16px 0;
+    margin: 32px 0 64px 0;
     &-header {
         padding: 12px 0;
         display: flex;
