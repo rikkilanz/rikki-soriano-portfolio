@@ -160,3 +160,12 @@
         }
     }
 }
+
+@media only screen and (min-width: $laptop-regular){
+    .btn {
+        &--top{
+            bottom: 150px;
+            right: 150px;
+        }
+    }
+}
