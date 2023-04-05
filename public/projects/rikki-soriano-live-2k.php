@@ -93,7 +93,6 @@
                         <p>When sketching the wireframes, I've used inspirations from other music festival websites. Coachella, Rolling Loud, and 88Rising helped me out ideate my wireframes.</p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-live-2k-websites.jpg" alt="an image of concert festival websites">
                         <p class="caption">Website landing pages of Coachella, 88rising: Head in the Clouds, and Rolling Loud</p>
-                        <p>When sketching the wireframes, I've used inspirations from other music festival websites. Coachella, Rolling Loud, and 88Rising helped me out ideate my wireframes. </p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-live-2k-lofi-wireframe-1.jpg" alt="an image of Live 2K's low-fi wireframes for Homepage, About Page, and Tickets Page">
                         <p class="caption">Low-fi wireframes for Homepage, About Page, and Tickets Page</p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-live-2k-lofi-wireframe-2.jpg" alt="an image of Live 2K's low-fi wireframes for Artists Page, and Individual Artists Page">

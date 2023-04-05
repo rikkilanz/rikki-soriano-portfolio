@@ -4,8 +4,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <?php 
-    $page_title = 'Rikki Soriano - Terra Fortuna | Mobile Responsive Landing Page';
-    $page_desc = 'A mobile first responsive real estate website coded with HTML, CSS and JS.';
+    $page_title = 'Rikki Soriano - Forward Platform | Mentoring Website App';
+    $page_desc = 'Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.';
     include('../partials/head.php');
 ?>
 <body>
@@ -19,7 +19,7 @@
             <div id="topBtn" title="Go to top" class="btn btn__circle btn--top btn--orange"><img src="<?php echo get_public_url('images/')?>arrow-up.svg" alt=""></div>
             <img class="project-thumbnail" src="<?php echo get_public_url('images/')?>rikki-soriano-forward-platform-thumb.jpg" alt="A desktop and mobile mockup of Terra Fortuna's website">
             <section class="project-intro">
-                <h1 class="project-title">Forward Platform | Mobile Responsive Landing Page</h1>
+                <h1 class="project-title">Forward Platform | Mentoring Website App</h1>
                 <ul class="project-type flex">
                     <li class="btn btn--almond">CODING</li>
                     <li class="btn btn--almond">HTML</li>
