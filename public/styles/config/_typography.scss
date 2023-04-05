@@ -1,3 +1,4 @@
+@use "color";
 // Typography
 $body-type: 'Montserrat', sans-serif;
 $paragraph-type: 'Chivo', sans-serif;
@@ -69,4 +70,21 @@ $p: 18px;
     font-size: 10px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.caption {
+    @include text-p-12;
+    font-style: italic;
+    color: color.$gray;
+    text-align: center;
+    margin-top: 5px;
+    a{
+        color: color.$rikki-color-2;
+    }
+    &::before{
+        content: "(";
+    }
+    &::after{
+        content: ")";
+    }
 }

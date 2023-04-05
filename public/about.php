@@ -33,8 +33,8 @@
                     <li class="btn btn--almond">Hates color orange</li>
                 </ul>
                 <div class="about-info-tablet">
-                    <p>I'm an upcoming UIUX Designer/Web Developer! I have a fiery passion for design and creative media 🧡</p>   
-                    <p>Some of my hobbies are listening to 🎵 music (a lot), 🎮 gaming with friends, 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
+                    <p>I'm an upcoming Front-End Developer/UX Designer! I have a fiery passion for design and creative media 🧡</p>   
+                    <p>Some of my hobbies are listening to 🎵 music (a lot - I currently recommend "Melt My Eyez, See Your Future" by Denzel Curry), 🎮 gaming with friends with my "spare time", 👨‍🍳 cooking new dishes, and looking into different types of 👕 fashion.</p>
                     <p>💡Some of my creative inspirations: AWGE Creative Agency, Takashi Murakami, and Lyrical Lemonade.</p>
                 </div>
             </section>
@@ -68,9 +68,9 @@
                 <h3 class="about-heading-text">My Values</h3>
                 <ul class="value-list">
                     <li class="value-list-item flex">
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-authenticity.svg" alt="">
-                        <h4 class="value-title">Authenticity</h4>
-                        <p>Taking feedback is crucial, and an authentic communication of feedback is very valuable for me when producing creative work.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-optimism.svg" alt="">
+                        <h4 class="value-title">Optimism</h4>
+                        <p>As an avid competitive gamer, at times when team is crunched and is mentally down, having a small optimism to win makes such a big difference.</p>
                     </li>
                     <li class="value-list-item flex">
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-learning.svg" alt="">
@@ -78,9 +78,9 @@
                         <p>Being able to adapt new things and changes takes time. Learning for me is a crucial part of being able to grow and evolve.</p>
                     </li>
                     <li class="value-list-item flex">
-                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-optimism.svg" alt="">
-                        <h4 class="value-title">Optimism</h4>
-                        <p>As an avid competitive gamer, at times when team is crunched and is mentally down, having a small optimism to win makes such a big difference.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-authenticity.svg" alt="">
+                        <h4 class="value-title">Authenticity</h4>
+                        <p>Taking feedback is crucial, and an authentic communication of feedback is very valuable for me when producing creative work.</p>
                     </li>
                 </ul>
             </section>
