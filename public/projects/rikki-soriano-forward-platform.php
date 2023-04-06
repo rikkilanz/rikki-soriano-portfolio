@@ -26,7 +26,7 @@
                     <li class="btn btn--almond">PHP</li>
                     <li class="btn btn--almond">CSS</li>
                 </ul>
-                <h2 class="project-description">Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.</h2>
+                <h2 class="project-description">Forward is a mentorship platform that won the first-place at BCIT's Hack The Break 2023.</h2>
                 <ul class="project-info">
                     <li class="project-info-timeline">
                         <h3 class="heading-info">Timeline</h3>
@@ -37,6 +37,7 @@
                         <p class="description">HTML</p>
                         <p class="description">CSS</p>
                         <p class="description">PHP</p>
+                        <p class="description">MySQL</p>
                     </li>
                     <li class="project-info-tools">
                         <h3 class="heading-info">Tools</h3>
@@ -58,7 +59,7 @@
                 </ul>
             </section>
             <section class="project-purpose">
-                <p class="description"><b>The objective:</b> is to develop a website that addresses a challenge presented by the theme of the Hackathon event.</p>
+                <Our class="description"><b>The purpose:</b> of the event is to develop a solution to a real-world problem, addresing the theme of job security. Our goal is to develop a website that addresses a challenge presented by the theme of the Hackathon event.</p>
             </section>
             <section class="project-process">
                 <section class="article-section">
@@ -77,6 +78,20 @@
                             <li><p><a href="https://marlowecheng.com/" title="Visit Marlowe Cheng's portfolio" target="_blank">Marlowe Cheng</a> -  Front-End Development, Copywriting</p></li>
                             <li><p><a href="https://rikkisoriano.com/" title="You're currently in my portfolio!">Rikki Soriano</a> - Full-Stack Developer, Graphic Design</p></li>
                             <li><p><a href="https://davekoo.com/" title="Visit Dave Koo's portfolio" target="_blank">Dave Koo</a> -  Full-Stack Developer, Project Documentation</p></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="article-section">
+                    <div class="article-section-header">
+                        <h3 class="article-section-heading">The Story</h3>
+                        <div class="more-btn"></div>
+                    </div>
+                    <div class="article-section-content">
+                        <p>Job insecurity can impact anybody in life. It especially takes a toll on your mental health. As a result, it has detrimental effects on an employee's performance.  Based on our research, job insecurity:</p>
+                        <ul class="list">
+                        <li><p>Takes a toll on mental health.</p></li>
+                        <li><p>Forces career changes due to recession.</p></li>
+                        <li><p>Leaves people feeling lost and unsure.</p></li>
                         </ul>
                     </div>
                 </section>

@@ -49,17 +49,17 @@
 
     $forward_platform = new Project([
         'name' => 'Forward Platform | Local Mentoring Website',
-        'description' => 'Forward is a platform that helps local tech industry professionals and new-comers build communities and connections with each other.',
+        'description' => 'Forward is a mentorship platform that won the first-place at BCIT\'s Hack The Break 2023.',
         'type' => ['CODING', 'HTML', 'PHP', 'SASS']
     ]);
 
     // This is the array that we call in our index.php with a foreach loop so it loops through all the objects and gets displayed in the card with their assigned values in this file.
     $projects = [
-        $terra_fortuna,
         $klin_klothing,
+        $forward_platform,
         $live_2k,
+        $terra_fortuna,
         $fizzy_pop,
         $weather_now,
         $filcoop_bc,
-        // $forward_platform,
     ];
