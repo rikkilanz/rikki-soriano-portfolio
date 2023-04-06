@@ -134,17 +134,19 @@
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
-                    <p>The team consisted of 4 developers where 2 worked on front-end and the other 2 worked on back-end. I took on the role of a back-end developer working along with Dave in creating the database.</p>
-                    <p>My role as a developer is to work on the back-end part of the website. Other than working the back end, I also touch upon some elements of the products Front-End Design. </p>
-                    <p>I was able to implement the side navigation bar along the grid system that was implemented by the other Front-End Developers.</p>
-                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-backend-code.jpg" alt="">
-                    <p class="caption">A coding snippet of the website backend data</p>
-                    <p>The back-end database of mentors and projects was created using PHP and SQL. An issue we ran into together was that we were having a hard time visualizing what the back-end data would look like initially. </p>
-                    <p>After communicating with the designer and Karina, one of our front-end developers, we've managed to put together a data file with an array of 'Mentors' containing their own data values. These mentor data are created through a class method taking in values such as their name, career, and what they specialize in.</p></p>
-                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-data-display.jpg" alt="">
-                    <p class="caption">An image of how the data was displayed</p>
-                    <p>As the night comes to an end our team was slowly exhausted over time and decided to call it. I decided to keep on going and took on issues that we're addressing in the front end along with Dave. We both managed to finish the front-end work, and next thing in the morning just needed some tweaks before submission.</p>
-
+                        <p>The team consisted of 4 developers where 2 worked on front-end and the other 2 worked on back-end. I took on the role of a back-end developer working along with Dave in creating the database.</p>
+                        <p>My role as a developer is to work on the back-end part of the website. Other than working the back end, I also touch upon some elements of the products Front-End Design.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-dashboard.jpg" alt="">
+                        <p>I was able to implement the side navigation bar along the grid system that was implemented by the other Front-End Developers.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-backend-code.jpg" alt="">
+                        <p class="caption">A coding snippet of the website backend data</p>
+                        <p>The back-end database of mentors and projects was created using PHP and SQL. An issue we ran into together was that we were having a hard time visualizing what the back-end data would look like initially. </p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-match.jpg" alt="">
+                        <p class="caption">An image of how the data was displayed</p>
+                        <p>After communicating with the designer and Karina, one of our front-end developers, we've managed to put together a data file with an array of 'Mentors' containing their own data values. These mentor data are created through a class method taking in values such as their name, career, and what they specialize in.</p>
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-project.jpg" alt="">
+                        
+                        <p>As the night comes to an end our team was slowly exhausted over time and decided to call it. I decided to keep on going and took on issues that we're addressing in the front end along with Dave. We both managed to finish the front-end work, and next thing in the morning just needed some tweaks before submission.</p>
                     </div>
                 </section>
                 <section class="article-section">
@@ -170,8 +172,8 @@
                         <p>Overall, an amazing experience for first-time hackers at a hackathon. We hope to work on this in the future and possibly make it to possibly an actual app that schools can use. We've planned some features to implement such as in-app messaging and an events page for local meetups.</p>
                     </div>
                     <div class="cta">
-                        <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">View Forward's website here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
-                        </div>
+                        <a class="btn btn--s" href="https://forward.marlowecheng.com/" target="_blank">View Forward's website here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
+                    </div>
                 </section>
                 <section class="article-section">
                     <div class="article-section-header">
@@ -181,13 +183,16 @@
                     <div class="article-section-content">
                     <p>From winning the hackathon and positive feedback from our cohort, we're happy to continue to improve and iterate on this project to be its best.</p>
                     <p>During this phase of iteration, I'm happy to take on a UX Design role, collaborating along with Kayla in improving the overall design of the app!</p>
-
+                    <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-new-design.jpg" alt="">
                     <p>Here is a current log of Forward Version 1.1:</p>
                     <ul class="list">
                         <li><p><span class="strong">Design Refinements - </span>our designers currently working on implementing a more robust Design System which will us to be more efficient with our work and create consistency during the design and development phases.</p></li>
                         <li><p><span class="strong">Community Hub Feature - </span>as promised, we're implementing a feature where you can create quality connections with local mentors, mentees and peers within your community!</p></li>
                         <li><p><span class="strong">Coding Refinements - </span>our developers are also refining and refactoring the current code to create efficiency within the development environment.</p></li>
                     </ul>
+                    </div>
+                    <div class="cta">
+                        <a class="btn btn--s" href="https://github.com/marlowecheng/forward-1.1" target="_blank">Check out the updates here!<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                     </div>
                 </section>
             </section>
