@@ -79,20 +79,7 @@
                             <li><p><a href="https://rikkisoriano.com/" title="You're currently in my portfolio!">Rikki Soriano</a> - Full-Stack Developer, Graphic Design</p></li>
                             <li><p><a href="https://davekoo.com/" title="Visit Dave Koo's portfolio" target="_blank">Dave Koo</a> -  Full-Stack Developer, Project Documentation</p></li>
                         </ul>
-                    </div>
-                </section>
-                <section class="article-section">
-                    <div class="article-section-header">
-                        <h3 class="article-section-heading">The Story</h3>
-                        <div class="more-btn"></div>
-                    </div>
-                    <div class="article-section-content">
-                        <p>Job insecurity can impact anybody in life. It especially takes a toll on your mental health. As a result, it has detrimental effects on an employee's performance.  Based on our research, job insecurity:</p>
-                        <ul class="list">
-                        <li><p>Takes a toll on mental health.</p></li>
-                        <li><p>Forces career changes due to recession.</p></li>
-                        <li><p>Leaves people feeling lost and unsure.</p></li>
-                        </ul>
+                        <p>My main role for this project is Back-End Development, but I've had opportunities to collaborate as a Graphic Designer.</p>
                     </div>
                 </section>
                 <section class="article-section">
@@ -123,7 +110,6 @@
                         <p>Forward provides a platform that empowers individuals to achieve their full potential. Connect to local mentors to help guide their personal and professional journeys. </p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-mockup-3.jpg" alt="a mockup image of Forward's website">
                         <p class="caption">Forward's projects list page</p>
-
                     </div>
                 </section>
                 <section class="article-section">
@@ -132,9 +118,11 @@
                         <div class="more-btn"></div>
                     </div>
                     <div class="article-section-content">
+                        <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-brand-guide.jpg" alt="">
+                        <p>I had the opportunity to work on the logo design, but mostly defining the base brand guide. By being able to create this, I was able to aid Kayla, our UIUX Designer, to create consistency within the overall design of the product </p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-wireframes-1.jpg" alt="">
                         <p class="caption">Forward's Lo-Fi wireframes created by Kayla Tran</p>
-                        <p>Kayla, our designer, was able to deliver rapid lo-fi and hi-fi wireframes for the overlook of the website design. While working on these wireframes, our front-end developers went to work, coding each component and screen.</p>
+                        <p>Kayla, was able to deliver rapid lo-fi and hi-fi wireframes for the overlook of the website design. While working on these wireframes, our front-end developers went to work, coding each component and screen.</p>
                         <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-wireframes-2.jpg" alt="">
                         <p class="caption">Forward's Hi-Fi wireframes created by Kayla Tran</p>
                         <p>Through constant communication with the designer and front-end developers, we were able to address what is doable within the project scope, especially since we were very time-constrained for the whole event.</p>
@@ -147,9 +135,12 @@
                     </div>
                     <div class="article-section-content">
                     <p>The team consisted of 4 developers where 2 worked on front-end and the other 2 worked on back-end. I took on the role of a back-end developer working along with Dave in creating the database.</p>
+                    <p>My role as a developer is to work on the back-end part of the website. Other than working the back end, I also touch upon some elements of the products Front-End Design. </p>
+                    <p>I was able to implement the side navigation bar along the grid system that was implemented by the other Front-End Developers.</p>
                     <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-backend-code.jpg" alt="">
                     <p class="caption">A coding snippet of the website backend data</p>
-                    <p>The back-end database of mentors and projects was created using PHP and SQL. An issue we ran into together was that we were having a hard time visualizing what the back-end data would look like initially. After communicating with the designer and front-end developer, we've managed to put together a data file with an array of 'Mentors' containing their own data values. These mentor data are created through a class method taking in values such as their name, career, and what they specialize in.</p>
+                    <p>The back-end database of mentors and projects was created using PHP and SQL. An issue we ran into together was that we were having a hard time visualizing what the back-end data would look like initially. </p>
+                    <p>After communicating with the designer and Karina, one of our front-end developers, we've managed to put together a data file with an array of 'Mentors' containing their own data values. These mentor data are created through a class method taking in values such as their name, career, and what they specialize in.</p></p>
                     <img src="<?php echo get_public_url('images/')?>rikki-soriano-forward-data-display.jpg" alt="">
                     <p class="caption">An image of how the data was displayed</p>
                     <p>As the night comes to an end our team was slowly exhausted over time and decided to call it. I decided to keep on going and took on issues that we're addressing in the front end along with Dave. We both managed to finish the front-end work, and next thing in the morning just needed some tweaks before submission.</p>
@@ -181,6 +172,23 @@
                     <div class="cta">
                         <a class="btn btn--s" href="<?php echo get_public_url('')?>work.php">View Forward's website here<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                         </div>
+                </section>
+                <section class="article-section">
+                    <div class="article-section-header">
+                        <h3 class="article-section-heading">Always moving Forward!</h3>
+                        <div class="more-btn"></div>
+                    </div>
+                    <div class="article-section-content">
+                    <p>From winning the hackathon and positive feedback from our cohort, we're happy to continue to improve and iterate on this project to be its best.</p>
+                    <p>During this phase of iteration, I'm happy to take on a UX Design role, collaborating along with Kayla in improving the overall design of the app!</p>
+
+                    <p>Here is a current log of Forward Version 1.1:</p>
+                    <ul class="list">
+                        <li><p><span class="strong">Design Refinements - </span>our designers currently working on implementing a more robust Design System which will us to be more efficient with our work and create consistency during the design and development phases.</p></li>
+                        <li><p><span class="strong">Community Hub Feature - </span>as promised, we're implementing a feature where you can create quality connections with local mentors, mentees and peers within your community!</p></li>
+                        <li><p><span class="strong">Coding Refinements - </span>our developers are also refining and refactoring the current code to create efficiency within the development environment.</p></li>
+                    </ul>
+                    </div>
                 </section>
             </section>
     </section>
