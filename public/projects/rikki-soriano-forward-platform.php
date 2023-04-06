@@ -73,10 +73,10 @@
                         <p>Built by mentees, for mentors & peers, Forward helps local tech industry professionals and new-comers build communities and connections with each other.</p>
                         <p>This project was built by a team of first-time hackers for <a href="https://hack-the-break-2023.devpost.com/" title="BCIT's Hack the Break 2023" target="_blank">BCIT's Hack the Break 2023</a> and was awarded first place. The team consisted of:</p>
                         <ul class="list">
+                            <li><p><a href="https://rikkisoriano.com/" title="You're currently in my portfolio!">Rikki Soriano</a> - Full-Stack Developer, Graphic Design</p></li>
                             <li><p><a href="https://kayla-tran.design/" title="Visit Kayla Tran's portfolio" target="_blank">Kayla Tran</a> - UI/UX Design, Graphic Design</p></li>
                             <li><p><a href="https://karinasong.com/" title="Visit Karina Song's portfolio" target="_blank">Karina Song</a> - Full-Stack Developer, Copywriting</p></li>
                             <li><p><a href="https://marlowecheng.com/" title="Visit Marlowe Cheng's portfolio" target="_blank">Marlowe Cheng</a> -  Front-End Development, Copywriting</p></li>
-                            <li><p><a href="https://rikkisoriano.com/" title="You're currently in my portfolio!">Rikki Soriano</a> - Full-Stack Developer, Graphic Design</p></li>
                             <li><p><a href="https://davekoo.com/" title="Visit Dave Koo's portfolio" target="_blank">Dave Koo</a> -  Full-Stack Developer, Project Documentation</p></li>
                         </ul>
                         <p>My main role for this project is Back-End Development, but I've had opportunities to collaborate as a Graphic Designer.</p>
