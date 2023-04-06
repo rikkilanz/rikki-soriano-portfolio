@@ -138,6 +138,10 @@
                     <div class="article-section-content">
                         <p>Overall, this project was really enjoyable because of its team base environment and working with the Agile Methodology. Our team could have taken advantage of other project management tools like Trello and Jira to make our workflow more smoother. </p>
                         <p>The website can be improved by organising CSS styles with SASS, and creating reusable components like cards and sections.</p>
+                        <p>Send me a request for acccess at <a class="email" href="mailto:rikkilanz@gmail.com">rikkilanz@gmail.com</a></p>
+                    </div>
+                    <div class="cta">
+                        <a class="btn btn--s" href="https://live2k.rikkisoriano.com/" target="_blank">Access the website prototype<img src="<?php echo get_public_url('images/')?>external-link-icon.svg" alt="external link icon white"></a>
                     </div>
                 </section>
             </section>
