@@ -7,17 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-      //   "gradient-conic":
-      //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      // },
       colors: {
         // Use for majority of designs (backgroud color, buttons, headers)
         "princetonorange": "#FE950B",
+        // Hover button color
         "orangepeel": "#FEA634",
+        // Section backgroun color, large heading color
         "papayawhip": "#FFEFD5",
+        // no clue
         "babypowder": "#FDFFFC",
+        // Black text
         "black": "#0A0908",
         "walnut": "#696047"
       },
