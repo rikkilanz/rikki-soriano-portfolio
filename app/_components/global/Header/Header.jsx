@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
-    <header className="bg-transparent absolute bottom-0 left-0 right-0 min-h-[100px] flex z-10">
+    <header className="bg-transparent fixed bottom-0 left-0 right-0 min-h-[100px] flex z-10">
       {/* Mobile Navigation */}
       <div className="sm:hidden flex flex-col w-full uppercase text-lg font-medium">
         <div className=" flex justify-between items-center flex-grow px-8 py-4">
@@ -46,10 +46,10 @@ export default function Header() {
         {isNavOpen && (
           <div className="py-8 bg-white">
             <nav className="flex flex-col">
-              <Link href="/work" className="hover:font-extrabold px-8 py-4">
+              <Link href="/work" className="hover:font-extrabold px-8 py-4 transition-all duration-300">
                 Work
               </Link>
-              <Link href="/about" className="hover:font-extrabold px-8 py-4">
+              <Link href="/about" className="hover:font-extrabold px-8 py-4 transition-all duration-300">
                 About
               </Link>
             </nav>
@@ -69,10 +69,10 @@ export default function Header() {
       {/* Desktop Navigation */}
       <div className="hidden sm:flex justify-between items-center flex-grow uppercase text-babypowder text-lg font-medium px-8">
         <nav className="flex gap-4">
-          <Link href="/work" className="hover:font-extrabold">
+          <Link href="/work" className="hover:font-extrabold transition-all">
             Work
           </Link>
-          <Link href="/about" className="hover:font-extrabold">
+          <Link href="/about" className="hover:font-extrabold transition-all">
             About
           </Link>
         </nav>

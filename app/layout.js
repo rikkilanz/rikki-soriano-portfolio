@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           href="https://use.typekit.net/grh8kqz.css"
         ></link>
       </head>
-      <body className={`${inter.className} bg-babypowder`}>{children}</body>
+      <body className={`${inter.className} bg-princetonorange`}>{children}</body>
     </html>
   );
 }

@@ -1,18 +1,37 @@
 import Header from "./_components/global/Header/Header";
+import ProjectGallery from "./_components/global/ProjectGallery/ProjectGallery";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="overflow-hidden">
-        <section className="bg-princetonorange h-screen w-screen p-8">
-          <h1 className="font-gibson font-bold text-[12vw] text-papayawhip uppercase h-32 leading-[0.8]">
-            Rikki Soriano
-          </h1>
-          <h2 className="font-bold text-papayawhip text-[3vw]">
-            Front-End Developer/Graphic Designer/User Experience Designer
+      <main className="">
+        <section className="p-8">
+          <div>
+            <h1 className="font-gibson font-bold text-[11.3vw] sm:text-[11.5vw] md:text-[12vw] lg:text-[12.3vw] 2xl:text-[12.7vw] text-papayawhip uppercase leading-[0.5] ml-[-0.3vw] mt-8">
+              Rikki Soriano
+            </h1>
+          </div>
+          <h2 className="font-bold text-papayawhip text-[2.6vw] mt-2 md:mt-4">
+            /
+            <span className="hover:font-black transition-all cursor-default hover:px-2">
+              Front-End Developer
+            </span>
+            /
+            <span className="hover:font-black transition-all cursor-default hover:px-2">
+              Graphic Designer
+            </span>
+            /
+            <span className="hover:font-black transition-all cursor-default hover:px-2">
+              User Experience Designer
+            </span>
+            /
           </h2>
         </section>
+        <section>
+          <ProjectGallery />
+        </section>
+        <section className="h-[100px]"><span className="sr-only">for navigation spacing</span></section>
       </main>
     </>
   );
