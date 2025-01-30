@@ -1,5 +1,6 @@
-import { Inter_Tight, Inter } from "next/font/google";
+import { Inter_Tight } from "next/font/google";
 import "./globals.css";
+import Header from "./_components/global/Header/Header";
 
 const inter = Inter_Tight({ subsets: ["latin"] });
 
@@ -18,7 +19,10 @@ export default function RootLayout({ children }) {
           href="https://use.typekit.net/grh8kqz.css"
         ></link>
       </head>
-      <body className={`${inter.className} bg-princetonorange`}>{children}</body>
+      <Header />
+      <body className={`${inter.className} bg-princetonorange`}>
+        {children}
+      </body>
     </html>
   );
 }
