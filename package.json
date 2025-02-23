@@ -1,25 +1,22 @@
 {
-  "dependencies": {
-    "animate.css": "^4.1.1",
-    "jump.js": "^1.0.2",
-    "sass": "^1.58.3"
-  },
-  "name": "rikki-soriano-portfolio",
-  "description": "A portfolio website coded from the ground up with <img src=\"https://media4.giphy.com/media/J2awouDsf23R2vo2p5/giphy.gif?cid=ecf05e47wm1v2pp0xhnqp853p50tyt2y7gclk1z8xqwaqcpy&rid=giphy.gif&ct=g\" width=\"24px\"> using HTML, CSS, JS, SASS, and PHP.",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "sass:watch": "node_modules\\.bin\\sass public/styles/main.scss:public/dist/css/main.min.css --style=compressed --watch",
-    "sass:build": "node_modules/.bin/sass public/styles/main.scss:public/dist/css/main.min.css --style=compressed"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rikkilanz/rikki-soriano-portfolio.git"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.5"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rikkilanz/rikki-soriano-portfolio/issues"
-  },
-  "homepage": "https://github.com/rikkilanz/rikki-soriano-portfolio#readme"
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
 }
