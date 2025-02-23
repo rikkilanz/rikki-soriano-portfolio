@@ -13,6 +13,7 @@ export default function Header() {
         <div className=" flex justify-between items-center flex-grow px-8 py-4">
           <Link href="/">
             <Image
+              alt="Rikki Soriano Logo"
               src="/assets/brand-logo/rikkisoriano-logo-horizontal-white.svg"
               height={0}
               width={0}
@@ -26,6 +27,7 @@ export default function Header() {
             }}
           >
             <Image
+              alt="Triangle Icon"
               src="/assets/icons/triangle-icon.svg"
               height={0}
               width={0}
@@ -34,6 +36,7 @@ export default function Header() {
               } h-8 w-auto active:bottom-[-4px] relative transition-all duration-300 ease-in-out`}
             />
             <Image
+              alt="Triangle Icon"
               src="/assets/icons/triangle-icon-back.svg"
               height={0}
               width={0}

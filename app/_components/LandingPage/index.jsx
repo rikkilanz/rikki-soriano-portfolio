@@ -4,6 +4,7 @@ export default function LandingPage() {
   return (
     <section className="w-screen h-screen flex justify-center items-center flex-col">
       <Image
+        alt="Rikki Soriano Logo"
         src="/assets/brand-logo/rikkisoriano-logo-icon-white.svg"
         height={0}
         width={0}

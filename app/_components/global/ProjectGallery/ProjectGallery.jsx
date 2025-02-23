@@ -6,6 +6,7 @@ export default function ProjectGallery() {
       <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 h-[48em]  md:min-h-[60vh]  px-8">
         <li className="col-span-1 border-papayawhip border-2 rounded-tl-md border-r-0 border-b-0 lg:border-b-2 lg:rounded-bl-md relative overflow-hidden">
           <Image
+            alt="Test Thumbnail"
             src="/assets/projects/test-thumbnail.jpg"
             layout="fill"
             objectFit="cover"
