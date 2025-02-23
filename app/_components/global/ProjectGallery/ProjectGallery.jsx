@@ -7,9 +7,9 @@ export default function ProjectGallery() {
         <li className="col-span-1 border-papayawhip border-2 rounded-tl-md border-r-0 border-b-0 lg:border-b-2 lg:rounded-bl-md relative overflow-hidden">
           <Image
             src="/assets/projects/test-thumbnail.jpg"
-            width={500}
-            height={500}
-            className="object-none h-full"
+            layout="fill"
+            objectFit="cover"
+            className="hover:scale-105 transition-all absolute"
           />
         </li>
         <li className="col-span-1 border-papayawhip border-2 md:border-r-0 rounded-tr-md border-b-0 md:rounded-t-none lg:border-b-2"></li>

@@ -13,7 +13,7 @@ export default function Header() {
         <div className=" flex justify-between items-center flex-grow px-8 py-4">
           <Link href="/">
             <Image
-              src="/assets/brand-logo/rikkisoriano-logo-horizontal-orange.svg"
+              src="/assets/brand-logo/rikkisoriano-logo-horizontal-white.svg"
               height={0}
               width={0}
               className="h-12 w-auto"
@@ -62,7 +62,7 @@ export default function Header() {
             <div className="px-8 py-4">
               <Link href="/contact">
                 <div className="relative">
-                  <div className="bg-babypowder text-papayawhip px-8 py-3 rounded-md border-2 border-black font-extrabold relative active:bottom-[-6px] text-center z-[2]">
+                  <div className="bg-babypowder text-princetonorange px-8 py-3 rounded-md border-2 border-black font-extrabold relative active:bottom-[-6px] text-center z-[2]">
                     Contact Me
                   </div>
                   <div className="bg-black absolute w-full h-full top-2 rounded-md left-0 right-0 border-4 border-black z-[1]" />
@@ -73,7 +73,7 @@ export default function Header() {
         )}
       </div>
       {/* Desktop Navigation */}
-      <div className="hidden sm:flex justify-between items-center flex-grow uppercase text-papayawhip text-lg font-medium px-8">
+      <div className="hidden sm:flex justify-between items-center flex-grow uppercase text-papayawhip text-2xl px-8">
         <nav className="flex gap-4">
           <Link href="/work" className="hover:font-extrabold transition-all">
             Work
