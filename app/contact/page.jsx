@@ -45,7 +45,7 @@ const contact = [
         <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" />
       </svg>
     ),
-    href: "https://www.linkedin.com/in/rikkisoriano/",
+    href: "https://drive.google.com/uc?export=download&id=1Df7y9jy4z7O_guoDe70GXvVkpDC1Nooc",
   },
 ];
 
@@ -54,7 +54,8 @@ export default function ContactPage() {
     <section className="p-8 text-papayawhip">
       <div>
         <h1 className="font-gibson font-bold text-[11.3vw] sm:text-[11.5vw] md:text-[12vw] lg:text-[12.3vw] 2xl:text-[12.7vw] uppercase leading-[0.75] ml-[-0.3vw] mt-8">
-          Get in touch with me!
+          {/* Get in touch with me! */}
+          Work in progress!
         </h1>
       </div>
       <h2 className="font-bold text-[16px] md:text-[2.6vw] leading-[1]">

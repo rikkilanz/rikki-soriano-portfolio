@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           href="https://use.typekit.net/grh8kqz.css"
         ></link>
       </head>
-      <Header />
+      {/* <Header /> */}
       <body className={`${inter.className} bg-princetonorange`}>
         {children}
       </body>

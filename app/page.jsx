@@ -1,11 +1,11 @@
 import Header from "./_components/global/Header/Header";
 import ProjectGallery from "./_components/global/ProjectGallery/ProjectGallery";
-
+import ContactPage from "./contact/page";
 export default function Home() {
   return (
     <>
       <main className="text-papayawhip">
-        <section className="p-8">
+        {/* <section className="p-8">
           <div>
             <h1 className="font-gibson font-bold text-[11.3vw] sm:text-[11.5vw] md:text-[12vw] lg:text-[12.3vw] 2xl:text-[12.7vw] uppercase leading-[0.5] ml-[-0.3vw] mt-8">
               Rikki Soriano
@@ -32,7 +32,8 @@ export default function Home() {
         </section>
         <section className="h-[100px]">
           <span className="sr-only">for navigation spacing</span>
-        </section>
+        </section> */}
+        <ContactPage />
       </main>
     </>
   );
